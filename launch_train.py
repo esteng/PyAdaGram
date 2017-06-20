@@ -156,11 +156,8 @@ def main():
     assert(os.path.exists(grammar_file));
     
     # Documents
-    train_docs = [];
-    input_stream = open(os.path.join(input_directory, 'train.dat'), 'r');
-    for line in input_stream:
-        train_docs.append(line.strip());
-    input_stream.close();
+    with open(os.path.join(input_directory, 'train.dat')) as f1:
+        train_docs = [x.strip() for x in f1.readlines()]
     print "successfully load all training documents..."
     
     # parameter set 2

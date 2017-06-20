@@ -766,6 +766,8 @@ class Hybrid(object):
             retrieve_tokens_at_adapted_non_terminal = None;
             output_path = None;
             model_name = None;
+            output_average_test_file = open(os.path.join("/Users/elias/PyAdaGram/test/", "Word.test.avg.test"), 'w');
+
         else:
             (reference_strings, retrieve_tokens_at_adapted_non_terminal, output_path, model_name) = inference_parameter;
             assert retrieve_tokens_at_adapted_non_terminal in self._adapted_non_terminals;
@@ -794,13 +796,15 @@ class Hybrid(object):
             
             #compute_inside_probabilities_clock = time.time()
             parsed_string = input_string.split();
+
+            print(parsed_string)
             root_node = self.compute_inside_probabilities(E_log_stick_weights, E_log_theta, parsed_string);
             #self.model_state_assertion();
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
             #print "time to compute inside probabilities", compute_inside_probabilities_clock
 
-            if inference_parameter!=None:
-                retrieved_tokens_lists = nltk.probability.FreqDist();
+            # if inference_parameter!=None:
+            retrieved_tokens_lists = nltk.probability.FreqDist();
             
             #sample_tree_clock = time.time()
             for sample_index in xrange(number_of_samples):
@@ -823,7 +827,10 @@ class Hybrid(object):
                     # Warning: if you are using nltk 2.x, please use inc()
                     #retrieved_tokens_lists.inc(" ".join(retrieved_tokens), 1);
                     retrieved_tokens_lists[" ".join(retrieved_tokens)] += 1;
-            
+                else:
+                    retrieved_tokens = retrieve_tokens_by_pre_order_traversal_of_adapted_non_terminal(production_list, "Word");
+                    retrieved_tokens_lists[" ".join(retrieved_tokens)] += 1;
+
             if inference_parameter!=None:
                 assert(retrieved_tokens_lists.N()==number_of_samples);
                 
@@ -837,6 +844,10 @@ class Hybrid(object):
                 for average_tokens in retrieved_tokens_lists:
                     for x in xrange(retrieved_tokens_lists[average_tokens]):
                         output_average_truth_file.write("%s\n" % reference_string);
+                        output_average_test_file.write("%s\n" % average_tokens);
+            if inference_parameter == None:
+                for average_tokens in retrieved_tokens_lists:
+                    for x in xrange(retrieved_tokens_lists[average_tokens]):
                         output_average_test_file.write("%s\n" % average_tokens);
 
         if inference_parameter==None:
@@ -863,6 +874,7 @@ class Hybrid(object):
         assert (pcfg_sufficient_statistics==None and adapted_sufficient_statistics==None) or (pcfg_sufficient_statistics!=None and adapted_sufficient_statistics!=None)
         
         sampled_production, unsampled_hyper_nodes, log_probability_of_sampled_production = current_hyper_node.random_sample_derivation();
+
         if isinstance(sampled_production, util.AdaptedProduction):
             # if sampled production is an adapted production
             assert (unsampled_hyper_nodes==None or len(unsampled_hyper_nodes)==0), "incomplete adapted production: %s" % sampled_production
@@ -1427,8 +1439,9 @@ class Hybrid(object):
                         if len(candidate_production.rhs())==1:
                             print "skip singleton adapted production:", candidate_production 
                             continue;
+                        print(candidate_production)
                         nu_index = self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
-                        
+                        print(nu_index)
                         # Warning: if you are using nltk 2.x, please use inc()
                         #self._adapted_production_usage_freqdist.inc(candidate_production, -1);
                         self._adapted_production_usage_freqdist[candidate_production] += -1;

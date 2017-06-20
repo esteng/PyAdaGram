@@ -1,0 +1,41 @@
+% non-terminals
+Words -> Word
+Words -> Word Words
+
+% adapted non-terminals
+@ Word 1500 100 0
+
+Word -> Chars
+Chars -> Char
+Chars -> Char Chars
+
+% terminals
+Char -> "'"
+Char -> "@"
+
+Char -> "a"
+Char -> "b"
+Char -> "c"
+Char -> "d"
+Char -> "e"
+Char -> "f"
+Char -> "g"
+Char -> "h"
+Char -> "i"
+Char -> "j"
+Char -> "k"
+Char -> "l"
+Char -> "m"
+Char -> "n"
+Char -> "o"
+Char -> "p"
+Char -> "q"
+Char -> "r"
+Char -> "s"
+Char -> "t"
+Char -> "u"
+Char -> "v"
+Char -> "w"
+Char -> "x"
+Char -> "y"
+Char -> "z"

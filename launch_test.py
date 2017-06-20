@@ -69,18 +69,12 @@ def main():
     print "========== ========== ========== ========== =========="
 
     # Documents
-    train_docs = [];
-    input_stream = open(os.path.join(input_directory, 'train.dat'), 'r');
-    for line in input_stream:
-        train_docs.append(line.strip());
-    input_stream.close();
+    with open(os.path.join(input_directory, 'train.dat')) as f1:
+        train_docs = [x.strip() for x in f1.readlines()]
     print "successfully load %d training documents..." % (len(train_docs))
 
-    refer_docs = [];
-    input_stream = open(os.path.join(input_directory, 'truth.dat'), 'r');
-    for line in input_stream:
-        refer_docs.append(line.strip());
-    input_stream.close()
+    with open(os.path.join(input_directory, 'truth.dat')) as f2:
+        refer_docs = [x.strip() for x in f2.readlines()]
     print "successfully load %d testing documents..." % (len(refer_docs))    
 
     for model_file in os.listdir(model_directory):
