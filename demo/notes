@@ -27,3 +27,10 @@ How is data represented?
 How could you combine it with other code?
     do training and export iterations manually
     would be easy since it automatically does them in batches (so collect ~10 and run it, for example)
+
+
+Commands:
+
+python2 -m launch_train --input_directory=demo/to_run --output_directory=demo --grammar_file=demo/to_run/unigram.grammar --number_of_documents=1000 --batch_size=10
+
+ python2 -m launch_test --input_directory=demo/to_run --model_directory=/Users/elias/PyAdaGram/demo/ --non_terminal_symbol=Word
