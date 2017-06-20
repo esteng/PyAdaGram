@@ -1,0 +1,14 @@
+input_directory=example_nums
+corpus_name=example_nums
+grammar_file=example_nums/unigram.grammar
+number_of_processes=0
+number_of_documents=1000
+batch_size=10
+training_iterations=100
+grammaton_prune_interval=10
+snapshot_interval=10
+tau=64.0
+kappa=0.75
+alpha_pi={Word: 100.0}
+beta_pi={Word: 0.0}
+desired_truncation_level={Word: 1500}

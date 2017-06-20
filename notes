@@ -1,0 +1,29 @@
+Questions:
+Where does the work take place?
+    Hybrid method
+        estep
+            proposes a stick weights and pcfg weights
+            iterates over strings, samples parse tree for each string, updates sufficient statistics
+        mstep 
+            accumulates sufficient stats
+What is the input?
+    Whole program:
+        grammar file, input document (strings on each line), hyperparameters 
+    Driving code:
+        same as whole program, with training iterations (this in launch_train.py)
+    Per iteration:
+        learning:
+            input_strings, number of processes
+What is the output?
+    Training:
+        adagram- files that have subtrees parses at that iteration (show)
+    Testing:
+        document with input strings, document with output strings (show)
+How is data represented?
+    How are terminals 
+        whole grammar represented as NLTK grammar object, so terminal can be any hashable object in python
+    How are subtrees represented?
+        inherits from nltk.grammar.Production, with some added
+How could you combine it with other code?
+    do training and export iterations manually
+    would be easy since it automatically does them in batches (so collect ~10 and run it, for example)
