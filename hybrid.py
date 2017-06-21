@@ -573,7 +573,7 @@ class Hybrid(object):
                     ordering_topology[depth+1].add(child_node);
                 unprocessed_nodes.append((child_node, topology_ordering[child_node]));
                 
-        print "topological ordering is:", topology_ordering
+        # print "topological ordering is:", topology_ordering
         
         return topology_ordering, ordering_topology
 
