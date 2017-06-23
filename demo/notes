@@ -33,4 +33,4 @@ Commands:
 
 python2 -m launch_train --input_directory=demo/to_run --output_directory=demo --grammar_file=demo/to_run/unigram.grammar --number_of_documents=1000 --batch_size=10
 
- python2 -m launch_test --input_directory=demo/to_run --model_directory=/Users/elias/PyAdaGram/demo/ --non_terminal_symbol=Word
+ python2 -m launch_test --input_directory=demo/to_run --model_directory=demo/to_run/17Jun20-150139-D1000-P10-S10-B10-O100-t64-k0.75-Gunigram.grammar --non_terminal_symbol=Word

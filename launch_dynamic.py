@@ -121,10 +121,29 @@ if __name__ == '__main__':
         adagram_inferencer._ordered_adaptor_down_top = adagram_inferencer._ordered_adaptor_top_down[::-1];
         # for iteration in range(training_iterations):
         # pick up again here!
+
+        clock_iteration = time.time();
+        number_of_processes = 1;
+        print(ten_sents)
+        clock_e_step, clock_m_step = adagram_inferencer.learning(ten_sents, number_of_processes);
+
         if (i+1)%snapshot_interval==0:
             adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str((iteration+1))))
 
+        if (i+1) % 1000==0:
+            snapshot_clock = time.time() - snapshot_clock;
+            print 'Processing 1000 mini-batches take %g seconds...' % (snapshot_clock);
+            snapshot_clock = time.time()
+        clock_iteration = time.time()-clock_iteration;
+        print 'E-step, M-step and iteration %d take %g, %g and %g seconds respectively...' % (adagram_inferencer._counter, clock_e_step, clock_m_step, clock_iteration);
+    
         i+=1    
-
+    adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str(adagram_inferencer._counter+1)))
+    cpickle_file = open(os.path.join(output_directory, "model-%d" % (iteration+1)), 'wb');
+    cPickle.dump(adagram_inferencer, cpickle_file);
+    cpickle_file.close();
+    
+    training_clock = time.time()-training_clock;
+    print 'Training finished in %g seconds...' % (training_clock);
 
 
