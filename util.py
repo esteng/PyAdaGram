@@ -110,9 +110,11 @@ class HyperNode():
         return;
     
     def random_sample_derivation(self):
+        """
+        from a hypernode sample one derivation 
+        """
         #print self._derivation_log_probability.keys()
         random_number = numpy.random.random();
-        
         '''
         for (production, hyper_nodes) in self._derivation_log_probability:
             current_probability = numpy.exp(self._derivation_log_probability[(production, hyper_nodes)] - self._accumulated_log_probability);
@@ -126,10 +128,12 @@ class HyperNode():
         #for x in xrange(len(self._derivation)):
             #print self._derivation[x], numpy.exp(self._log_probability[x] - self._accumulated_log_probability);
         #sys.exit();
-        
+        # stop at a random derivation
+        # the bigger the log prob / accumulated log prob, the faster you stop
         assert(len(self._derivation)==len(self._log_probability))
         for x in xrange(len(self._derivation)):
             current_probability = numpy.exp(self._log_probability[x] - self._accumulated_log_probability);
+            # division of  prob / accumulated prob?
             if random_number>current_probability:
                 random_number -= current_probability;
             else:

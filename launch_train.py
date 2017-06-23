@@ -364,7 +364,7 @@ def main():
     
         clock_iteration = time.time()-clock_iteration;
         print 'E-step, M-step and iteration %d take %g, %g and %g seconds respectively...' % (adagram_inferencer._counter, clock_e_step, clock_m_step, clock_iteration);
-    
+        sys.exit()
     adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str(adagram_inferencer._counter+1)))
     #adagram_inferencer.export_aggregated_adaptor_grammar(os.path.join(output_directory, "ag-" + str((iteration+1))))
 

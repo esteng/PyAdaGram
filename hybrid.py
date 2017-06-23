@@ -609,6 +609,8 @@ class Hybrid(object):
         root_and_position_to_node = collections.defaultdict(dict);
         position_and_root_to_node = collections.defaultdict(dict);
         
+
+        # basically cky 
         for span in xrange(1, sequence_length+1):
             for i in xrange(sequence_length-span+1):
                 j = i+span;
@@ -797,8 +799,11 @@ class Hybrid(object):
             #compute_inside_probabilities_clock = time.time()
             parsed_string = input_string.split();
 
-            print(parsed_string)
             root_node = self.compute_inside_probabilities(E_log_stick_weights, E_log_theta, parsed_string);
+            print(parsed_string, root_node)
+
+
+            
             #self.model_state_assertion();
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
             #print "time to compute inside probabilities", compute_inside_probabilities_clock
@@ -809,7 +814,7 @@ class Hybrid(object):
             #sample_tree_clock = time.time()
             for sample_index in xrange(number_of_samples):
                 production_list = self._sample_tree(root_node, parsed_string, pcfg_sufficient_statistics, adapted_sufficient_statistics);
-
+                print(production_list)
                 if inference_parameter!=None:
                     log_likelihood += self._compute_log_likelihood(production_list, E_log_stick_weights, E_log_theta);
                     
@@ -830,7 +835,7 @@ class Hybrid(object):
                 else:
                     retrieved_tokens = retrieve_tokens_by_pre_order_traversal_of_adapted_non_terminal(production_list, "Word");
                     retrieved_tokens_lists[" ".join(retrieved_tokens)] += 1;
-
+            sys.exit()
             if inference_parameter!=None:
                 assert(retrieved_tokens_lists.N()==number_of_samples);
                 
@@ -1439,9 +1444,7 @@ class Hybrid(object):
                         if len(candidate_production.rhs())==1:
                             print "skip singleton adapted production:", candidate_production 
                             continue;
-                        print(candidate_production)
                         nu_index = self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
-                        print(nu_index)
                         # Warning: if you are using nltk 2.x, please use inc()
                         #self._adapted_production_usage_freqdist.inc(candidate_production, -1);
                         self._adapted_production_usage_freqdist[candidate_production] += -1;
