@@ -306,6 +306,8 @@ def main():
     print "========== ========== ========== ========== =========="
     
     import hybrid;
+
+    print("producions: ", productions)
     adagram_inferencer = hybrid.Hybrid(start,
                                        productions,
                                        adapted_non_terminals
@@ -328,7 +330,7 @@ def main():
     clock_iteration = time.time()-clock_iteration;
     print 'E-step, M-step and Seed take %g, %g and %g seconds respectively...' % (clock_e_step, clock_m_step, clock_iteration);p
     '''
-    
+    print("pcfg: ", adagram_inferencer._pcfg_productions)
     #adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "infag-0"))
     #adagram_inferencer.export_aggregated_adaptor_grammar(os.path.join(output_directory, "ag-0"))
     
@@ -348,8 +350,9 @@ def main():
 
         clock_iteration = time.time();
         #print "processing document:", train_doc_set
+        print(train_doc_set)
         clock_e_step, clock_m_step = adagram_inferencer.learning(train_doc_set, number_of_processes);
-        
+
         if (iteration+1)%snapshot_interval==0:
             #cpickle_file = open(os.path.join(output_directory, "model-%d" % (adagram_inferencer._counter+1)), 'wb');
             #cPickle.dump(adagram_inferencer, cpickle_file);
@@ -364,7 +367,6 @@ def main():
     
         clock_iteration = time.time()-clock_iteration;
         print 'E-step, M-step and iteration %d take %g, %g and %g seconds respectively...' % (adagram_inferencer._counter, clock_e_step, clock_m_step, clock_iteration);
-        sys.exit()
     adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str(adagram_inferencer._counter+1)))
     #adagram_inferencer.export_aggregated_adaptor_grammar(os.path.join(output_directory, "ag-" + str((iteration+1))))
 

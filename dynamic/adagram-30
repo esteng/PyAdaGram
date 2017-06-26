@@ -1,0 +1,1555 @@
+==========Char==========
+False	0.273522	Char -> '456'
+False	0.145839	Char -> '628'
+False	0.130441	Char -> '603'
+False	0.127133	Char -> '013'
+False	0.10622	Char -> '744'
+False	0.08641	Char -> '338'
+False	0.041276	Char -> '238'
+False	0.041276	Char -> '331'
+False	0.0214673	Char -> '662'
+False	0.0203644	Char -> '136'
+False	0	Char -> '715'
+False	0	Char -> '217'
+False	0	Char -> '135'
+False	0	Char -> '420'
+False	0	Char -> '085'
+False	0	Char -> '187'
+False	0	Char -> '730'
+False	0	Char -> '487'
+False	0	Char -> '466'
+False	0	Char -> '643'
+False	0	Char -> '668'
+False	0	Char -> '538'
+False	0	Char -> '544'
+False	0	Char -> '384'
+False	0	Char -> '505'
+False	0	Char -> '387'
+False	0	Char -> '354'
+False	0	Char -> '144'
+False	0	Char -> '685'
+False	0	Char -> '767'
+False	0	Char -> '131'
+False	0	Char -> '442'
+False	0	Char -> '886'
+False	0	Char -> '285'
+False	0	Char -> '806'
+False	0	Char -> '224'
+False	0	Char -> '723'
+False	0	Char -> '653'
+False	0	Char -> '843'
+False	0	Char -> '540'
+False	0	Char -> '718'
+False	0	Char -> '450'
+False	0	Char -> '426'
+False	0	Char -> '055'
+False	0	Char -> '343'
+False	0	Char -> '404'
+False	0	Char -> '236'
+False	0	Char -> '281'
+False	0	Char -> '871'
+False	0	Char -> '261'
+False	0	Char -> '322'
+False	0	Char -> '254'
+False	0	Char -> '214'
+False	0	Char -> '105'
+False	0	Char -> '113'
+False	0	Char -> '022'
+False	0	Char -> '711'
+False	0	Char -> '123'
+False	0	Char -> '328'
+False	0	Char -> '084'
+False	0	Char -> '611'
+False	0	Char -> '181'
+False	0	Char -> '062'
+False	0	Char -> '833'
+False	0	Char -> '717'
+False	0	Char -> '516'
+False	0	Char -> '522'
+False	0	Char -> '087'
+False	0	Char -> '534'
+False	0	Char -> '153'
+False	0	Char -> '825'
+False	0	Char -> '701'
+False	0	Char -> '824'
+False	0	Char -> '117'
+False	0	Char -> '464'
+False	0	Char -> '641'
+False	0	Char -> '410'
+False	0	Char -> '074'
+False	0	Char -> '204'
+False	0	Char -> '434'
+False	0	Char -> '356'
+False	0	Char -> '660'
+False	0	Char -> '526'
+False	0	Char -> '133'
+False	0	Char -> '880'
+False	0	Char -> '800'
+False	0	Char -> '454'
+False	0	Char -> '305'
+False	0	Char -> '247'
+False	0	Char -> '542'
+False	0	Char -> '232'
+False	0	Char -> '163'
+False	0	Char -> '424'
+False	0	Char -> '150'
+False	0	Char -> '584'
+False	0	Char -> '341'
+False	0	Char -> '548'
+False	0	Char -> '406'
+False	0	Char -> '388'
+False	0	Char -> '710'
+False	0	Char -> '263'
+False	0	Char -> '808'
+False	0	Char -> '256'
+False	0	Char -> '088'
+False	0	Char -> '863'
+False	0	Char -> '508'
+False	0	Char -> '107'
+False	0	Char -> '007'
+False	0	Char -> '786'
+False	0	Char -> '823'
+False	0	Char -> '646'
+False	0	Char -> '020'
+False	0	Char -> '713'
+False	0	Char -> '121'
+False	0	Char -> '613'
+False	0	Char -> '311'
+False	0	Char -> '060'
+False	0	Char -> '514'
+False	0	Char -> '645'
+False	0	Char -> '768'
+False	0	Char -> '411'
+False	0	Char -> '536'
+False	0	Char -> '252'
+False	0	Char -> '070'
+False	0	Char -> '707'
+False	0	Char -> '733'
+False	0	Char -> '115'
+False	0	Char -> '430'
+False	0	Char -> '137'
+False	0	Char -> '076'
+False	0	Char -> '655'
+False	0	Char -> '763'
+False	0	Char -> '524'
+False	0	Char -> '623'
+False	0	Char -> '418'
+False	0	Char -> '882'
+False	0	Char -> '751'
+False	0	Char -> '811'
+False	0	Char -> '428'
+False	0	Char -> '580'
+False	0	Char -> '303'
+False	0	Char -> '245'
+False	0	Char -> '747'
+False	0	Char -> '230'
+False	0	Char -> '161'
+False	0	Char -> '267'
+False	0	Char -> '422'
+False	0	Char -> '586'
+False	0	Char -> '867'
+False	0	Char -> '725'
+False	0	Char -> '782'
+False	0	Char -> '678'
+False	0	Char -> '348'
+False	0	Char -> '337'
+False	0	Char -> '255'
+False	0	Char -> '386'
+False	0	Char -> '101'
+False	0	Char -> '784'
+False	0	Char -> '315'
+False	0	Char -> '644'
+False	0	Char -> '273'
+False	0	Char -> '687'
+False	0	Char -> '518'
+False	0	Char -> '234'
+False	0	Char -> '574'
+False	0	Char -> '210'
+False	0	Char -> '873'
+False	0	Char -> '313'
+False	0	Char -> '817'
+False	0	Char -> '111'
+False	0	Char -> '512'
+False	0	Char -> '216'
+False	0	Char -> '175'
+False	0	Char -> '086'
+False	0	Char -> '072'
+False	0	Char -> '705'
+False	0	Char -> '731'
+False	0	Char -> '432'
+False	0	Char -> '676'
+False	0	Char -> '016'
+False	0	Char -> '520'
+False	0	Char -> '777'
+False	0	Char -> '367'
+False	0	Char -> '488'
+False	0	Char -> '504'
+False	0	Char -> '657'
+False	0	Char -> '755'
+False	0	Char -> '401'
+False	0	Char -> '241'
+False	0	Char -> '753'
+False	0	Char -> '600'
+False	0	Char -> '225'
+False	0	Char -> '582'
+False	0	Char -> '012'
+False	0	Char -> '301'
+False	0	Char -> '558'
+False	0	Char -> '233'
+False	0	Char -> '167'
+False	0	Char -> '802'
+False	0	Char -> '333'
+False	0	Char -> '865'
+False	0	Char -> '373'
+False	0	Char -> '727'
+False	0	Char -> '552'
+False	0	Char -> '780'
+False	0	Char -> '888'
+False	0	Char -> '405'
+False	0	Char -> '683'
+False	0	Char -> '578'
+False	0	Char -> '555'
+False	0	Char -> '335'
+False	0	Char -> '361'
+False	0	Char -> '771'
+False	0	Char -> '317'
+False	0	Char -> '347'
+False	0	Char -> '271'
+False	0	Char -> '212'
+False	0	Char -> '122'
+False	0	Char -> '171'
+False	0	Char -> '040'
+False	0	Char -> '815'
+False	0	Char -> '735'
+False	0	Char -> '774'
+False	0	Char -> '672'
+False	0	Char -> '026'
+False	0	Char -> '773'
+False	0	Char -> '080'
+False	0	Char -> '500'
+False	0	Char -> '674'
+False	0	Char -> '431'
+False	0	Char -> '028'
+False	0	Char -> '775'
+False	0	Char -> '417'
+False	0	Char -> '757'
+False	0	Char -> '038'
+False	0	Char -> '068'
+False	0	Char -> '221'
+False	0	Char -> '528'
+False	0	Char -> '760'
+False	0	Char -> '005'
+False	0	Char -> '881'
+False	0	Char -> '277'
+False	0	Char -> '078'
+False	0	Char -> '688'
+False	0	Char -> '664'
+False	0	Char -> '650'
+False	0	Char -> '010'
+False	0	Char -> '581'
+False	0	Char -> '377'
+False	0	Char -> '743'
+False	0	Char -> '474'
+False	0	Char -> '231'
+False	0	Char -> '770'
+False	0	Char -> '332'
+False	0	Char -> '708'
+False	0	Char -> '108'
+False	0	Char -> '407'
+False	0	Char -> '562'
+False	0	Char -> '363'
+False	0	Char -> '251'
+False	0	Char -> '453'
+False	0	Char -> '588'
+False	0	Char -> '345'
+False	0	Char -> '673'
+False	0	Char -> '714'
+False	0	Char -> '470'
+False	0	Char -> '877'
+False	0	Char -> '120'
+False	0	Char -> '624'
+False	0	Char -> '173'
+False	0	Char -> '184'
+False	0	Char -> '652'
+False	0	Char -> '813'
+False	0	Char -> '103'
+False	0	Char -> '670'
+False	0	Char -> '642'
+False	0	Char -> '024'
+False	0	Char -> '576'
+False	0	Char -> '205'
+False	0	Char -> '082'
+False	0	Char -> '502'
+False	0	Char -> '706'
+False	0	Char -> '265'
+False	0	Char -> '433'
+False	0	Char -> '846'
+False	0	Char -> '510'
+False	0	Char -> '218'
+False	0	Char -> '828'
+False	0	Char -> '130'
+False	0	Char -> '415'
+False	0	Char -> '177'
+False	0	Char -> '885'
+False	0	Char -> '654'
+False	0	Char -> '754'
+False	0	Char -> '223'
+False	0	Char -> '838'
+False	0	Char -> '762'
+False	0	Char -> '014'
+False	0	Char -> '883'
+False	0	Char -> '275'
+False	0	Char -> '030'
+False	0	Char -> '506'
+False	0	Char -> '666'
+False	0	Char -> '583'
+False	0	Char -> '375'
+False	0	Char -> '741'
+False	0	Char -> '480'
+False	0	Char -> '403'
+False	0	Char -> '237'
+False	0	Char -> '632'
+False	0	Char -> '280'
+False	0	Char -> '423'
+False	0	Char -> '227'
+False	0	Char -> '864'
+False	0	Char -> '156'
+False	0	Char -> '560'
+False	0	Char -> '682'
+False	0	Char -> '124'
+False	0	Char -> '365'
+False	0	Char -> '165'
+False	0	Char -> '385'
+False	0	Char -> '100'
+False	0	Char -> '550'
+False	0	Char -> '716'
+False	0	Char -> '472'
+False	0	Char -> '750'
+False	0	Char -> '626'
+False	0	Char -> '243'
+False	0	Char -> '044'
+False	0	Char -> '764'
+False	0	Char -> '702'
+False	0	Char -> '788'
+False	0	Char -> '116'
+False	0	Char -> '478'
+False	0	Char -> '640'
+False	0	Char -> '457'
+False	0	Char -> '570'
+False	0	Char -> '772'
+False	0	Char -> '704'
+False	0	Char -> '286'
+False	0	Char -> '118'
+False	0	Char -> '435'
+False	0	Char -> '325'
+False	0	Char -> '766'
+False	0	Char -> '635'
+False	0	Char -> '056'
+False	0	Char -> '132'
+False	0	Char -> '887'
+False	0	Char -> '157'
+False	0	Char -> '656'
+False	0	Char -> '840'
+False	0	Char -> '034'
+False	0	Char -> '756'
+False	0	Char -> '138'
+False	0	Char -> '618'
+False	0	Char -> '004'
+False	0	Char -> '188'
+False	0	Char -> '180'
+False	0	Char -> '567'
+False	0	Char -> '636'
+False	0	Char -> '585'
+False	0	Char -> '376'
+False	0	Char -> '482'
+False	0	Char -> '630'
+False	0	Char -> '475'
+False	0	Char -> '371'
+False	0	Char -> '564'
+False	0	Char -> '166'
+False	0	Char -> '203'
+False	0	Char -> '803'
+False	0	Char -> '862'
+False	0	Char -> '104'
+False	0	Char -> '154'
+False	0	Char -> '476'
+False	0	Char -> '614'
+False	0	Char -> '134'
+False	0	Char -> '018'
+False	0	Char -> '556'
+False	0	Char -> '346'
+False	0	Char -> '620'
+False	0	Char -> '874'
+False	0	Char -> '172'
+False	0	Char -> '058'
+False	0	Char -> '183'
+False	0	Char -> '253'
+False	0	Char -> '545'
+False	0	Char -> '700'
+False	0	Char -> '114'
+False	0	Char -> '671'
+False	0	Char -> '572'
+False	0	Char -> '052'
+False	0	Char -> '605'
+False	0	Char -> '441'
+False	0	Char -> '651'
+False	0	Char -> '284'
+False	0	Char -> '186'
+False	0	Char -> '264'
+False	0	Char -> '758'
+False	0	Char -> '327'
+False	0	Char -> '128'
+False	0	Char -> '140'
+False	0	Char -> '658'
+False	0	Char -> '842'
+False	0	Char -> '036'
+False	0	Char -> '820'
+False	0	Char -> '368'
+False	0	Char -> '168'
+False	0	Char -> '146'
+False	0	Char -> '006'
+False	0	Char -> '848'
+False	0	Char -> '634'
+False	0	Char -> '162'
+False	0	Char -> '425'
+False	0	Char -> '665'
+False	0	Char -> '587'
+False	0	Char -> '374'
+False	0	Char -> '484'
+False	0	Char -> '742'
+False	0	Char -> '112'
+False	0	Char -> '477'
+False	0	Char -> '032'
+False	0	Char -> '860'
+False	0	Char -> '106'
+False	0	Char -> '152'
+False	0	Char -> '351'
+False	0	Char -> '686'
+False	0	Char -> '830'
+False	0	Char -> '235'
+False	0	Char -> '523'
+False	0	Char -> '421'
+False	0	Char -> '821'
+False	0	Char -> '554'
+False	0	Char -> '344'
+False	0	Char -> '568'
+False	0	Char -> '467'
+False	0	Char -> '622'
+False	0	Char -> '174'
+False	0	Char -> '242'
+False	0	Char -> '445'
+False	0	Char -> '547'
+False	0	Char -> '858'
+False	0	Char -> '383'
+False	0	Char -> '812'
+False	0	Char -> '288'
+False	0	Char -> '102'
+False	0	Char -> '677'
+False	0	Char -> '355'
+False	0	Char -> '025'
+False	0	Char -> '050'
+False	0	Char -> '202'
+False	0	Char -> '443'
+False	0	Char -> '046'
+False	0	Char -> '266'
+False	0	Char -> '511'
+False	0	Char -> '866'
+False	0	Char -> '455'
+False	0	Char -> '606'
+False	0	Char -> '844'
+False	0	Char -> '752'
+False	0	Char -> '035'
+False	0	Char -> '126'
+False	0	Char -> '648'
+False	0	Char -> '178'
+False	0	Char -> '661'
+False	0	Char -> '378'
+False	0	Char -> '054'
+False	0	Char -> '314'
+False	0	Char -> '637'
+False	0	Char -> '160'
+False	0	Char -> '667'
+False	0	Char -> '531'
+False	0	Char -> '372'
+False	0	Char -> '856'
+False	0	Char -> '740'
+False	0	Char -> '736'
+False	0	Char -> '110'
+False	0	Char -> '745'
+False	0	Char -> '834'
+False	0	Char -> '565'
+False	0	Char -> '610'
+False	0	Char -> '604'
+False	0	Char -> '340'
+False	0	Char -> '063'
+False	0	Char -> '228'
+False	0	Char -> '463'
+False	0	Char -> '521'
+False	0	Char -> '872'
+False	0	Char -> '164'
+False	0	Char -> '444'
+False	0	Char -> '535'
+False	0	Char -> '071'
+False	0	Char -> '816'
+False	0	Char -> '638'
+False	0	Char -> '021'
+False	0	Char -> '308'
+False	0	Char -> '240'
+False	0	Char -> '447'
+False	0	Char -> '045'
+False	0	Char -> '381'
+False	0	Char -> '608'
+False	0	Char -> '675'
+False	0	Char -> '357'
+False	0	Char -> '571'
+False	0	Char -> '200'
+False	0	Char -> '053'
+False	0	Char -> '801'
+False	0	Char -> '804'
+False	0	Char -> '141'
+False	0	Char -> '818'
+False	0	Char -> '318'
+False	0	Char -> '827'
+False	0	Char -> '663'
+False	0	Char -> '321'
+False	0	Char -> '011'
+False	0	Char -> '852'
+False	0	Char -> '778'
+False	0	Char -> '783'
+False	0	Char -> '468'
+False	0	Char -> '826'
+False	0	Char -> '854'
+False	0	Char -> '148'
+False	0	Char -> '734'
+False	0	Char -> '462'
+False	0	Char -> '067'
+False	0	Char -> '836'
+False	0	Char -> '563'
+False	0	Char -> '211'
+False	0	Char -> '360'
+False	0	Char -> '448'
+False	0	Char -> '612'
+False	0	Char -> '486'
+False	0	Char -> '350'
+False	0	Char -> '461'
+False	0	Char -> '471'
+False	0	Char -> '537'
+False	0	Char -> '041'
+False	0	Char -> '814'
+False	0	Char -> '557'
+False	0	Char -> '353'
+False	0	Char -> '621'
+False	0	Char -> '684'
+False	0	Char -> '017'
+False	0	Char -> '575'
+False	0	Char -> '805'
+False	0	Char -> '868'
+False	0	Char -> '573'
+False	0	Char -> '720'
+False	0	Char -> '051'
+False	0	Char -> '176'
+False	0	Char -> '400'
+False	0	Char -> '541'
+False	0	Char -> '810'
+False	0	Char -> '878'
+False	0	Char -> '042'
+False	0	Char -> '451'
+False	0	Char -> '143'
+False	0	Char -> '302'
+False	0	Char -> '276'
+False	0	Char -> '031'
+False	0	Char -> '738'
+False	0	Char -> '127'
+False	0	Char -> '260'
+False	0	Char -> '323'
+False	0	Char -> '615'
+False	0	Char -> '850'
+False	0	Char -> '724'
+False	0	Char -> '781'
+False	0	Char -> '633'
+False	0	Char -> '530'
+False	0	Char -> '616'
+False	0	Char -> '485'
+False	0	Char -> '002'
+False	0	Char -> '065'
+False	0	Char -> '272'
+False	0	Char -> '561'
+False	0	Char -> '776'
+False	0	Char -> '213'
+False	0	Char -> '362'
+False	0	Char -> '533'
+False	0	Char -> '008'
+False	0	Char -> '607'
+False	0	Char -> '370'
+False	0	Char -> '553'
+False	0	Char -> '352'
+False	0	Char -> '513'
+False	0	Char -> '473'
+False	0	Char -> '765'
+False	0	Char -> '625'
+False	0	Char -> '737'
+False	0	Char -> '043'
+False	0	Char -> '075'
+False	0	Char -> '748'
+False	0	Char -> '501'
+False	0	Char -> '458'
+False	0	Char -> '015'
+False	0	Char -> '577'
+False	0	Char -> '527'
+False	0	Char -> '366'
+False	0	Char -> '446'
+False	0	Char -> '382'
+False	0	Char -> '158'
+False	0	Char -> '807'
+False	0	Char -> '220'
+False	0	Char -> '057'
+False	0	Char -> '306'
+False	0	Char -> '402'
+False	0	Char -> '246'
+False	0	Char -> '283'
+False	0	Char -> '543'
+False	0	Char -> '047'
+False	0	Char -> '145'
+False	0	Char -> '300'
+False	0	Char -> '206'
+False	0	Char -> '248'
+False	0	Char -> '845'
+False	0	Char -> '125'
+False	0	Char -> '262'
+False	0	Char -> '436'
+False	0	Char -> '330'
+False	0	Char -> '507'
+False	0	Char -> '258'
+False	0	Char -> '208'
+False	0	Char -> '726'
+False	0	Char -> '853'
+False	0	Char -> '481'
+False	0	Char -> '787'
+False	0	Char -> '631'
+False	0	Char -> '023'
+False	0	Char -> '268'
+False	0	Char -> '532'
+False	0	Char -> '310'
+False	0	Char -> '438'
+False	0	Char -> '270'
+False	0	Char -> '066'
+False	0	Char -> '837'
+False	0	Char -> '215'
+False	0	Char -> '412'
+False	0	Char -> '151'
+False	0	Char -> '185'
+False	0	Char -> '551'
+False	0	Char -> '732'
+False	0	Char -> '460'
+False	0	Char -> '627'
+False	0	Char -> '207'
+False	0	Char -> '465'
+False	0	Char -> '081'
+False	0	Char -> '077'
+False	0	Char -> '503'
+False	0	Char -> '525'
+False	0	Char -> '307'
+False	0	Char -> '440'
+False	0	Char -> '416'
+False	0	Char -> '380'
+False	0	Char -> '884'
+False	0	Char -> '287'
+False	0	Char -> '358'
+False	0	Char -> '324'
+False	0	Char -> '222'
+False	0	Char -> '721'
+False	0	Char -> '304'
+False	0	Char -> '244'
+False	0	Char -> '841'
+False	0	Char -> '437'
+False	0	Char -> '452'
+False	0	Char -> '147'
+False	0	Char -> '722'
+False	0	Char -> '847'
+False	0	Char -> '336'
+False	0	Char -> '320'
+False	0	Char -> '728'
+False	0	Char -> '851'
+False	0	Char -> '483'
+False	0	Char -> '785'
+False	0	Char -> '408'
+False	0	Char -> '647'
+False	0	Char -> '274'
+False	0	Char -> '033'
+False	0	Char -> '064'
+False	0	Char -> '250'
+False	0	Char -> '617'
+False	0	Char -> '601'
+False	0	Char -> '001'
+False	0	Char -> '312'
+False	0	Char -> '201'
+False	0	Char -> '515'
+False	0	Char -> '831'
+==========Chars==========
+False	0.610456	Chars -> Char Chars
+False	0.388992	Chars -> Char
+==========Word==========
+False	0.059257	Word -> Chars
+True	0.0503259	Word -> 268 100 880 616 707 551 435 810 356 (Word -> Chars, Chars -> Char Chars, Char -> '268', Chars -> Char Chars, Char -> '100', Chars -> Char Chars, Char -> '880', Chars -> Char Chars, Char -> '616', Chars -> Char Chars, Char -> '707', Chars -> Char Chars, Char -> '551', Chars -> Char Chars, Char -> '435', Chars -> Char Chars, Char -> '810', Chars -> Char, Char -> '356')
+True	0.033519	Word -> 837 802 554 (Word -> Chars, Chars -> Char Chars, Char -> '837', Chars -> Char Chars, Char -> '802', Chars -> Char, Char -> '554')
+True	0.0334358	Word -> 064 001 415 (Word -> Chars, Chars -> Char Chars, Char -> '064', Chars -> Char Chars, Char -> '001', Chars -> Char, Char -> '415')
+True	0.0279787	Word -> 650 442 634 361 (Word -> Chars, Chars -> Char Chars, Char -> '650', Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '634', Chars -> Char, Char -> '361')
+True	0.0272869	Word -> 236 550 766 706 723 (Word -> Chars, Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '766', Chars -> Char Chars, Char -> '706', Chars -> Char, Char -> '723')
+True	0.0258875	Word -> 508 472 (Word -> Chars, Chars -> Char Chars, Char -> '508', Chars -> Char, Char -> '472')
+True	0.0244015	Word -> 370 622 448 570 267 (Word -> Chars, Chars -> Char Chars, Char -> '370', Chars -> Char Chars, Char -> '622', Chars -> Char Chars, Char -> '448', Chars -> Char Chars, Char -> '570', Chars -> Char, Char -> '267')
+True	0.0197643	Word -> 841 (Word -> Chars, Chars -> Char, Char -> '841')
+True	0.019667	Word -> 357 658 (Word -> Chars, Chars -> Char Chars, Char -> '357', Chars -> Char, Char -> '658')
+True	0.0188211	Word -> 234 758 544 553 220 375 004 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char Chars, Char -> '758', Chars -> Char Chars, Char -> '544', Chars -> Char Chars, Char -> '553', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '375', Chars -> Char, Char -> '004')
+True	0.0172143	Word -> 010 848 (Word -> Chars, Chars -> Char Chars, Char -> '010', Chars -> Char, Char -> '848')
+True	0.0159781	Word -> 008 437 (Word -> Chars, Chars -> Char Chars, Char -> '008', Chars -> Char, Char -> '437')
+True	0.0152045	Word -> 337 384 374 174 464 677 (Word -> Chars, Chars -> Char Chars, Char -> '337', Chars -> Char Chars, Char -> '384', Chars -> Char Chars, Char -> '374', Chars -> Char Chars, Char -> '174', Chars -> Char Chars, Char -> '464', Chars -> Char, Char -> '677')
+True	0.0148034	Word -> 160 767 008 718 (Word -> Chars, Chars -> Char Chars, Char -> '160', Chars -> Char Chars, Char -> '767', Chars -> Char Chars, Char -> '008', Chars -> Char, Char -> '718')
+True	0.0147855	Word -> 581 047 700 741 (Word -> Chars, Chars -> Char Chars, Char -> '581', Chars -> Char Chars, Char -> '047', Chars -> Char Chars, Char -> '700', Chars -> Char, Char -> '741')
+True	0.014384	Word -> 863 152 (Word -> Chars, Chars -> Char Chars, Char -> '863', Chars -> Char, Char -> '152')
+True	0.0142922	Word -> 762 347 673 136 267 (Word -> Chars, Chars -> Char Chars, Char -> '762', Chars -> Char Chars, Char -> '347', Chars -> Char Chars, Char -> '673', Chars -> Char Chars, Char -> '136', Chars -> Char, Char -> '267')
+True	0.0139232	Word -> 533 261 833 674 (Word -> Chars, Chars -> Char Chars, Char -> '533', Chars -> Char Chars, Char -> '261', Chars -> Char Chars, Char -> '833', Chars -> Char, Char -> '674')
+True	0.0129887	Word -> 685 134 662 262 (Word -> Chars, Chars -> Char Chars, Char -> '685', Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '662', Chars -> Char, Char -> '262')
+True	0.0119056	Word -> 283 177 (Word -> Chars, Chars -> Char Chars, Char -> '283', Chars -> Char, Char -> '177')
+True	0.011226	Word -> 777 441 842 (Word -> Chars, Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '441', Chars -> Char, Char -> '842')
+True	0.0102957	Word -> 846 260 701 (Word -> Chars, Chars -> Char Chars, Char -> '846', Chars -> Char Chars, Char -> '260', Chars -> Char, Char -> '701')
+True	0.010201	Word -> 473 (Word -> Chars, Chars -> Char, Char -> '473')
+True	0.00974239	Word -> 431 (Word -> Chars, Chars -> Char, Char -> '431')
+True	0.00930996	Word -> 674 102 606 541 138 (Word -> Chars, Chars -> Char Chars, Char -> '674', Chars -> Char Chars, Char -> '102', Chars -> Char Chars, Char -> '606', Chars -> Char Chars, Char -> '541', Chars -> Char, Char -> '138')
+True	0.00924523	Word -> 315 (Word -> Chars, Chars -> Char, Char -> '315')
+True	0.00897771	Word -> 748 (Word -> Chars, Chars -> Char, Char -> '748')
+True	0.00850722	Word -> 440 (Word -> Chars, Chars -> Char, Char -> '440')
+True	0.00848338	Word -> 385 (Word -> Chars, Chars -> Char, Char -> '385')
+True	0.00817294	Word -> 538 471 (Word -> Chars, Chars -> Char Chars, Char -> '538', Chars -> Char, Char -> '471')
+True	0.00768206	Word -> 868 (Word -> Chars, Chars -> Char, Char -> '868')
+True	0.00744698	Word -> 152 580 (Word -> Chars, Chars -> Char Chars, Char -> '152', Chars -> Char, Char -> '580')
+True	0.00740448	Word -> 678 (Word -> Chars, Chars -> Char, Char -> '678')
+True	0.00739564	Word -> 730 808 444 140 (Word -> Chars, Chars -> Char Chars, Char -> '730', Chars -> Char Chars, Char -> '808', Chars -> Char Chars, Char -> '444', Chars -> Char, Char -> '140')
+True	0.00722553	Word -> 004 813 408 114 (Word -> Chars, Chars -> Char Chars, Char -> '004', Chars -> Char Chars, Char -> '813', Chars -> Char Chars, Char -> '408', Chars -> Char, Char -> '114')
+True	0.00703386	Word -> 161 123 (Word -> Chars, Chars -> Char Chars, Char -> '161', Chars -> Char, Char -> '123')
+True	0.00700634	Word -> 303 408 (Word -> Chars, Chars -> Char Chars, Char -> '303', Chars -> Char, Char -> '408')
+True	0.00671089	Word -> 534 (Word -> Chars, Chars -> Char, Char -> '534')
+True	0.00627552	Word -> 573 115 377 260 732 (Word -> Chars, Chars -> Char Chars, Char -> '573', Chars -> Char Chars, Char -> '115', Chars -> Char Chars, Char -> '377', Chars -> Char Chars, Char -> '260', Chars -> Char, Char -> '732')
+True	0.00626868	Word -> 502 (Word -> Chars, Chars -> Char, Char -> '502')
+True	0.00626498	Word -> 028 236 780 255 631 470 764 483 (Word -> Chars, Chars -> Char Chars, Char -> '028', Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '255', Chars -> Char Chars, Char -> '631', Chars -> Char Chars, Char -> '470', Chars -> Char Chars, Char -> '764', Chars -> Char, Char -> '483')
+True	0.00606249	Word -> 242 (Word -> Chars, Chars -> Char, Char -> '242')
+True	0.00604863	Word -> 632 322 206 461 (Word -> Chars, Chars -> Char Chars, Char -> '632', Chars -> Char Chars, Char -> '322', Chars -> Char Chars, Char -> '206', Chars -> Char, Char -> '461')
+True	0.00588994	Word -> 528 407 265 314 002 022 (Word -> Chars, Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '407', Chars -> Char Chars, Char -> '265', Chars -> Char Chars, Char -> '314', Chars -> Char Chars, Char -> '002', Chars -> Char, Char -> '022')
+True	0.00551158	Word -> 220 (Word -> Chars, Chars -> Char, Char -> '220')
+True	0.00542956	Word -> 442 842 405 (Word -> Chars, Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '842', Chars -> Char, Char -> '405')
+True	0.00541251	Word -> 466 (Word -> Chars, Chars -> Char, Char -> '466')
+True	0.00536877	Word -> 567 285 245 780 136 047 628 076 324 216 665 (Word -> Chars, Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '285', Chars -> Char Chars, Char -> '245', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '136', Chars -> Char Chars, Char -> '047', Chars -> Char Chars, Char -> '628', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '324', Chars -> Char Chars, Char -> '216', Chars -> Char, Char -> '665')
+True	0.00499117	Word -> 737 624 573 887 777 425 732 116 (Word -> Chars, Chars -> Char Chars, Char -> '737', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '573', Chars -> Char Chars, Char -> '887', Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '425', Chars -> Char Chars, Char -> '732', Chars -> Char, Char -> '116')
+True	0.00485861	Word -> 824 (Word -> Chars, Chars -> Char, Char -> '824')
+True	0.00483208	Word -> 104 147 378 (Word -> Chars, Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '147', Chars -> Char, Char -> '378')
+True	0.00450756	Word -> 005 482 123 646 (Word -> Chars, Chars -> Char Chars, Char -> '005', Chars -> Char Chars, Char -> '482', Chars -> Char Chars, Char -> '123', Chars -> Char, Char -> '646')
+True	0.00431291	Word -> 786 217 863 118 (Word -> Chars, Chars -> Char Chars, Char -> '786', Chars -> Char Chars, Char -> '217', Chars -> Char Chars, Char -> '863', Chars -> Char, Char -> '118')
+True	0.00429057	Word -> 457 555 621 363 (Word -> Chars, Chars -> Char Chars, Char -> '457', Chars -> Char Chars, Char -> '555', Chars -> Char Chars, Char -> '621', Chars -> Char, Char -> '363')
+True	0.00425387	Word -> 815 872 856 866 (Word -> Chars, Chars -> Char Chars, Char -> '815', Chars -> Char Chars, Char -> '872', Chars -> Char Chars, Char -> '856', Chars -> Char, Char -> '866')
+True	0.00422249	Word -> 553 355 568 (Word -> Chars, Chars -> Char Chars, Char -> '553', Chars -> Char Chars, Char -> '355', Chars -> Char, Char -> '568')
+True	0.0042168	Word -> 368 700 147 (Word -> Chars, Chars -> Char Chars, Char -> '368', Chars -> Char Chars, Char -> '700', Chars -> Char, Char -> '147')
+True	0.00411837	Word -> 648 (Word -> Chars, Chars -> Char, Char -> '648')
+True	0.00390571	Word -> 187 104 (Word -> Chars, Chars -> Char Chars, Char -> '187', Chars -> Char, Char -> '104')
+True	0.00380278	Word -> 658 810 (Word -> Chars, Chars -> Char Chars, Char -> '658', Chars -> Char, Char -> '810')
+True	0.0037396	Word -> 127 472 031 760 786 877 (Word -> Chars, Chars -> Char Chars, Char -> '127', Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '031', Chars -> Char Chars, Char -> '760', Chars -> Char Chars, Char -> '786', Chars -> Char, Char -> '877')
+True	0.00364904	Word -> 060 (Word -> Chars, Chars -> Char, Char -> '060')
+True	0.00358929	Word -> 417 (Word -> Chars, Chars -> Char, Char -> '417')
+True	0.00351478	Word -> 224 207 (Word -> Chars, Chars -> Char Chars, Char -> '224', Chars -> Char, Char -> '207')
+True	0.00334371	Word -> 157 (Word -> Chars, Chars -> Char, Char -> '157')
+True	0.00326202	Word -> 627 (Word -> Chars, Chars -> Char, Char -> '627')
+True	0.00316193	Word -> 017 402 (Word -> Chars, Chars -> Char Chars, Char -> '017', Chars -> Char, Char -> '402')
+True	0.00315915	Word -> 847 042 (Word -> Chars, Chars -> Char Chars, Char -> '847', Chars -> Char, Char -> '042')
+True	0.002991	Word -> 715 408 (Word -> Chars, Chars -> Char Chars, Char -> '715', Chars -> Char, Char -> '408')
+True	0.00298845	Word -> 325 127 (Word -> Chars, Chars -> Char Chars, Char -> '325', Chars -> Char, Char -> '127')
+True	0.00298589	Word -> 584 741 (Word -> Chars, Chars -> Char Chars, Char -> '584', Chars -> Char, Char -> '741')
+True	0.00287207	Word -> 150 360 411 302 (Word -> Chars, Chars -> Char Chars, Char -> '150', Chars -> Char Chars, Char -> '360', Chars -> Char Chars, Char -> '411', Chars -> Char, Char -> '302')
+True	0.00284399	Word -> 101 238 465 (Word -> Chars, Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '238', Chars -> Char, Char -> '465')
+True	0.00282788	Word -> 233 (Word -> Chars, Chars -> Char, Char -> '233')
+True	0.00282114	Word -> 212 643 285 (Word -> Chars, Chars -> Char Chars, Char -> '212', Chars -> Char Chars, Char -> '643', Chars -> Char, Char -> '285')
+True	0.00276459	Word -> 700 628 172 220 615 526 436 688 (Word -> Chars, Chars -> Char Chars, Char -> '700', Chars -> Char Chars, Char -> '628', Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '615', Chars -> Char Chars, Char -> '526', Chars -> Char Chars, Char -> '436', Chars -> Char, Char -> '688')
+True	0.0027599	Word -> 561 (Word -> Chars, Chars -> Char, Char -> '561')
+True	0.00274988	Word -> 026 (Word -> Chars, Chars -> Char, Char -> '026')
+True	0.00268112	Word -> 470 577 305 (Word -> Chars, Chars -> Char Chars, Char -> '470', Chars -> Char Chars, Char -> '577', Chars -> Char, Char -> '305')
+True	0.00261038	Word -> 062 645 (Word -> Chars, Chars -> Char Chars, Char -> '062', Chars -> Char, Char -> '645')
+True	0.00257596	Word -> 750 (Word -> Chars, Chars -> Char, Char -> '750')
+True	0.00246055	Word -> 265 (Word -> Chars, Chars -> Char, Char -> '265')
+True	0.00245166	Word -> 567 718 178 (Word -> Chars, Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '718', Chars -> Char, Char -> '178')
+True	0.00240884	Word -> 144 (Word -> Chars, Chars -> Char, Char -> '144')
+True	0.00238925	Word -> 467 (Word -> Chars, Chars -> Char, Char -> '467')
+True	0.00237517	Word -> 135 (Word -> Chars, Chars -> Char, Char -> '135')
+True	0.00233677	Word -> 882 (Word -> Chars, Chars -> Char, Char -> '882')
+True	0.00233409	Word -> 018 (Word -> Chars, Chars -> Char, Char -> '018')
+True	0.0022832	Word -> 454 (Word -> Chars, Chars -> Char, Char -> '454')
+True	0.00226464	Word -> 056 328 341 872 (Word -> Chars, Chars -> Char Chars, Char -> '056', Chars -> Char Chars, Char -> '328', Chars -> Char Chars, Char -> '341', Chars -> Char, Char -> '872')
+True	0.00221776	Word -> 281 (Word -> Chars, Chars -> Char, Char -> '281')
+True	0.00218561	Word -> 126 501 556 378 360 472 777 682 (Word -> Chars, Chars -> Char Chars, Char -> '126', Chars -> Char Chars, Char -> '501', Chars -> Char Chars, Char -> '556', Chars -> Char Chars, Char -> '378', Chars -> Char Chars, Char -> '360', Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '777', Chars -> Char, Char -> '682')
+True	0.00217755	Word -> 306 405 166 884 (Word -> Chars, Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '166', Chars -> Char, Char -> '884')
+True	0.00216196	Word -> 443 (Word -> Chars, Chars -> Char, Char -> '443')
+True	0.00213289	Word -> 825 (Word -> Chars, Chars -> Char, Char -> '825')
+True	0.00206096	Word -> 186 624 254 111 527 (Word -> Chars, Chars -> Char Chars, Char -> '186', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '254', Chars -> Char Chars, Char -> '111', Chars -> Char, Char -> '527')
+True	0.00192176	Word -> 352 302 874 253 455 041 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '302', Chars -> Char Chars, Char -> '874', Chars -> Char Chars, Char -> '253', Chars -> Char Chars, Char -> '455', Chars -> Char, Char -> '041')
+True	0.00192067	Word -> 562 (Word -> Chars, Chars -> Char, Char -> '562')
+True	0.00189744	Word -> 270 (Word -> Chars, Chars -> Char, Char -> '270')
+True	0.00186687	Word -> 858 (Word -> Chars, Chars -> Char, Char -> '858')
+True	0.00163695	Word -> 886 455 303 (Word -> Chars, Chars -> Char Chars, Char -> '886', Chars -> Char Chars, Char -> '455', Chars -> Char, Char -> '303')
+True	0.00161273	Word -> 812 561 828 (Word -> Chars, Chars -> Char Chars, Char -> '812', Chars -> Char Chars, Char -> '561', Chars -> Char, Char -> '828')
+True	0.00159824	Word -> 028 403 718 (Word -> Chars, Chars -> Char Chars, Char -> '028', Chars -> Char Chars, Char -> '403', Chars -> Char, Char -> '718')
+True	0.00158161	Word -> 480 (Word -> Chars, Chars -> Char, Char -> '480')
+True	0.00155143	Word -> 253 663 075 567 844 (Word -> Chars, Chars -> Char Chars, Char -> '253', Chars -> Char Chars, Char -> '663', Chars -> Char Chars, Char -> '075', Chars -> Char Chars, Char -> '567', Chars -> Char, Char -> '844')
+True	0.0015305	Word -> 660 070 630 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '070', Chars -> Char, Char -> '630')
+True	0.00152296	Word -> 156 (Word -> Chars, Chars -> Char, Char -> '156')
+True	0.00149753	Word -> 241 (Word -> Chars, Chars -> Char, Char -> '241')
+True	0.00145565	Word -> 511 (Word -> Chars, Chars -> Char, Char -> '511')
+True	0.00145284	Word -> 208 (Word -> Chars, Chars -> Char, Char -> '208')
+True	0.00143715	Word -> 348 (Word -> Chars, Chars -> Char, Char -> '348')
+True	0.00141879	Word -> 184 (Word -> Chars, Chars -> Char, Char -> '184')
+True	0.00139361	Word -> 400 (Word -> Chars, Chars -> Char, Char -> '400')
+True	0.00135476	Word -> 633 (Word -> Chars, Chars -> Char, Char -> '633')
+True	0.00134231	Word -> 716 (Word -> Chars, Chars -> Char, Char -> '716')
+True	0.00129898	Word -> 113 056 736 776 683 264 552 (Word -> Chars, Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '056', Chars -> Char Chars, Char -> '736', Chars -> Char Chars, Char -> '776', Chars -> Char Chars, Char -> '683', Chars -> Char Chars, Char -> '264', Chars -> Char, Char -> '552')
+True	0.00126122	Word -> 111 303 828 042 (Word -> Chars, Chars -> Char Chars, Char -> '111', Chars -> Char Chars, Char -> '303', Chars -> Char Chars, Char -> '828', Chars -> Char, Char -> '042')
+True	0.0012448	Word -> 817 888 645 331 552 (Word -> Chars, Chars -> Char Chars, Char -> '817', Chars -> Char Chars, Char -> '888', Chars -> Char Chars, Char -> '645', Chars -> Char Chars, Char -> '331', Chars -> Char, Char -> '552')
+True	0.00123178	Word -> 066 462 137 436 (Word -> Chars, Chars -> Char Chars, Char -> '066', Chars -> Char Chars, Char -> '462', Chars -> Char Chars, Char -> '137', Chars -> Char, Char -> '436')
+True	0.00121037	Word -> 210 (Word -> Chars, Chars -> Char, Char -> '210')
+True	0.00119917	Word -> 064 683 818 653 (Word -> Chars, Chars -> Char Chars, Char -> '064', Chars -> Char Chars, Char -> '683', Chars -> Char Chars, Char -> '818', Chars -> Char, Char -> '653')
+True	0.00117544	Word -> 582 (Word -> Chars, Chars -> Char, Char -> '582')
+True	0.00116959	Word -> 041 (Word -> Chars, Chars -> Char, Char -> '041')
+True	0.00114898	Word -> 080 (Word -> Chars, Chars -> Char, Char -> '080')
+True	0.0010861	Word -> 485 (Word -> Chars, Chars -> Char, Char -> '485')
+True	0.00107131	Word -> 523 032 718 766 662 484 067 (Word -> Chars, Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '032', Chars -> Char Chars, Char -> '718', Chars -> Char Chars, Char -> '766', Chars -> Char Chars, Char -> '662', Chars -> Char Chars, Char -> '484', Chars -> Char, Char -> '067')
+True	0.00104505	Word -> 527 574 (Word -> Chars, Chars -> Char Chars, Char -> '527', Chars -> Char, Char -> '574')
+True	0.00102941	Word -> 263 (Word -> Chars, Chars -> Char, Char -> '263')
+True	0.00101611	Word -> 666 (Word -> Chars, Chars -> Char, Char -> '666')
+True	0.00100266	Word -> 068 (Word -> Chars, Chars -> Char, Char -> '068')
+True	0.000999288	Word -> 787 (Word -> Chars, Chars -> Char, Char -> '787')
+True	0.00099694	Word -> 211 478 654 576 560 165 654 (Word -> Chars, Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '478', Chars -> Char Chars, Char -> '654', Chars -> Char Chars, Char -> '576', Chars -> Char Chars, Char -> '560', Chars -> Char Chars, Char -> '165', Chars -> Char, Char -> '654')
+True	0.00098537	Word -> 280 (Word -> Chars, Chars -> Char, Char -> '280')
+True	0.000964986	Word -> 371 (Word -> Chars, Chars -> Char, Char -> '371')
+True	0.000947246	Word -> 038 830 (Word -> Chars, Chars -> Char Chars, Char -> '038', Chars -> Char, Char -> '830')
+True	0.000939581	Word -> 556 801 366 841 828 (Word -> Chars, Chars -> Char Chars, Char -> '556', Chars -> Char Chars, Char -> '801', Chars -> Char Chars, Char -> '366', Chars -> Char Chars, Char -> '841', Chars -> Char, Char -> '828')
+True	0.000909079	Word -> 103 (Word -> Chars, Chars -> Char, Char -> '103')
+True	0.000880069	Word -> 744 031 081 634 357 002 147 133 (Word -> Chars, Chars -> Char Chars, Char -> '744', Chars -> Char Chars, Char -> '031', Chars -> Char Chars, Char -> '081', Chars -> Char Chars, Char -> '634', Chars -> Char Chars, Char -> '357', Chars -> Char Chars, Char -> '002', Chars -> Char Chars, Char -> '147', Chars -> Char, Char -> '133')
+True	0.000874833	Word -> 065 (Word -> Chars, Chars -> Char, Char -> '065')
+True	0.000832359	Word -> 354 644 321 518 873 075 724 (Word -> Chars, Chars -> Char Chars, Char -> '354', Chars -> Char Chars, Char -> '644', Chars -> Char Chars, Char -> '321', Chars -> Char Chars, Char -> '518', Chars -> Char Chars, Char -> '873', Chars -> Char Chars, Char -> '075', Chars -> Char, Char -> '724')
+True	0.000809854	Word -> 500 (Word -> Chars, Chars -> Char, Char -> '500')
+True	0.000808911	Word -> 072 (Word -> Chars, Chars -> Char, Char -> '072')
+True	0.000796944	Word -> 516 (Word -> Chars, Chars -> Char, Char -> '516')
+True	0.000793214	Word -> 254 483 007 140 185 (Word -> Chars, Chars -> Char Chars, Char -> '254', Chars -> Char Chars, Char -> '483', Chars -> Char Chars, Char -> '007', Chars -> Char Chars, Char -> '140', Chars -> Char, Char -> '185')
+True	0.000788774	Word -> 258 528 585 455 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '585', Chars -> Char, Char -> '455')
+True	0.000714385	Word -> 350 (Word -> Chars, Chars -> Char, Char -> '350')
+True	0.000710051	Word -> 676 (Word -> Chars, Chars -> Char, Char -> '676')
+True	0.000652021	Word -> 641 436 352 577 862 768 145 432 (Word -> Chars, Chars -> Char Chars, Char -> '641', Chars -> Char Chars, Char -> '436', Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '577', Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '768', Chars -> Char Chars, Char -> '145', Chars -> Char, Char -> '432')
+True	0.00064634	Word -> 468 (Word -> Chars, Chars -> Char, Char -> '468')
+True	0.000629895	Word -> 710 (Word -> Chars, Chars -> Char, Char -> '710')
+True	0.000616498	Word -> 508 075 304 765 123 (Word -> Chars, Chars -> Char Chars, Char -> '508', Chars -> Char Chars, Char -> '075', Chars -> Char Chars, Char -> '304', Chars -> Char Chars, Char -> '765', Chars -> Char, Char -> '123')
+True	0.000611272	Word -> 456 (Word -> Chars, Chars -> Char, Char -> '456')
+True	0.000597164	Word -> 800 (Word -> Chars, Chars -> Char, Char -> '800')
+True	0.000589088	Word -> 058 (Word -> Chars, Chars -> Char, Char -> '058')
+True	0.000562663	Word -> 877 001 (Word -> Chars, Chars -> Char Chars, Char -> '877', Chars -> Char, Char -> '001')
+True	0.000558589	Word -> 244 012 732 (Word -> Chars, Chars -> Char Chars, Char -> '244', Chars -> Char Chars, Char -> '012', Chars -> Char, Char -> '732')
+True	0.00054554	Word -> 168 (Word -> Chars, Chars -> Char, Char -> '168')
+True	0.00054399	Word -> 718 055 560 (Word -> Chars, Chars -> Char Chars, Char -> '718', Chars -> Char Chars, Char -> '055', Chars -> Char, Char -> '560')
+True	0.000542031	Word -> 251 622 (Word -> Chars, Chars -> Char Chars, Char -> '251', Chars -> Char, Char -> '622')
+True	0.000536549	Word -> 806 (Word -> Chars, Chars -> Char, Char -> '806')
+True	0.000536274	Word -> 445 355 007 116 735 111 547 525 (Word -> Chars, Chars -> Char Chars, Char -> '445', Chars -> Char Chars, Char -> '355', Chars -> Char Chars, Char -> '007', Chars -> Char Chars, Char -> '116', Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '111', Chars -> Char Chars, Char -> '547', Chars -> Char, Char -> '525')
+True	0.000535226	Word -> 560 646 (Word -> Chars, Chars -> Char Chars, Char -> '560', Chars -> Char, Char -> '646')
+True	0.000528441	Word -> 637 (Word -> Chars, Chars -> Char, Char -> '637')
+True	0.000512823	Word -> 310 (Word -> Chars, Chars -> Char, Char -> '310')
+True	0.00050754	Word -> 647 (Word -> Chars, Chars -> Char, Char -> '647')
+True	0.000504678	Word -> 572 (Word -> Chars, Chars -> Char, Char -> '572')
+True	0.000497918	Word -> 612 (Word -> Chars, Chars -> Char, Char -> '612')
+True	0.000493289	Word -> 537 (Word -> Chars, Chars -> Char, Char -> '537')
+True	0.000474745	Word -> 550 766 706 723 (Word -> Chars, Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '766', Chars -> Char Chars, Char -> '706', Chars -> Char, Char -> '723')
+True	0.000471968	Word -> 236 550 766 706 (Word -> Chars, Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '766', Chars -> Char, Char -> '706')
+True	0.000464203	Word -> 763 203 (Word -> Chars, Chars -> Char Chars, Char -> '763', Chars -> Char, Char -> '203')
+True	0.000457817	Word -> 412 (Word -> Chars, Chars -> Char, Char -> '412')
+True	0.000457156	Word -> 638 (Word -> Chars, Chars -> Char, Char -> '638')
+True	0.000453618	Word -> 423 601 (Word -> Chars, Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '601')
+True	0.000434922	Word -> 086 (Word -> Chars, Chars -> Char, Char -> '086')
+True	0.000434875	Word -> 085 (Word -> Chars, Chars -> Char, Char -> '085')
+True	0.000429528	Word -> 057 036 085 754 (Word -> Chars, Chars -> Char Chars, Char -> '057', Chars -> Char Chars, Char -> '036', Chars -> Char Chars, Char -> '085', Chars -> Char, Char -> '754')
+True	0.000425284	Word -> 154 (Word -> Chars, Chars -> Char, Char -> '154')
+True	0.000421251	Word -> 555 223 578 021 (Word -> Chars, Chars -> Char Chars, Char -> '555', Chars -> Char Chars, Char -> '223', Chars -> Char Chars, Char -> '578', Chars -> Char, Char -> '021')
+True	0.000407249	Word -> 723 (Word -> Chars, Chars -> Char, Char -> '723')
+True	0.000406328	Word -> 236 (Word -> Chars, Chars -> Char, Char -> '236')
+True	0.000397928	Word -> 811 046 745 (Word -> Chars, Chars -> Char Chars, Char -> '811', Chars -> Char Chars, Char -> '046', Chars -> Char, Char -> '745')
+True	0.000393724	Word -> 788 (Word -> Chars, Chars -> Char, Char -> '788')
+True	0.000386589	Word -> 804 604 708 355 438 050 550 402 050 115 (Word -> Chars, Chars -> Char Chars, Char -> '804', Chars -> Char Chars, Char -> '604', Chars -> Char Chars, Char -> '708', Chars -> Char Chars, Char -> '355', Chars -> Char Chars, Char -> '438', Chars -> Char Chars, Char -> '050', Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '402', Chars -> Char Chars, Char -> '050', Chars -> Char, Char -> '115')
+True	0.000381237	Word -> 358 302 (Word -> Chars, Chars -> Char Chars, Char -> '358', Chars -> Char, Char -> '302')
+True	0.000378922	Word -> 030 (Word -> Chars, Chars -> Char, Char -> '030')
+True	0.000378205	Word -> 063 (Word -> Chars, Chars -> Char, Char -> '063')
+True	0.000378058	Word -> 416 (Word -> Chars, Chars -> Char, Char -> '416')
+True	0.000377821	Word -> 805 (Word -> Chars, Chars -> Char, Char -> '805')
+True	0.000363531	Word -> 465 531 (Word -> Chars, Chars -> Char Chars, Char -> '465', Chars -> Char, Char -> '531')
+True	0.000358498	Word -> 174 311 331 878 267 844 (Word -> Chars, Chars -> Char Chars, Char -> '174', Chars -> Char Chars, Char -> '311', Chars -> Char Chars, Char -> '331', Chars -> Char Chars, Char -> '878', Chars -> Char Chars, Char -> '267', Chars -> Char, Char -> '844')
+True	0.000351328	Word -> 561 025 (Word -> Chars, Chars -> Char Chars, Char -> '561', Chars -> Char, Char -> '025')
+True	0.000332766	Word -> 451 (Word -> Chars, Chars -> Char, Char -> '451')
+True	0.000332352	Word -> 173 (Word -> Chars, Chars -> Char, Char -> '173')
+True	0.000325693	Word -> 370 622 448 (Word -> Chars, Chars -> Char Chars, Char -> '370', Chars -> Char Chars, Char -> '622', Chars -> Char, Char -> '448')
+True	0.000320079	Word -> 350 377 845 (Word -> Chars, Chars -> Char Chars, Char -> '350', Chars -> Char Chars, Char -> '377', Chars -> Char, Char -> '845')
+True	0.000317718	Word -> 507 873 287 757 (Word -> Chars, Chars -> Char Chars, Char -> '507', Chars -> Char Chars, Char -> '873', Chars -> Char Chars, Char -> '287', Chars -> Char, Char -> '757')
+True	0.000313349	Word -> 570 267 (Word -> Chars, Chars -> Char Chars, Char -> '570', Chars -> Char, Char -> '267')
+True	0.000294462	Word -> 130 076 215 227 376 836 851 532 (Word -> Chars, Chars -> Char Chars, Char -> '130', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '227', Chars -> Char Chars, Char -> '376', Chars -> Char Chars, Char -> '836', Chars -> Char Chars, Char -> '851', Chars -> Char, Char -> '532')
+True	0.000292691	Word -> 135 224 726 885 640 285 (Word -> Chars, Chars -> Char Chars, Char -> '135', Chars -> Char Chars, Char -> '224', Chars -> Char Chars, Char -> '726', Chars -> Char Chars, Char -> '885', Chars -> Char Chars, Char -> '640', Chars -> Char, Char -> '285')
+True	0.000287421	Word -> 787 327 (Word -> Chars, Chars -> Char Chars, Char -> '787', Chars -> Char, Char -> '327')
+True	0.000284761	Word -> 514 (Word -> Chars, Chars -> Char, Char -> '514')
+True	0.000282532	Word -> 542 (Word -> Chars, Chars -> Char, Char -> '542')
+True	0.000282281	Word -> 377 260 732 (Word -> Chars, Chars -> Char Chars, Char -> '377', Chars -> Char Chars, Char -> '260', Chars -> Char, Char -> '732')
+True	0.000276548	Word -> 724 475 (Word -> Chars, Chars -> Char Chars, Char -> '724', Chars -> Char, Char -> '475')
+True	0.000274334	Word -> 352 127 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char, Char -> '127')
+True	0.00027395	Word -> 600 512 (Word -> Chars, Chars -> Char Chars, Char -> '600', Chars -> Char, Char -> '512')
+True	0.000272148	Word -> 867 331 (Word -> Chars, Chars -> Char Chars, Char -> '867', Chars -> Char, Char -> '331')
+True	0.000272014	Word -> 234 758 544 553 220 375 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char Chars, Char -> '758', Chars -> Char Chars, Char -> '544', Chars -> Char Chars, Char -> '553', Chars -> Char Chars, Char -> '220', Chars -> Char, Char -> '375')
+True	0.000270327	Word -> 035 (Word -> Chars, Chars -> Char, Char -> '035')
+True	0.000262226	Word -> 261 833 674 (Word -> Chars, Chars -> Char Chars, Char -> '261', Chars -> Char Chars, Char -> '833', Chars -> Char, Char -> '674')
+True	0.000261381	Word -> 617 (Word -> Chars, Chars -> Char, Char -> '617')
+True	0.000258352	Word -> 573 115 (Word -> Chars, Chars -> Char Chars, Char -> '573', Chars -> Char, Char -> '115')
+True	0.000257991	Word -> 116 854 883 417 (Word -> Chars, Chars -> Char Chars, Char -> '116', Chars -> Char Chars, Char -> '854', Chars -> Char Chars, Char -> '883', Chars -> Char, Char -> '417')
+True	0.000254913	Word -> 770 311 672 451 (Word -> Chars, Chars -> Char Chars, Char -> '770', Chars -> Char Chars, Char -> '311', Chars -> Char Chars, Char -> '672', Chars -> Char, Char -> '451')
+True	0.00024768	Word -> 547 (Word -> Chars, Chars -> Char, Char -> '547')
+True	0.000247544	Word -> 045 (Word -> Chars, Chars -> Char, Char -> '045')
+True	0.000247197	Word -> 534 825 648 738 353 (Word -> Chars, Chars -> Char Chars, Char -> '534', Chars -> Char Chars, Char -> '825', Chars -> Char Chars, Char -> '648', Chars -> Char Chars, Char -> '738', Chars -> Char, Char -> '353')
+True	0.000244643	Word -> 340 (Word -> Chars, Chars -> Char, Char -> '340')
+True	0.000243971	Word -> 335 (Word -> Chars, Chars -> Char, Char -> '335')
+True	0.000241476	Word -> 433 (Word -> Chars, Chars -> Char, Char -> '433')
+True	0.000241446	Word -> 088 (Word -> Chars, Chars -> Char, Char -> '088')
+True	0.000238935	Word -> 188 (Word -> Chars, Chars -> Char, Char -> '188')
+True	0.000237431	Word -> 685 134 662 (Word -> Chars, Chars -> Char Chars, Char -> '685', Chars -> Char Chars, Char -> '134', Chars -> Char, Char -> '662')
+True	0.000236932	Word -> 533 (Word -> Chars, Chars -> Char, Char -> '533')
+True	0.000236289	Word -> 635 (Word -> Chars, Chars -> Char, Char -> '635')
+True	0.000233491	Word -> 527 650 780 786 207 150 607 645 (Word -> Chars, Chars -> Char Chars, Char -> '527', Chars -> Char Chars, Char -> '650', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '786', Chars -> Char Chars, Char -> '207', Chars -> Char Chars, Char -> '150', Chars -> Char Chars, Char -> '607', Chars -> Char, Char -> '645')
+True	0.000224091	Word -> 300 353 560 301 268 550 (Word -> Chars, Chars -> Char Chars, Char -> '300', Chars -> Char Chars, Char -> '353', Chars -> Char Chars, Char -> '560', Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '268', Chars -> Char, Char -> '550')
+True	0.000222299	Word -> 004 (Word -> Chars, Chars -> Char, Char -> '004')
+True	0.000217882	Word -> 262 (Word -> Chars, Chars -> Char, Char -> '262')
+True	0.000216822	Word -> 130 751 (Word -> Chars, Chars -> Char Chars, Char -> '130', Chars -> Char, Char -> '751')
+True	0.000216072	Word -> 842 431 (Word -> Chars, Chars -> Char Chars, Char -> '842', Chars -> Char, Char -> '431')
+True	0.000213708	Word -> 737 624 573 887 777 425 (Word -> Chars, Chars -> Char Chars, Char -> '737', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '573', Chars -> Char Chars, Char -> '887', Chars -> Char Chars, Char -> '777', Chars -> Char, Char -> '425')
+True	0.000209575	Word -> 807 436 655 581 253 062 (Word -> Chars, Chars -> Char Chars, Char -> '807', Chars -> Char Chars, Char -> '436', Chars -> Char Chars, Char -> '655', Chars -> Char Chars, Char -> '581', Chars -> Char Chars, Char -> '253', Chars -> Char, Char -> '062')
+True	0.000206919	Word -> 484 621 (Word -> Chars, Chars -> Char Chars, Char -> '484', Chars -> Char, Char -> '621')
+True	0.000202302	Word -> 246 513 516 (Word -> Chars, Chars -> Char Chars, Char -> '246', Chars -> Char Chars, Char -> '513', Chars -> Char, Char -> '516')
+True	0.00020209	Word -> 563 (Word -> Chars, Chars -> Char, Char -> '563')
+True	0.000199572	Word -> 214 603 447 405 820 266 775 (Word -> Chars, Chars -> Char Chars, Char -> '214', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '447', Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '820', Chars -> Char Chars, Char -> '266', Chars -> Char, Char -> '775')
+True	0.000199561	Word -> 625 (Word -> Chars, Chars -> Char, Char -> '625')
+True	0.000197184	Word -> 205 (Word -> Chars, Chars -> Char, Char -> '205')
+True	0.000196688	Word -> 687 (Word -> Chars, Chars -> Char, Char -> '687')
+True	0.000184638	Word -> 301 766 677 635 518 (Word -> Chars, Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '766', Chars -> Char Chars, Char -> '677', Chars -> Char Chars, Char -> '635', Chars -> Char, Char -> '518')
+True	0.000181698	Word -> 547 144 (Word -> Chars, Chars -> Char Chars, Char -> '547', Chars -> Char, Char -> '144')
+True	0.000179327	Word -> 611 (Word -> Chars, Chars -> Char, Char -> '611')
+True	0.000176683	Word -> 732 116 (Word -> Chars, Chars -> Char Chars, Char -> '732', Chars -> Char, Char -> '116')
+True	0.000174949	Word -> 380 (Word -> Chars, Chars -> Char, Char -> '380')
+True	0.000171614	Word -> 442 657 878 724 (Word -> Chars, Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '878', Chars -> Char, Char -> '724')
+True	0.000171081	Word -> 463 (Word -> Chars, Chars -> Char, Char -> '463')
+True	0.000169998	Word -> 486 582 507 (Word -> Chars, Chars -> Char Chars, Char -> '486', Chars -> Char Chars, Char -> '582', Chars -> Char, Char -> '507')
+True	0.000169916	Word -> 408 112 050 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '112', Chars -> Char, Char -> '050')
+True	0.000166911	Word -> 558 (Word -> Chars, Chars -> Char, Char -> '558')
+True	0.000166263	Word -> 154 726 882 (Word -> Chars, Chars -> Char Chars, Char -> '154', Chars -> Char Chars, Char -> '726', Chars -> Char, Char -> '882')
+True	0.00016434	Word -> 505 713 050 (Word -> Chars, Chars -> Char Chars, Char -> '505', Chars -> Char Chars, Char -> '713', Chars -> Char, Char -> '050')
+True	0.000163893	Word -> 344 (Word -> Chars, Chars -> Char, Char -> '344')
+True	0.000152336	Word -> 080 242 138 (Word -> Chars, Chars -> Char Chars, Char -> '080', Chars -> Char Chars, Char -> '242', Chars -> Char, Char -> '138')
+True	0.000152212	Word -> 860 325 (Word -> Chars, Chars -> Char Chars, Char -> '860', Chars -> Char, Char -> '325')
+True	0.000149275	Word -> 521 331 (Word -> Chars, Chars -> Char Chars, Char -> '521', Chars -> Char, Char -> '331')
+True	0.000136981	Word -> 553 355 (Word -> Chars, Chars -> Char Chars, Char -> '553', Chars -> Char, Char -> '355')
+True	0.00013692	Word -> 486 (Word -> Chars, Chars -> Char, Char -> '486')
+True	0.000132002	Word -> 322 206 461 (Word -> Chars, Chars -> Char Chars, Char -> '322', Chars -> Char Chars, Char -> '206', Chars -> Char, Char -> '461')
+True	0.000128931	Word -> 568 (Word -> Chars, Chars -> Char, Char -> '568')
+True	0.000123975	Word -> 645 (Word -> Chars, Chars -> Char, Char -> '645')
+True	0.000123314	Word -> 062 (Word -> Chars, Chars -> Char, Char -> '062')
+True	0.000121719	Word -> 817 888 645 (Word -> Chars, Chars -> Char Chars, Char -> '817', Chars -> Char Chars, Char -> '888', Chars -> Char, Char -> '645')
+True	0.000120604	Word -> 632 (Word -> Chars, Chars -> Char, Char -> '632')
+True	0.000119284	Word -> 728 (Word -> Chars, Chars -> Char, Char -> '728')
+True	0.000117311	Word -> 331 552 (Word -> Chars, Chars -> Char Chars, Char -> '331', Chars -> Char, Char -> '552')
+True	0.000115754	Word -> 175 (Word -> Chars, Chars -> Char, Char -> '175')
+True	0.000112628	Word -> 430 (Word -> Chars, Chars -> Char, Char -> '430')
+True	0.000108961	Word -> 236 780 255 631 470 764 483 (Word -> Chars, Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '255', Chars -> Char Chars, Char -> '631', Chars -> Char Chars, Char -> '470', Chars -> Char Chars, Char -> '764', Chars -> Char, Char -> '483')
+True	0.000108794	Word -> 743 (Word -> Chars, Chars -> Char, Char -> '743')
+True	9.98304e-05	Word -> 718 178 (Word -> Chars, Chars -> Char Chars, Char -> '718', Chars -> Char, Char -> '178')
+True	9.95756e-05	Word -> 047 628 076 324 216 665 (Word -> Chars, Chars -> Char Chars, Char -> '047', Chars -> Char Chars, Char -> '628', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '324', Chars -> Char Chars, Char -> '216', Chars -> Char, Char -> '665')
+True	9.94954e-05	Word -> 567 285 245 780 136 047 (Word -> Chars, Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '285', Chars -> Char Chars, Char -> '245', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '136', Chars -> Char, Char -> '047')
+True	9.87221e-05	Word -> 628 076 324 216 665 (Word -> Chars, Chars -> Char Chars, Char -> '628', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '324', Chars -> Char Chars, Char -> '216', Chars -> Char, Char -> '665')
+True	9.86474e-05	Word -> 567 285 245 780 136 (Word -> Chars, Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '285', Chars -> Char Chars, Char -> '245', Chars -> Char Chars, Char -> '780', Chars -> Char, Char -> '136')
+True	9.5867e-05	Word -> 150 360 (Word -> Chars, Chars -> Char Chars, Char -> '150', Chars -> Char, Char -> '360')
+True	9.57921e-05	Word -> 411 302 (Word -> Chars, Chars -> Char Chars, Char -> '411', Chars -> Char, Char -> '302')
+True	9.30467e-05	Word -> 567 (Word -> Chars, Chars -> Char, Char -> '567')
+True	9.19369e-05	Word -> 143 082 358 264 635 854 305 601 (Word -> Chars, Chars -> Char Chars, Char -> '143', Chars -> Char Chars, Char -> '082', Chars -> Char Chars, Char -> '358', Chars -> Char Chars, Char -> '264', Chars -> Char Chars, Char -> '635', Chars -> Char Chars, Char -> '854', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '601')
+True	9.05297e-05	Word -> 028 (Word -> Chars, Chars -> Char, Char -> '028')
+True	8.86697e-05	Word -> 327 211 045 614 734 772 087 (Word -> Chars, Chars -> Char Chars, Char -> '327', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '614', Chars -> Char Chars, Char -> '734', Chars -> Char Chars, Char -> '772', Chars -> Char, Char -> '087')
+True	8.29808e-05	Word -> 577 862 768 145 432 (Word -> Chars, Chars -> Char Chars, Char -> '577', Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '768', Chars -> Char Chars, Char -> '145', Chars -> Char, Char -> '432')
+True	7.93049e-05	Word -> 641 436 352 (Word -> Chars, Chars -> Char Chars, Char -> '641', Chars -> Char Chars, Char -> '436', Chars -> Char, Char -> '352')
+True	7.91807e-05	Word -> 352 302 874 253 455 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '302', Chars -> Char Chars, Char -> '874', Chars -> Char Chars, Char -> '253', Chars -> Char, Char -> '455')
+True	7.77967e-05	Word -> 352 302 874 253 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '302', Chars -> Char Chars, Char -> '874', Chars -> Char, Char -> '253')
+True	7.53408e-05	Word -> 377 845 (Word -> Chars, Chars -> Char Chars, Char -> '377', Chars -> Char, Char -> '845')
+True	7.43393e-05	Word -> 455 041 (Word -> Chars, Chars -> Char Chars, Char -> '455', Chars -> Char, Char -> '041')
+True	7.25107e-05	Word -> 817 888 645 331 (Word -> Chars, Chars -> Char Chars, Char -> '817', Chars -> Char Chars, Char -> '888', Chars -> Char Chars, Char -> '645', Chars -> Char, Char -> '331')
+True	7.14986e-05	Word -> 254 111 (Word -> Chars, Chars -> Char Chars, Char -> '254', Chars -> Char, Char -> '111')
+True	7.12755e-05	Word -> 186 624 (Word -> Chars, Chars -> Char Chars, Char -> '186', Chars -> Char, Char -> '624')
+True	7.12676e-05	Word -> 141 661 642 671 567 251 075 (Word -> Chars, Chars -> Char Chars, Char -> '141', Chars -> Char Chars, Char -> '661', Chars -> Char Chars, Char -> '642', Chars -> Char Chars, Char -> '671', Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '251', Chars -> Char, Char -> '075')
+True	7.12115e-05	Word -> 327 (Word -> Chars, Chars -> Char, Char -> '327')
+True	6.80254e-05	Word -> 674 028 211 338 250 (Word -> Chars, Chars -> Char Chars, Char -> '674', Chars -> Char Chars, Char -> '028', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '338', Chars -> Char, Char -> '250')
+True	6.72652e-05	Word -> 527 (Word -> Chars, Chars -> Char, Char -> '527')
+True	6.53914e-05	Word -> 552 (Word -> Chars, Chars -> Char, Char -> '552')
+True	6.4206e-05	Word -> 575 077 505 081 488 108 815 (Word -> Chars, Chars -> Char Chars, Char -> '575', Chars -> Char Chars, Char -> '077', Chars -> Char Chars, Char -> '505', Chars -> Char Chars, Char -> '081', Chars -> Char Chars, Char -> '488', Chars -> Char Chars, Char -> '108', Chars -> Char, Char -> '815')
+True	6.29053e-05	Word -> 242 630 016 138 682 036 378 816 081 766 288 (Word -> Chars, Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '630', Chars -> Char Chars, Char -> '016', Chars -> Char Chars, Char -> '138', Chars -> Char Chars, Char -> '682', Chars -> Char Chars, Char -> '036', Chars -> Char Chars, Char -> '378', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '081', Chars -> Char Chars, Char -> '766', Chars -> Char, Char -> '288')
+True	6.16444e-05	Word -> 501 556 378 360 472 777 682 (Word -> Chars, Chars -> Char Chars, Char -> '501', Chars -> Char Chars, Char -> '556', Chars -> Char Chars, Char -> '378', Chars -> Char Chars, Char -> '360', Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '777', Chars -> Char, Char -> '682')
+True	6.13407e-05	Word -> 878 267 844 (Word -> Chars, Chars -> Char Chars, Char -> '878', Chars -> Char Chars, Char -> '267', Chars -> Char, Char -> '844')
+True	6.12888e-05	Word -> 801 366 841 828 (Word -> Chars, Chars -> Char Chars, Char -> '801', Chars -> Char Chars, Char -> '366', Chars -> Char Chars, Char -> '841', Chars -> Char, Char -> '828')
+True	6.1248e-05	Word -> 174 311 331 (Word -> Chars, Chars -> Char Chars, Char -> '174', Chars -> Char Chars, Char -> '311', Chars -> Char, Char -> '331')
+True	6.04665e-05	Word -> 124 320 207 211 384 716 355 188 785 054 (Word -> Chars, Chars -> Char Chars, Char -> '124', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '207', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '384', Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '355', Chars -> Char Chars, Char -> '188', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '054')
+True	6.04227e-05	Word -> 556 801 366 (Word -> Chars, Chars -> Char Chars, Char -> '556', Chars -> Char Chars, Char -> '801', Chars -> Char, Char -> '366')
+True	6.02887e-05	Word -> 101 827 745 251 234 (Word -> Chars, Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '827', Chars -> Char Chars, Char -> '745', Chars -> Char Chars, Char -> '251', Chars -> Char, Char -> '234')
+True	5.79448e-05	Word -> 841 828 (Word -> Chars, Chars -> Char Chars, Char -> '841', Chars -> Char, Char -> '828')
+True	5.6832e-05	Word -> 662 821 087 717 884 145 (Word -> Chars, Chars -> Char Chars, Char -> '662', Chars -> Char Chars, Char -> '821', Chars -> Char Chars, Char -> '087', Chars -> Char Chars, Char -> '717', Chars -> Char Chars, Char -> '884', Chars -> Char, Char -> '145')
+True	5.59784e-05	Word -> 203 (Word -> Chars, Chars -> Char, Char -> '203')
+True	5.58929e-05	Word -> 763 (Word -> Chars, Chars -> Char, Char -> '763')
+True	5.53334e-05	Word -> 426 571 042 215 474 720 423 873 538 (Word -> Chars, Chars -> Char Chars, Char -> '426', Chars -> Char Chars, Char -> '571', Chars -> Char Chars, Char -> '042', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '474', Chars -> Char Chars, Char -> '720', Chars -> Char Chars, Char -> '423', Chars -> Char Chars, Char -> '873', Chars -> Char, Char -> '538')
+True	5.53069e-05	Word -> 417 588 367 365 (Word -> Chars, Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '588', Chars -> Char Chars, Char -> '367', Chars -> Char, Char -> '365')
+True	5.52382e-05	Word -> 621 814 333 507 (Word -> Chars, Chars -> Char Chars, Char -> '621', Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '333', Chars -> Char, Char -> '507')
+True	5.49554e-05	Word -> 556 (Word -> Chars, Chars -> Char, Char -> '556')
+True	5.45443e-05	Word -> 423 (Word -> Chars, Chars -> Char, Char -> '423')
+True	5.45104e-05	Word -> 601 (Word -> Chars, Chars -> Char, Char -> '601')
+True	5.35304e-05	Word -> 126 (Word -> Chars, Chars -> Char, Char -> '126')
+True	5.31622e-05	Word -> 616 305 885 581 508 (Word -> Chars, Chars -> Char Chars, Char -> '616', Chars -> Char Chars, Char -> '305', Chars -> Char Chars, Char -> '885', Chars -> Char Chars, Char -> '581', Chars -> Char, Char -> '508')
+True	5.3099e-05	Word -> 771 408 017 354 827 (Word -> Chars, Chars -> Char Chars, Char -> '771', Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '017', Chars -> Char Chars, Char -> '354', Chars -> Char, Char -> '827')
+True	5.30773e-05	Word -> 454 765 677 673 480 (Word -> Chars, Chars -> Char Chars, Char -> '454', Chars -> Char Chars, Char -> '765', Chars -> Char Chars, Char -> '677', Chars -> Char Chars, Char -> '673', Chars -> Char, Char -> '480')
+True	5.21247e-05	Word -> 352 577 862 768 145 432 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '577', Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '768', Chars -> Char Chars, Char -> '145', Chars -> Char, Char -> '432')
+True	5.19824e-05	Word -> 523 032 718 766 662 (Word -> Chars, Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '032', Chars -> Char Chars, Char -> '718', Chars -> Char Chars, Char -> '766', Chars -> Char, Char -> '662')
+True	5.10429e-05	Word -> 221 217 301 104 716 405 030 407 (Word -> Chars, Chars -> Char Chars, Char -> '221', Chars -> Char Chars, Char -> '217', Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '030', Chars -> Char, Char -> '407')
+True	5.10274e-05	Word -> 502 718 308 403 411 645 685 267 (Word -> Chars, Chars -> Char Chars, Char -> '502', Chars -> Char Chars, Char -> '718', Chars -> Char Chars, Char -> '308', Chars -> Char Chars, Char -> '403', Chars -> Char Chars, Char -> '411', Chars -> Char Chars, Char -> '645', Chars -> Char Chars, Char -> '685', Chars -> Char, Char -> '267')
+True	5.02788e-05	Word -> 176 880 837 510 017 740 (Word -> Chars, Chars -> Char Chars, Char -> '176', Chars -> Char Chars, Char -> '880', Chars -> Char Chars, Char -> '837', Chars -> Char Chars, Char -> '510', Chars -> Char Chars, Char -> '017', Chars -> Char, Char -> '740')
+True	5.02636e-05	Word -> 635 166 112 017 772 856 (Word -> Chars, Chars -> Char Chars, Char -> '635', Chars -> Char Chars, Char -> '166', Chars -> Char Chars, Char -> '112', Chars -> Char Chars, Char -> '017', Chars -> Char Chars, Char -> '772', Chars -> Char, Char -> '856')
+True	5.02484e-05	Word -> 358 233 105 528 207 658 (Word -> Chars, Chars -> Char Chars, Char -> '358', Chars -> Char Chars, Char -> '233', Chars -> Char Chars, Char -> '105', Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '207', Chars -> Char, Char -> '658')
+True	5.00594e-05	Word -> 254 483 007 (Word -> Chars, Chars -> Char Chars, Char -> '254', Chars -> Char Chars, Char -> '483', Chars -> Char, Char -> '007')
+True	4.92899e-05	Word -> 258 211 268 434 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '268', Chars -> Char, Char -> '434')
+True	4.82856e-05	Word -> 484 067 (Word -> Chars, Chars -> Char Chars, Char -> '484', Chars -> Char, Char -> '067')
+True	4.82332e-05	Word -> 576 560 165 654 (Word -> Chars, Chars -> Char Chars, Char -> '576', Chars -> Char Chars, Char -> '560', Chars -> Char Chars, Char -> '165', Chars -> Char, Char -> '654')
+True	4.82079e-05	Word -> 140 185 (Word -> Chars, Chars -> Char Chars, Char -> '140', Chars -> Char, Char -> '185')
+True	4.79673e-05	Word -> 641 436 (Word -> Chars, Chars -> Char Chars, Char -> '641', Chars -> Char, Char -> '436')
+True	4.71592e-05	Word -> 811 046 (Word -> Chars, Chars -> Char Chars, Char -> '811', Chars -> Char, Char -> '046')
+True	4.69943e-05	Word -> 211 478 654 (Word -> Chars, Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '478', Chars -> Char, Char -> '654')
+True	4.56225e-05	Word -> 745 (Word -> Chars, Chars -> Char, Char -> '745')
+True	4.51444e-05	Word -> 862 120 525 677 (Word -> Chars, Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '120', Chars -> Char Chars, Char -> '525', Chars -> Char, Char -> '677')
+True	4.38877e-05	Word -> 561 864 118 (Word -> Chars, Chars -> Char Chars, Char -> '561', Chars -> Char Chars, Char -> '864', Chars -> Char, Char -> '118')
+True	4.38744e-05	Word -> 352 511 141 (Word -> Chars, Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '511', Chars -> Char, Char -> '141')
+True	4.38111e-05	Word -> 636 233 586 (Word -> Chars, Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '233', Chars -> Char, Char -> '586')
+True	4.33724e-05	Word -> 634 381 726 635 662 (Word -> Chars, Chars -> Char Chars, Char -> '634', Chars -> Char Chars, Char -> '381', Chars -> Char Chars, Char -> '726', Chars -> Char Chars, Char -> '635', Chars -> Char, Char -> '662')
+True	4.13808e-05	Word -> 858 370 076 586 (Word -> Chars, Chars -> Char Chars, Char -> '858', Chars -> Char Chars, Char -> '370', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '586')
+True	4.134e-05	Word -> 408 841 423 381 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '841', Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '381')
+True	4.10621e-05	Word -> 055 470 684 340 032 256 536 402 (Word -> Chars, Chars -> Char Chars, Char -> '055', Chars -> Char Chars, Char -> '470', Chars -> Char Chars, Char -> '684', Chars -> Char Chars, Char -> '340', Chars -> Char Chars, Char -> '032', Chars -> Char Chars, Char -> '256', Chars -> Char Chars, Char -> '536', Chars -> Char, Char -> '402')
+True	4.08768e-05	Word -> 107 148 064 304 803 185 (Word -> Chars, Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '148', Chars -> Char Chars, Char -> '064', Chars -> Char Chars, Char -> '304', Chars -> Char Chars, Char -> '803', Chars -> Char, Char -> '185')
+True	4.08644e-05	Word -> 423 652 745 573 520 866 (Word -> Chars, Chars -> Char Chars, Char -> '423', Chars -> Char Chars, Char -> '652', Chars -> Char Chars, Char -> '745', Chars -> Char Chars, Char -> '573', Chars -> Char Chars, Char -> '520', Chars -> Char, Char -> '866')
+True	4.0852e-05	Word -> 347 818 440 627 454 004 (Word -> Chars, Chars -> Char Chars, Char -> '347', Chars -> Char Chars, Char -> '818', Chars -> Char Chars, Char -> '440', Chars -> Char Chars, Char -> '627', Chars -> Char Chars, Char -> '454', Chars -> Char, Char -> '004')
+True	4.03486e-05	Word -> 770 311 672 (Word -> Chars, Chars -> Char Chars, Char -> '770', Chars -> Char Chars, Char -> '311', Chars -> Char, Char -> '672')
+True	4.02885e-05	Word -> 311 672 451 (Word -> Chars, Chars -> Char Chars, Char -> '311', Chars -> Char Chars, Char -> '672', Chars -> Char, Char -> '451')
+True	3.92985e-05	Word -> 507 873 (Word -> Chars, Chars -> Char Chars, Char -> '507', Chars -> Char, Char -> '873')
+True	3.92773e-05	Word -> 287 757 (Word -> Chars, Chars -> Char Chars, Char -> '287', Chars -> Char, Char -> '757')
+True	3.81866e-05	Word -> 770 (Word -> Chars, Chars -> Char, Char -> '770')
+True	3.77945e-05	Word -> 568 571 021 726 (Word -> Chars, Chars -> Char Chars, Char -> '568', Chars -> Char Chars, Char -> '571', Chars -> Char Chars, Char -> '021', Chars -> Char, Char -> '726')
+True	3.77667e-05	Word -> 227 504 150 518 275 848 (Word -> Chars, Chars -> Char Chars, Char -> '227', Chars -> Char Chars, Char -> '504', Chars -> Char Chars, Char -> '150', Chars -> Char Chars, Char -> '518', Chars -> Char Chars, Char -> '275', Chars -> Char, Char -> '848')
+True	3.77112e-05	Word -> 472 101 578 288 765 547 306 (Word -> Chars, Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '578', Chars -> Char Chars, Char -> '288', Chars -> Char Chars, Char -> '765', Chars -> Char Chars, Char -> '547', Chars -> Char, Char -> '306')
+True	3.7338e-05	Word -> 554 053 017 (Word -> Chars, Chars -> Char Chars, Char -> '554', Chars -> Char Chars, Char -> '053', Chars -> Char, Char -> '017')
+True	3.72923e-05	Word -> 186 204 273 (Word -> Chars, Chars -> Char Chars, Char -> '186', Chars -> Char Chars, Char -> '204', Chars -> Char, Char -> '273')
+True	3.7281e-05	Word -> 214 181 710 (Word -> Chars, Chars -> Char Chars, Char -> '214', Chars -> Char Chars, Char -> '181', Chars -> Char, Char -> '710')
+True	3.72483e-05	Word -> 526 272 086 (Word -> Chars, Chars -> Char Chars, Char -> '526', Chars -> Char Chars, Char -> '272', Chars -> Char, Char -> '086')
+True	3.68416e-05	Word -> 130 076 215 227 376 836 (Word -> Chars, Chars -> Char Chars, Char -> '130', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '227', Chars -> Char Chars, Char -> '376', Chars -> Char, Char -> '836')
+True	3.66193e-05	Word -> 313 766 472 671 087 556 164 383 402 (Word -> Chars, Chars -> Char Chars, Char -> '313', Chars -> Char Chars, Char -> '766', Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '671', Chars -> Char Chars, Char -> '087', Chars -> Char Chars, Char -> '556', Chars -> Char Chars, Char -> '164', Chars -> Char Chars, Char -> '383', Chars -> Char, Char -> '402')
+True	3.59583e-05	Word -> 130 076 215 227 376 (Word -> Chars, Chars -> Char Chars, Char -> '130', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '227', Chars -> Char, Char -> '376')
+True	3.58614e-05	Word -> 534 825 648 738 (Word -> Chars, Chars -> Char Chars, Char -> '534', Chars -> Char Chars, Char -> '825', Chars -> Char Chars, Char -> '648', Chars -> Char, Char -> '738')
+True	3.57647e-05	Word -> 560 301 268 550 (Word -> Chars, Chars -> Char Chars, Char -> '560', Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '268', Chars -> Char, Char -> '550')
+True	3.50579e-05	Word -> 627 236 047 204 (Word -> Chars, Chars -> Char Chars, Char -> '627', Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '047', Chars -> Char, Char -> '204')
+True	3.47929e-05	Word -> 301 268 550 (Word -> Chars, Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '268', Chars -> Char, Char -> '550')
+True	3.47611e-05	Word -> 300 353 560 (Word -> Chars, Chars -> Char Chars, Char -> '300', Chars -> Char Chars, Char -> '353', Chars -> Char, Char -> '560')
+True	3.47474e-05	Word -> 728 660 422 (Word -> Chars, Chars -> Char Chars, Char -> '728', Chars -> Char Chars, Char -> '660', Chars -> Char, Char -> '422')
+True	3.47029e-05	Word -> 224 726 885 640 285 (Word -> Chars, Chars -> Char Chars, Char -> '224', Chars -> Char Chars, Char -> '726', Chars -> Char Chars, Char -> '885', Chars -> Char Chars, Char -> '640', Chars -> Char, Char -> '285')
+True	3.46608e-05	Word -> 836 851 532 (Word -> Chars, Chars -> Char Chars, Char -> '836', Chars -> Char Chars, Char -> '851', Chars -> Char, Char -> '532')
+True	3.42916e-05	Word -> 300 353 (Word -> Chars, Chars -> Char Chars, Char -> '300', Chars -> Char, Char -> '353')
+True	3.42397e-05	Word -> 770 815 651 444 457 645 (Word -> Chars, Chars -> Char Chars, Char -> '770', Chars -> Char Chars, Char -> '815', Chars -> Char Chars, Char -> '651', Chars -> Char Chars, Char -> '444', Chars -> Char Chars, Char -> '457', Chars -> Char, Char -> '645')
+True	3.41926e-05	Word -> 851 532 (Word -> Chars, Chars -> Char Chars, Char -> '851', Chars -> Char, Char -> '532')
+True	3.3863e-05	Word -> 246 513 (Word -> Chars, Chars -> Char Chars, Char -> '246', Chars -> Char, Char -> '513')
+True	3.36821e-05	Word -> 810 774 (Word -> Chars, Chars -> Char Chars, Char -> '810', Chars -> Char, Char -> '774')
+True	3.36533e-05	Word -> 873 836 (Word -> Chars, Chars -> Char Chars, Char -> '873', Chars -> Char, Char -> '836')
+True	3.36522e-05	Word -> 260 323 (Word -> Chars, Chars -> Char Chars, Char -> '260', Chars -> Char, Char -> '323')
+True	3.36419e-05	Word -> 305 811 (Word -> Chars, Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '811')
+True	3.33472e-05	Word -> 353 (Word -> Chars, Chars -> Char, Char -> '353')
+True	3.3339e-05	Word -> 336 152 665 533 260 318 488 301 307 (Word -> Chars, Chars -> Char Chars, Char -> '336', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '533', Chars -> Char Chars, Char -> '260', Chars -> Char Chars, Char -> '318', Chars -> Char Chars, Char -> '488', Chars -> Char Chars, Char -> '301', Chars -> Char, Char -> '307')
+True	3.25817e-05	Word -> 665 016 407 285 (Word -> Chars, Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '016', Chars -> Char Chars, Char -> '407', Chars -> Char, Char -> '285')
+True	3.25558e-05	Word -> 657 075 467 817 (Word -> Chars, Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '075', Chars -> Char Chars, Char -> '467', Chars -> Char, Char -> '817')
+True	3.1369e-05	Word -> 883 747 577 105 137 (Word -> Chars, Chars -> Char Chars, Char -> '883', Chars -> Char Chars, Char -> '747', Chars -> Char Chars, Char -> '577', Chars -> Char Chars, Char -> '105', Chars -> Char, Char -> '137')
+True	3.13451e-05	Word -> 731 232 138 447 008 (Word -> Chars, Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '232', Chars -> Char Chars, Char -> '138', Chars -> Char Chars, Char -> '447', Chars -> Char, Char -> '008')
+True	3.03794e-05	Word -> 405 820 266 775 (Word -> Chars, Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '820', Chars -> Char Chars, Char -> '266', Chars -> Char, Char -> '775')
+True	3.03484e-05	Word -> 340 658 412 (Word -> Chars, Chars -> Char Chars, Char -> '340', Chars -> Char Chars, Char -> '658', Chars -> Char, Char -> '412')
+True	3.02888e-05	Word -> 618 (Word -> Chars, Chars -> Char, Char -> '618')
+True	3.00705e-05	Word -> 527 650 780 786 207 (Word -> Chars, Chars -> Char Chars, Char -> '527', Chars -> Char Chars, Char -> '650', Chars -> Char Chars, Char -> '780', Chars -> Char Chars, Char -> '786', Chars -> Char, Char -> '207')
+True	3.003e-05	Word -> 214 603 447 (Word -> Chars, Chars -> Char Chars, Char -> '214', Chars -> Char Chars, Char -> '603', Chars -> Char, Char -> '447')
+True	2.94918e-05	Word -> 264 033 767 845 362 238 (Word -> Chars, Chars -> Char Chars, Char -> '264', Chars -> Char Chars, Char -> '033', Chars -> Char Chars, Char -> '767', Chars -> Char Chars, Char -> '845', Chars -> Char Chars, Char -> '362', Chars -> Char, Char -> '238')
+True	2.93037e-05	Word -> 150 607 645 (Word -> Chars, Chars -> Char Chars, Char -> '150', Chars -> Char Chars, Char -> '607', Chars -> Char, Char -> '645')
+True	2.92425e-05	Word -> 242 138 (Word -> Chars, Chars -> Char Chars, Char -> '242', Chars -> Char, Char -> '138')
+True	2.91778e-05	Word -> 465 538 (Word -> Chars, Chars -> Char Chars, Char -> '465', Chars -> Char, Char -> '538')
+True	2.91557e-05	Word -> 255 151 (Word -> Chars, Chars -> Char Chars, Char -> '255', Chars -> Char, Char -> '151')
+True	2.83328e-05	Word -> 776 338 683 025 (Word -> Chars, Chars -> Char Chars, Char -> '776', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '025')
+True	2.8324e-05	Word -> 373 671 432 243 (Word -> Chars, Chars -> Char Chars, Char -> '373', Chars -> Char Chars, Char -> '671', Chars -> Char Chars, Char -> '432', Chars -> Char, Char -> '243')
+True	2.83152e-05	Word -> 447 462 837 511 (Word -> Chars, Chars -> Char Chars, Char -> '447', Chars -> Char Chars, Char -> '462', Chars -> Char Chars, Char -> '837', Chars -> Char, Char -> '511')
+True	2.83064e-05	Word -> 431 144 328 111 (Word -> Chars, Chars -> Char Chars, Char -> '431', Chars -> Char Chars, Char -> '144', Chars -> Char Chars, Char -> '328', Chars -> Char, Char -> '111')
+True	2.79236e-05	Word -> 066 106 154 (Word -> Chars, Chars -> Char Chars, Char -> '066', Chars -> Char Chars, Char -> '106', Chars -> Char, Char -> '154')
+True	2.77792e-05	Word -> 714 465 521 381 815 613 (Word -> Chars, Chars -> Char Chars, Char -> '714', Chars -> Char Chars, Char -> '465', Chars -> Char Chars, Char -> '521', Chars -> Char Chars, Char -> '381', Chars -> Char Chars, Char -> '815', Chars -> Char, Char -> '613')
+True	2.73357e-05	Word -> 102 078 347 067 623 445 872 371 711 787 (Word -> Chars, Chars -> Char Chars, Char -> '102', Chars -> Char Chars, Char -> '078', Chars -> Char Chars, Char -> '347', Chars -> Char Chars, Char -> '067', Chars -> Char Chars, Char -> '623', Chars -> Char Chars, Char -> '445', Chars -> Char Chars, Char -> '872', Chars -> Char Chars, Char -> '371', Chars -> Char Chars, Char -> '711', Chars -> Char, Char -> '787')
+True	2.72598e-05	Word -> 570 672 575 412 560 (Word -> Chars, Chars -> Char Chars, Char -> '570', Chars -> Char Chars, Char -> '672', Chars -> Char Chars, Char -> '575', Chars -> Char Chars, Char -> '412', Chars -> Char, Char -> '560')
+True	2.72495e-05	Word -> 337 607 322 104 816 882 435 (Word -> Chars, Chars -> Char Chars, Char -> '337', Chars -> Char Chars, Char -> '607', Chars -> Char Chars, Char -> '322', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '882', Chars -> Char, Char -> '435')
+True	2.71496e-05	Word -> 733 244 252 426 360 306 058 657 482 867 521 (Word -> Chars, Chars -> Char Chars, Char -> '733', Chars -> Char Chars, Char -> '244', Chars -> Char Chars, Char -> '252', Chars -> Char Chars, Char -> '426', Chars -> Char Chars, Char -> '360', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '058', Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '482', Chars -> Char Chars, Char -> '867', Chars -> Char, Char -> '521')
+True	2.60443e-05	Word -> 812 365 111 834 803 626 (Word -> Chars, Chars -> Char Chars, Char -> '812', Chars -> Char Chars, Char -> '365', Chars -> Char Chars, Char -> '111', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '803', Chars -> Char, Char -> '626')
+True	2.56569e-05	Word -> 833 834 320 121 (Word -> Chars, Chars -> Char Chars, Char -> '833', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '320', Chars -> Char, Char -> '121')
+True	2.53752e-05	Word -> 286 518 (Word -> Chars, Chars -> Char Chars, Char -> '286', Chars -> Char, Char -> '518')
+True	2.4613e-05	Word -> 506 742 520 (Word -> Chars, Chars -> Char Chars, Char -> '506', Chars -> Char Chars, Char -> '742', Chars -> Char, Char -> '520')
+True	2.46052e-05	Word -> 262 705 356 (Word -> Chars, Chars -> Char Chars, Char -> '262', Chars -> Char Chars, Char -> '705', Chars -> Char, Char -> '356')
+True	2.39395e-05	Word -> 036 275 853 (Word -> Chars, Chars -> Char Chars, Char -> '036', Chars -> Char Chars, Char -> '275', Chars -> Char, Char -> '853')
+True	2.39363e-05	Word -> 722 (Word -> Chars, Chars -> Char, Char -> '722')
+True	2.39316e-05	Word -> 184 131 702 (Word -> Chars, Chars -> Char Chars, Char -> '184', Chars -> Char Chars, Char -> '131', Chars -> Char, Char -> '702')
+True	2.38286e-05	Word -> 374 055 117 734 026 (Word -> Chars, Chars -> Char Chars, Char -> '374', Chars -> Char Chars, Char -> '055', Chars -> Char Chars, Char -> '117', Chars -> Char Chars, Char -> '734', Chars -> Char, Char -> '026')
+True	2.38207e-05	Word -> 710 046 725 432 480 (Word -> Chars, Chars -> Char Chars, Char -> '710', Chars -> Char Chars, Char -> '046', Chars -> Char Chars, Char -> '725', Chars -> Char Chars, Char -> '432', Chars -> Char, Char -> '480')
+True	2.36272e-05	Word -> 228 (Word -> Chars, Chars -> Char, Char -> '228')
+True	2.36194e-05	Word -> 320 (Word -> Chars, Chars -> Char, Char -> '320')
+True	2.3599e-05	Word -> 388 554 641 467 077 147 834 824 410 700 286 (Word -> Chars, Chars -> Char Chars, Char -> '388', Chars -> Char Chars, Char -> '554', Chars -> Char Chars, Char -> '641', Chars -> Char Chars, Char -> '467', Chars -> Char Chars, Char -> '077', Chars -> Char Chars, Char -> '147', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '824', Chars -> Char Chars, Char -> '410', Chars -> Char Chars, Char -> '700', Chars -> Char, Char -> '286')
+True	2.35664e-05	Word -> 271 (Word -> Chars, Chars -> Char, Char -> '271')
+True	2.35513e-05	Word -> 162 503 (Word -> Chars, Chars -> Char Chars, Char -> '162', Chars -> Char, Char -> '503')
+True	2.34564e-05	Word -> 330 (Word -> Chars, Chars -> Char, Char -> '330')
+True	2.33599e-05	Word -> 011 (Word -> Chars, Chars -> Char, Char -> '011')
+True	2.32714e-05	Word -> 432 754 235 572 (Word -> Chars, Chars -> Char Chars, Char -> '432', Chars -> Char Chars, Char -> '754', Chars -> Char Chars, Char -> '235', Chars -> Char, Char -> '572')
+True	2.29928e-05	Word -> 280 146 507 216 613 074 (Word -> Chars, Chars -> Char Chars, Char -> '280', Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '507', Chars -> Char Chars, Char -> '216', Chars -> Char Chars, Char -> '613', Chars -> Char, Char -> '074')
+True	2.27834e-05	Word -> 014 046 136 627 211 572 674 (Word -> Chars, Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '046', Chars -> Char Chars, Char -> '136', Chars -> Char Chars, Char -> '627', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '572', Chars -> Char, Char -> '674')
+True	2.27706e-05	Word -> 660 622 076 228 060 688 328 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '622', Chars -> Char Chars, Char -> '076', Chars -> Char Chars, Char -> '228', Chars -> Char Chars, Char -> '060', Chars -> Char Chars, Char -> '688', Chars -> Char, Char -> '328')
+True	2.27429e-05	Word -> 018 578 687 507 (Word -> Chars, Chars -> Char Chars, Char -> '018', Chars -> Char Chars, Char -> '578', Chars -> Char Chars, Char -> '687', Chars -> Char, Char -> '507')
+True	2.27296e-05	Word -> 632 731 323 641 (Word -> Chars, Chars -> Char Chars, Char -> '632', Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '323', Chars -> Char, Char -> '641')
+True	2.27241e-05	Word -> 576 648 488 (Word -> Chars, Chars -> Char Chars, Char -> '576', Chars -> Char Chars, Char -> '648', Chars -> Char, Char -> '488')
+True	2.27047e-05	Word -> 345 860 042 (Word -> Chars, Chars -> Char Chars, Char -> '345', Chars -> Char Chars, Char -> '860', Chars -> Char, Char -> '042')
+True	2.26971e-05	Word -> 125 811 305 (Word -> Chars, Chars -> Char Chars, Char -> '125', Chars -> Char Chars, Char -> '811', Chars -> Char, Char -> '305')
+True	2.26895e-05	Word -> 467 010 521 (Word -> Chars, Chars -> Char Chars, Char -> '467', Chars -> Char Chars, Char -> '010', Chars -> Char, Char -> '521')
+True	2.24416e-05	Word -> 657 365 185 353 332 030 (Word -> Chars, Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '365', Chars -> Char Chars, Char -> '185', Chars -> Char Chars, Char -> '353', Chars -> Char Chars, Char -> '332', Chars -> Char, Char -> '030')
+True	2.24202e-05	Word -> 165 161 426 483 165 (Word -> Chars, Chars -> Char Chars, Char -> '165', Chars -> Char Chars, Char -> '161', Chars -> Char Chars, Char -> '426', Chars -> Char Chars, Char -> '483', Chars -> Char, Char -> '165')
+True	2.2222e-05	Word -> 804 387 350 557 866 376 407 217 354 (Word -> Chars, Chars -> Char Chars, Char -> '804', Chars -> Char Chars, Char -> '387', Chars -> Char Chars, Char -> '350', Chars -> Char Chars, Char -> '557', Chars -> Char Chars, Char -> '866', Chars -> Char Chars, Char -> '376', Chars -> Char Chars, Char -> '407', Chars -> Char Chars, Char -> '217', Chars -> Char, Char -> '354')
+True	2.19705e-05	Word -> 270 724 660 423 062 (Word -> Chars, Chars -> Char Chars, Char -> '270', Chars -> Char Chars, Char -> '724', Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '062')
+True	2.18942e-05	Word -> 220 820 035 (Word -> Chars, Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '820', Chars -> Char, Char -> '035')
+True	2.18051e-05	Word -> 481 (Word -> Chars, Chars -> Char, Char -> '481')
+True	2.17427e-05	Word -> 158 (Word -> Chars, Chars -> Char, Char -> '158')
+True	2.16545e-05	Word -> 778 (Word -> Chars, Chars -> Char, Char -> '778')
+True	2.16416e-05	Word -> 410 (Word -> Chars, Chars -> Char, Char -> '410')
+True	2.16341e-05	Word -> 428 (Word -> Chars, Chars -> Char, Char -> '428')
+True	2.16158e-05	Word -> 020 (Word -> Chars, Chars -> Char, Char -> '020')
+True	2.14201e-05	Word -> 716 531 787 702 636 331 701 605 (Word -> Chars, Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '531', Chars -> Char Chars, Char -> '787', Chars -> Char Chars, Char -> '702', Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '331', Chars -> Char Chars, Char -> '701', Chars -> Char, Char -> '605')
+True	2.13244e-05	Word -> 276 178 511 (Word -> Chars, Chars -> Char Chars, Char -> '276', Chars -> Char Chars, Char -> '178', Chars -> Char, Char -> '511')
+True	2.13124e-05	Word -> 555 828 202 (Word -> Chars, Chars -> Char Chars, Char -> '555', Chars -> Char Chars, Char -> '828', Chars -> Char, Char -> '202')
+True	2.13005e-05	Word -> 484 126 350 (Word -> Chars, Chars -> Char Chars, Char -> '484', Chars -> Char Chars, Char -> '126', Chars -> Char, Char -> '350')
+True	2.12948e-05	Word -> 654 834 700 781 158 357 106 (Word -> Chars, Chars -> Char Chars, Char -> '654', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '700', Chars -> Char Chars, Char -> '781', Chars -> Char Chars, Char -> '158', Chars -> Char Chars, Char -> '357', Chars -> Char, Char -> '106')
+True	2.12918e-05	Word -> 475 184 803 154 373 676 564 362 (Word -> Chars, Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '184', Chars -> Char Chars, Char -> '803', Chars -> Char Chars, Char -> '154', Chars -> Char Chars, Char -> '373', Chars -> Char Chars, Char -> '676', Chars -> Char Chars, Char -> '564', Chars -> Char, Char -> '362')
+True	2.12482e-05	Word -> 451 627 575 424 815 503 786 503 627 (Word -> Chars, Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '627', Chars -> Char Chars, Char -> '575', Chars -> Char Chars, Char -> '424', Chars -> Char Chars, Char -> '815', Chars -> Char Chars, Char -> '503', Chars -> Char Chars, Char -> '786', Chars -> Char Chars, Char -> '503', Chars -> Char, Char -> '627')
+True	2.11976e-05	Word -> 523 221 385 058 (Word -> Chars, Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '221', Chars -> Char Chars, Char -> '385', Chars -> Char, Char -> '058')
+True	2.11858e-05	Word -> 188 022 627 567 (Word -> Chars, Chars -> Char Chars, Char -> '188', Chars -> Char Chars, Char -> '022', Chars -> Char Chars, Char -> '627', Chars -> Char, Char -> '567')
+True	2.10952e-05	Word -> 401 (Word -> Chars, Chars -> Char, Char -> '401')
+True	2.10674e-05	Word -> 077 454 052 123 162 373 (Word -> Chars, Chars -> Char Chars, Char -> '077', Chars -> Char Chars, Char -> '454', Chars -> Char Chars, Char -> '052', Chars -> Char Chars, Char -> '123', Chars -> Char Chars, Char -> '162', Chars -> Char, Char -> '373')
+True	2.09619e-05	Word -> 406 053 338 483 754 404 232 771 842 744 420 (Word -> Chars, Chars -> Char Chars, Char -> '406', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '483', Chars -> Char Chars, Char -> '754', Chars -> Char Chars, Char -> '404', Chars -> Char Chars, Char -> '232', Chars -> Char Chars, Char -> '771', Chars -> Char Chars, Char -> '842', Chars -> Char Chars, Char -> '744', Chars -> Char, Char -> '420')
+True	2.0719e-05	Word -> 230 356 721 622 173 (Word -> Chars, Chars -> Char Chars, Char -> '230', Chars -> Char Chars, Char -> '356', Chars -> Char Chars, Char -> '721', Chars -> Char Chars, Char -> '622', Chars -> Char, Char -> '173')
+True	2.04956e-05	Word -> 540 584 825 (Word -> Chars, Chars -> Char Chars, Char -> '540', Chars -> Char Chars, Char -> '584', Chars -> Char, Char -> '825')
+True	2.04442e-05	Word -> 258 053 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char, Char -> '053')
+True	2.0433e-05	Word -> 577 302 (Word -> Chars, Chars -> Char Chars, Char -> '577', Chars -> Char, Char -> '302')
+True	2.03059e-05	Word -> 376 815 630 662 852 183 151 (Word -> Chars, Chars -> Char Chars, Char -> '376', Chars -> Char Chars, Char -> '815', Chars -> Char Chars, Char -> '630', Chars -> Char Chars, Char -> '662', Chars -> Char Chars, Char -> '852', Chars -> Char Chars, Char -> '183', Chars -> Char, Char -> '151')
+True	2.02008e-05	Word -> 420 (Word -> Chars, Chars -> Char, Char -> '420')
+True	1.98843e-05	Word -> 358 264 635 854 305 601 (Word -> Chars, Chars -> Char Chars, Char -> '358', Chars -> Char Chars, Char -> '264', Chars -> Char Chars, Char -> '635', Chars -> Char Chars, Char -> '854', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '601')
+True	1.98815e-05	Word -> 475 803 341 (Word -> Chars, Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '803', Chars -> Char, Char -> '341')
+True	1.98172e-05	Word -> 806 868 (Word -> Chars, Chars -> Char Chars, Char -> '806', Chars -> Char, Char -> '868')
+True	1.97932e-05	Word -> 167 123 356 047 (Word -> Chars, Chars -> Char Chars, Char -> '167', Chars -> Char Chars, Char -> '123', Chars -> Char Chars, Char -> '356', Chars -> Char, Char -> '047')
+True	1.9681e-05	Word -> 453 (Word -> Chars, Chars -> Char, Char -> '453')
+True	1.96105e-05	Word -> 307 (Word -> Chars, Chars -> Char, Char -> '307')
+True	1.96001e-05	Word -> 548 (Word -> Chars, Chars -> Char, Char -> '548')
+True	1.95169e-05	Word -> 487 (Word -> Chars, Chars -> Char, Char -> '487')
+True	1.94993e-05	Word -> 138 425 327 328 013 (Word -> Chars, Chars -> Char Chars, Char -> '138', Chars -> Char Chars, Char -> '425', Chars -> Char Chars, Char -> '327', Chars -> Char Chars, Char -> '328', Chars -> Char, Char -> '013')
+True	1.94922e-05	Word -> 866 435 021 687 136 (Word -> Chars, Chars -> Char Chars, Char -> '866', Chars -> Char Chars, Char -> '435', Chars -> Char Chars, Char -> '021', Chars -> Char Chars, Char -> '687', Chars -> Char, Char -> '136')
+True	1.94488e-05	Word -> 524 371 215 528 078 378 638 112 250 336 225 (Word -> Chars, Chars -> Char Chars, Char -> '524', Chars -> Char Chars, Char -> '371', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '078', Chars -> Char Chars, Char -> '378', Chars -> Char Chars, Char -> '638', Chars -> Char Chars, Char -> '112', Chars -> Char Chars, Char -> '250', Chars -> Char Chars, Char -> '336', Chars -> Char, Char -> '225')
+True	1.94443e-05	Word -> 406 (Word -> Chars, Chars -> Char, Char -> '406')
+True	1.93081e-05	Word -> 034 (Word -> Chars, Chars -> Char, Char -> '034')
+True	1.92928e-05	Word -> 134 626 272 444 867 004 045 478 (Word -> Chars, Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '626', Chars -> Char Chars, Char -> '272', Chars -> Char Chars, Char -> '444', Chars -> Char Chars, Char -> '867', Chars -> Char Chars, Char -> '004', Chars -> Char Chars, Char -> '045', Chars -> Char, Char -> '478')
+True	1.9272e-05	Word -> 472 101 578 288 765 (Word -> Chars, Chars -> Char Chars, Char -> '472', Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '578', Chars -> Char Chars, Char -> '288', Chars -> Char, Char -> '765')
+True	1.92379e-05	Word -> 320 207 211 384 716 355 188 785 054 (Word -> Chars, Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '207', Chars -> Char Chars, Char -> '211', Chars -> Char Chars, Char -> '384', Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '355', Chars -> Char Chars, Char -> '188', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '054')
+True	1.92182e-05	Word -> 383 446 515 800 220 442 785 108 (Word -> Chars, Chars -> Char Chars, Char -> '383', Chars -> Char Chars, Char -> '446', Chars -> Char Chars, Char -> '515', Chars -> Char Chars, Char -> '800', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '108')
+True	1.92099e-05	Word -> 264 258 176 626 (Word -> Chars, Chars -> Char Chars, Char -> '264', Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '176', Chars -> Char, Char -> '626')
+True	1.86663e-05	Word -> 242 811 350 661 (Word -> Chars, Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '811', Chars -> Char Chars, Char -> '350', Chars -> Char, Char -> '661')
+True	1.85965e-05	Word -> 582 824 571 110 104 672 727 172 063 415 (Word -> Chars, Chars -> Char Chars, Char -> '582', Chars -> Char Chars, Char -> '824', Chars -> Char Chars, Char -> '571', Chars -> Char Chars, Char -> '110', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '672', Chars -> Char Chars, Char -> '727', Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '063', Chars -> Char, Char -> '415')
+True	1.85902e-05	Word -> 768 337 736 (Word -> Chars, Chars -> Char Chars, Char -> '768', Chars -> Char Chars, Char -> '337', Chars -> Char, Char -> '736')
+True	1.85834e-05	Word -> 507 601 041 (Word -> Chars, Chars -> Char Chars, Char -> '507', Chars -> Char Chars, Char -> '601', Chars -> Char, Char -> '041')
+True	1.85762e-05	Word -> 454 765 677 673 (Word -> Chars, Chars -> Char Chars, Char -> '454', Chars -> Char Chars, Char -> '765', Chars -> Char Chars, Char -> '677', Chars -> Char, Char -> '673')
+True	1.85671e-05	Word -> 765 677 673 480 (Word -> Chars, Chars -> Char Chars, Char -> '765', Chars -> Char Chars, Char -> '677', Chars -> Char Chars, Char -> '673', Chars -> Char, Char -> '480')
+True	1.8513e-05	Word -> 476 (Word -> Chars, Chars -> Char, Char -> '476')
+True	1.85026e-05	Word -> 526 272 (Word -> Chars, Chars -> Char Chars, Char -> '526', Chars -> Char, Char -> '272')
+True	1.83557e-05	Word -> 234 682 610 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char Chars, Char -> '682', Chars -> Char, Char -> '610')
+True	1.83518e-05	Word -> 733 248 486 662 682 844 773 (Word -> Chars, Chars -> Char Chars, Char -> '733', Chars -> Char Chars, Char -> '248', Chars -> Char Chars, Char -> '486', Chars -> Char Chars, Char -> '662', Chars -> Char Chars, Char -> '682', Chars -> Char Chars, Char -> '844', Chars -> Char, Char -> '773')
+True	1.83333e-05	Word -> 502 584 674 020 (Word -> Chars, Chars -> Char Chars, Char -> '502', Chars -> Char Chars, Char -> '584', Chars -> Char Chars, Char -> '674', Chars -> Char, Char -> '020')
+True	1.82674e-05	Word -> 221 217 301 104 716 405 (Word -> Chars, Chars -> Char Chars, Char -> '221', Chars -> Char Chars, Char -> '217', Chars -> Char Chars, Char -> '301', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '716', Chars -> Char, Char -> '405')
+True	1.82529e-05	Word -> 047 771 (Word -> Chars, Chars -> Char Chars, Char -> '047', Chars -> Char, Char -> '771')
+True	1.82428e-05	Word -> 518 314 (Word -> Chars, Chars -> Char Chars, Char -> '518', Chars -> Char, Char -> '314')
+True	1.82361e-05	Word -> 882 507 (Word -> Chars, Chars -> Char Chars, Char -> '882', Chars -> Char, Char -> '507')
+True	1.81543e-05	Word -> 582 500 507 716 826 (Word -> Chars, Chars -> Char Chars, Char -> '582', Chars -> Char Chars, Char -> '500', Chars -> Char Chars, Char -> '507', Chars -> Char Chars, Char -> '716', Chars -> Char, Char -> '826')
+True	1.81475e-05	Word -> 655 527 753 463 580 (Word -> Chars, Chars -> Char Chars, Char -> '655', Chars -> Char Chars, Char -> '527', Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '463', Chars -> Char, Char -> '580')
+True	1.81383e-05	Word -> 403 411 645 685 267 (Word -> Chars, Chars -> Char Chars, Char -> '403', Chars -> Char Chars, Char -> '411', Chars -> Char Chars, Char -> '645', Chars -> Char Chars, Char -> '685', Chars -> Char, Char -> '267')
+True	1.8138e-05	Word -> 624 721 725 470 313 (Word -> Chars, Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '721', Chars -> Char Chars, Char -> '725', Chars -> Char Chars, Char -> '470', Chars -> Char, Char -> '313')
+True	1.81296e-05	Word -> 124 320 207 211 384 (Word -> Chars, Chars -> Char Chars, Char -> '124', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '207', Chars -> Char Chars, Char -> '211', Chars -> Char, Char -> '384')
+True	1.81294e-05	Word -> 270 614 052 112 564 (Word -> Chars, Chars -> Char Chars, Char -> '270', Chars -> Char Chars, Char -> '614', Chars -> Char Chars, Char -> '052', Chars -> Char Chars, Char -> '112', Chars -> Char, Char -> '564')
+True	1.8121e-05	Word -> 716 355 188 785 054 (Word -> Chars, Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '355', Chars -> Char Chars, Char -> '188', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '054')
+True	1.80069e-05	Word -> 560 783 741 662 571 166 (Word -> Chars, Chars -> Char Chars, Char -> '560', Chars -> Char Chars, Char -> '783', Chars -> Char Chars, Char -> '741', Chars -> Char Chars, Char -> '662', Chars -> Char Chars, Char -> '571', Chars -> Char, Char -> '166')
+True	1.80002e-05	Word -> 678 386 (Word -> Chars, Chars -> Char Chars, Char -> '678', Chars -> Char, Char -> '386')
+True	1.78823e-05	Word -> 336 152 665 533 260 318 488 301 (Word -> Chars, Chars -> Char Chars, Char -> '336', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '533', Chars -> Char Chars, Char -> '260', Chars -> Char Chars, Char -> '318', Chars -> Char Chars, Char -> '488', Chars -> Char, Char -> '301')
+True	1.78754e-05	Word -> 152 665 533 260 318 488 301 307 (Word -> Chars, Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '533', Chars -> Char Chars, Char -> '260', Chars -> Char Chars, Char -> '318', Chars -> Char Chars, Char -> '488', Chars -> Char Chars, Char -> '301', Chars -> Char, Char -> '307')
+True	1.78646e-05	Word -> 856 172 628 (Word -> Chars, Chars -> Char Chars, Char -> '856', Chars -> Char Chars, Char -> '172', Chars -> Char, Char -> '628')
+True	1.78578e-05	Word -> 473 238 268 (Word -> Chars, Chars -> Char Chars, Char -> '473', Chars -> Char Chars, Char -> '238', Chars -> Char, Char -> '268')
+True	1.78488e-05	Word -> 023 (Word -> Chars, Chars -> Char, Char -> '023')
+True	1.77926e-05	Word -> 087 717 884 145 (Word -> Chars, Chars -> Char Chars, Char -> '087', Chars -> Char Chars, Char -> '717', Chars -> Char Chars, Char -> '884', Chars -> Char, Char -> '145')
+True	1.77859e-05	Word -> 081 488 108 815 (Word -> Chars, Chars -> Char Chars, Char -> '081', Chars -> Char Chars, Char -> '488', Chars -> Char Chars, Char -> '108', Chars -> Char, Char -> '815')
+True	1.77643e-05	Word -> 606 401 045 113 423 134 412 (Word -> Chars, Chars -> Char Chars, Char -> '606', Chars -> Char Chars, Char -> '401', Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '423', Chars -> Char Chars, Char -> '134', Chars -> Char, Char -> '412')
+True	1.77474e-05	Word -> 610 (Word -> Chars, Chars -> Char, Char -> '610')
+True	1.77273e-05	Word -> 386 (Word -> Chars, Chars -> Char, Char -> '386')
+True	1.76597e-05	Word -> 258 211 268 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '211', Chars -> Char, Char -> '268')
+True	1.76514e-05	Word -> 101 827 745 (Word -> Chars, Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '827', Chars -> Char, Char -> '745')
+True	1.76327e-05	Word -> 740 437 250 312 420 437 051 074 (Word -> Chars, Chars -> Char Chars, Char -> '740', Chars -> Char Chars, Char -> '437', Chars -> Char Chars, Char -> '250', Chars -> Char Chars, Char -> '312', Chars -> Char Chars, Char -> '420', Chars -> Char Chars, Char -> '437', Chars -> Char Chars, Char -> '051', Chars -> Char, Char -> '074')
+True	1.75747e-05	Word -> 660 637 135 402 614 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '637', Chars -> Char Chars, Char -> '135', Chars -> Char Chars, Char -> '402', Chars -> Char, Char -> '614')
+True	1.75517e-05	Word -> 665 533 260 318 488 301 307 (Word -> Chars, Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '533', Chars -> Char Chars, Char -> '260', Chars -> Char Chars, Char -> '318', Chars -> Char Chars, Char -> '488', Chars -> Char Chars, Char -> '301', Chars -> Char, Char -> '307')
+True	1.75026e-05	Word -> 716 405 030 407 (Word -> Chars, Chars -> Char Chars, Char -> '716', Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '030', Chars -> Char, Char -> '407')
+True	1.74945e-05	Word -> 411 645 685 267 (Word -> Chars, Chars -> Char Chars, Char -> '411', Chars -> Char Chars, Char -> '645', Chars -> Char Chars, Char -> '685', Chars -> Char, Char -> '267')
+True	1.74884e-05	Word -> 201 228 020 (Word -> Chars, Chars -> Char Chars, Char -> '201', Chars -> Char Chars, Char -> '228', Chars -> Char, Char -> '020')
+True	1.74864e-05	Word -> 221 217 301 104 (Word -> Chars, Chars -> Char Chars, Char -> '221', Chars -> Char Chars, Char -> '217', Chars -> Char Chars, Char -> '301', Chars -> Char, Char -> '104')
+True	1.74838e-05	Word -> 218 114 163 233 (Word -> Chars, Chars -> Char Chars, Char -> '218', Chars -> Char Chars, Char -> '114', Chars -> Char Chars, Char -> '163', Chars -> Char, Char -> '233')
+True	1.74771e-05	Word -> 661 140 158 782 (Word -> Chars, Chars -> Char Chars, Char -> '661', Chars -> Char Chars, Char -> '140', Chars -> Char Chars, Char -> '158', Chars -> Char, Char -> '782')
+True	1.74592e-05	Word -> 411 657 031 081 726 881 (Word -> Chars, Chars -> Char Chars, Char -> '411', Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '031', Chars -> Char Chars, Char -> '081', Chars -> Char Chars, Char -> '726', Chars -> Char, Char -> '881')
+True	1.73698e-05	Word -> 452 (Word -> Chars, Chars -> Char, Char -> '452')
+True	1.73594e-05	Word -> 575 077 505 (Word -> Chars, Chars -> Char Chars, Char -> '575', Chars -> Char Chars, Char -> '077', Chars -> Char, Char -> '505')
+True	1.73527e-05	Word -> 370 076 586 (Word -> Chars, Chars -> Char Chars, Char -> '370', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '586')
+True	1.7346e-05	Word -> 408 841 423 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '841', Chars -> Char, Char -> '423')
+True	1.72201e-05	Word -> 466 435 756 840 (Word -> Chars, Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '435', Chars -> Char Chars, Char -> '756', Chars -> Char, Char -> '840')
+True	1.71674e-05	Word -> 561 352 445 126 220 435 502 455 420 (Word -> Chars, Chars -> Char Chars, Char -> '561', Chars -> Char Chars, Char -> '352', Chars -> Char Chars, Char -> '445', Chars -> Char Chars, Char -> '126', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '435', Chars -> Char Chars, Char -> '502', Chars -> Char Chars, Char -> '455', Chars -> Char, Char -> '420')
+True	1.70952e-05	Word -> 841 603 (Word -> Chars, Chars -> Char Chars, Char -> '841', Chars -> Char, Char -> '603')
+True	1.70886e-05	Word -> 502 647 (Word -> Chars, Chars -> Char Chars, Char -> '502', Chars -> Char, Char -> '647')
+True	1.7082e-05	Word -> 837 741 (Word -> Chars, Chars -> Char Chars, Char -> '837', Chars -> Char, Char -> '741')
+True	1.69548e-05	Word -> 547 306 (Word -> Chars, Chars -> Char Chars, Char -> '547', Chars -> Char, Char -> '306')
+True	1.69507e-05	Word -> 143 082 (Word -> Chars, Chars -> Char Chars, Char -> '143', Chars -> Char, Char -> '082')
+True	1.6943e-05	Word -> 251 234 (Word -> Chars, Chars -> Char Chars, Char -> '251', Chars -> Char, Char -> '234')
+True	1.69392e-05	Word -> 247 (Word -> Chars, Chars -> Char, Char -> '247')
+True	1.68983e-05	Word -> 227 504 150 518 (Word -> Chars, Chars -> Char Chars, Char -> '227', Chars -> Char Chars, Char -> '504', Chars -> Char Chars, Char -> '150', Chars -> Char, Char -> '518')
+True	1.68831e-05	Word -> 663 077 670 784 302 627 (Word -> Chars, Chars -> Char Chars, Char -> '663', Chars -> Char Chars, Char -> '077', Chars -> Char Chars, Char -> '670', Chars -> Char Chars, Char -> '784', Chars -> Char Chars, Char -> '302', Chars -> Char, Char -> '627')
+True	1.68755e-05	Word -> 174 130 524 405 076 060 (Word -> Chars, Chars -> Char Chars, Char -> '174', Chars -> Char Chars, Char -> '130', Chars -> Char Chars, Char -> '524', Chars -> Char Chars, Char -> '405', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '060')
+True	1.68513e-05	Word -> 113 122 016 785 784 (Word -> Chars, Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '122', Chars -> Char Chars, Char -> '016', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '784')
+True	1.68447e-05	Word -> 311 007 701 480 041 (Word -> Chars, Chars -> Char Chars, Char -> '311', Chars -> Char Chars, Char -> '007', Chars -> Char Chars, Char -> '701', Chars -> Char Chars, Char -> '480', Chars -> Char, Char -> '041')
+True	1.68387e-05	Word -> 718 308 403 (Word -> Chars, Chars -> Char Chars, Char -> '718', Chars -> Char Chars, Char -> '308', Chars -> Char, Char -> '403')
+True	1.68306e-05	Word -> 236 047 204 (Word -> Chars, Chars -> Char Chars, Char -> '236', Chars -> Char Chars, Char -> '047', Chars -> Char, Char -> '204')
+True	1.6824e-05	Word -> 502 718 308 (Word -> Chars, Chars -> Char Chars, Char -> '502', Chars -> Char Chars, Char -> '718', Chars -> Char, Char -> '308')
+True	1.67896e-05	Word -> 022 720 557 268 175 564 035 783 461 305 (Word -> Chars, Chars -> Char Chars, Char -> '022', Chars -> Char Chars, Char -> '720', Chars -> Char Chars, Char -> '557', Chars -> Char Chars, Char -> '268', Chars -> Char Chars, Char -> '175', Chars -> Char Chars, Char -> '564', Chars -> Char Chars, Char -> '035', Chars -> Char Chars, Char -> '783', Chars -> Char Chars, Char -> '461', Chars -> Char, Char -> '305')
+True	1.67554e-05	Word -> 158 288 854 446 (Word -> Chars, Chars -> Char Chars, Char -> '158', Chars -> Char Chars, Char -> '288', Chars -> Char Chars, Char -> '854', Chars -> Char, Char -> '446')
+True	1.67514e-05	Word -> 785 321 056 055 656 (Word -> Chars, Chars -> Char Chars, Char -> '785', Chars -> Char Chars, Char -> '321', Chars -> Char Chars, Char -> '056', Chars -> Char Chars, Char -> '055', Chars -> Char, Char -> '656')
+True	1.67479e-05	Word -> 010 567 355 024 (Word -> Chars, Chars -> Char Chars, Char -> '010', Chars -> Char Chars, Char -> '567', Chars -> Char Chars, Char -> '355', Chars -> Char, Char -> '024')
+True	1.67431e-05	Word -> 244 252 426 360 306 058 657 482 867 521 (Word -> Chars, Chars -> Char Chars, Char -> '244', Chars -> Char Chars, Char -> '252', Chars -> Char Chars, Char -> '426', Chars -> Char Chars, Char -> '360', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '058', Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '482', Chars -> Char Chars, Char -> '867', Chars -> Char, Char -> '521')
+True	1.67405e-05	Word -> 240 425 225 458 (Word -> Chars, Chars -> Char Chars, Char -> '240', Chars -> Char Chars, Char -> '425', Chars -> Char Chars, Char -> '225', Chars -> Char, Char -> '458')
+True	1.67392e-05	Word -> 563 082 521 277 654 144 854 213 676 628 588 (Word -> Chars, Chars -> Char Chars, Char -> '563', Chars -> Char Chars, Char -> '082', Chars -> Char Chars, Char -> '521', Chars -> Char Chars, Char -> '277', Chars -> Char Chars, Char -> '654', Chars -> Char Chars, Char -> '144', Chars -> Char Chars, Char -> '854', Chars -> Char Chars, Char -> '213', Chars -> Char Chars, Char -> '676', Chars -> Char Chars, Char -> '628', Chars -> Char, Char -> '588')
+True	1.67339e-05	Word -> 242 023 043 848 838 345 317 713 (Word -> Chars, Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '023', Chars -> Char Chars, Char -> '043', Chars -> Char Chars, Char -> '848', Chars -> Char Chars, Char -> '838', Chars -> Char Chars, Char -> '345', Chars -> Char Chars, Char -> '317', Chars -> Char, Char -> '713')
+True	1.66782e-05	Word -> 660 377 116 428 436 382 888 343 704 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '377', Chars -> Char Chars, Char -> '116', Chars -> Char Chars, Char -> '428', Chars -> Char Chars, Char -> '436', Chars -> Char Chars, Char -> '382', Chars -> Char Chars, Char -> '888', Chars -> Char Chars, Char -> '343', Chars -> Char, Char -> '704')
+True	1.65933e-05	Word -> 052 655 274 126 343 158 664 (Word -> Chars, Chars -> Char Chars, Char -> '052', Chars -> Char Chars, Char -> '655', Chars -> Char Chars, Char -> '274', Chars -> Char Chars, Char -> '126', Chars -> Char Chars, Char -> '343', Chars -> Char Chars, Char -> '158', Chars -> Char, Char -> '664')
+True	1.6591e-05	Word -> 051 464 057 175 433 451 152 568 (Word -> Chars, Chars -> Char Chars, Char -> '051', Chars -> Char Chars, Char -> '464', Chars -> Char Chars, Char -> '057', Chars -> Char Chars, Char -> '175', Chars -> Char Chars, Char -> '433', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '152', Chars -> Char, Char -> '568')
+True	1.65876e-05	Word -> 545 587 862 023 161 111 240 580 (Word -> Chars, Chars -> Char Chars, Char -> '545', Chars -> Char Chars, Char -> '587', Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '023', Chars -> Char Chars, Char -> '161', Chars -> Char Chars, Char -> '111', Chars -> Char Chars, Char -> '240', Chars -> Char, Char -> '580')
+True	1.6586e-05	Word -> 101 370 140 550 874 626 167 (Word -> Chars, Chars -> Char Chars, Char -> '101', Chars -> Char Chars, Char -> '370', Chars -> Char Chars, Char -> '140', Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '874', Chars -> Char Chars, Char -> '626', Chars -> Char, Char -> '167')
+True	1.6554e-05	Word -> 465 521 381 815 613 (Word -> Chars, Chars -> Char Chars, Char -> '465', Chars -> Char Chars, Char -> '521', Chars -> Char Chars, Char -> '381', Chars -> Char Chars, Char -> '815', Chars -> Char, Char -> '613')
+True	1.65537e-05	Word -> 015 777 482 865 417 304 160 753 016 086 (Word -> Chars, Chars -> Char Chars, Char -> '015', Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '482', Chars -> Char Chars, Char -> '865', Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '304', Chars -> Char Chars, Char -> '160', Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '016', Chars -> Char, Char -> '086')
+True	1.65513e-05	Word -> 660 422 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char, Char -> '422')
+True	1.65448e-05	Word -> 662 821 (Word -> Chars, Chars -> Char Chars, Char -> '662', Chars -> Char, Char -> '821')
+True	1.65294e-05	Word -> 406 053 338 483 754 404 232 771 842 744 (Word -> Chars, Chars -> Char Chars, Char -> '406', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '483', Chars -> Char Chars, Char -> '754', Chars -> Char Chars, Char -> '404', Chars -> Char Chars, Char -> '232', Chars -> Char Chars, Char -> '771', Chars -> Char Chars, Char -> '842', Chars -> Char, Char -> '744')
+True	1.65287e-05	Word -> 845 833 375 074 076 752 (Word -> Chars, Chars -> Char Chars, Char -> '845', Chars -> Char Chars, Char -> '833', Chars -> Char Chars, Char -> '375', Chars -> Char Chars, Char -> '074', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '752')
+True	1.65222e-05	Word -> 053 338 483 754 404 232 771 842 744 420 (Word -> Chars, Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '483', Chars -> Char Chars, Char -> '754', Chars -> Char Chars, Char -> '404', Chars -> Char Chars, Char -> '232', Chars -> Char Chars, Char -> '771', Chars -> Char Chars, Char -> '842', Chars -> Char Chars, Char -> '744', Chars -> Char, Char -> '420')
+True	1.6451e-05	Word -> 235 231 058 (Word -> Chars, Chars -> Char Chars, Char -> '235', Chars -> Char Chars, Char -> '231', Chars -> Char, Char -> '058')
+True	1.64497e-05	Word -> 772 185 588 521 886 165 884 (Word -> Chars, Chars -> Char Chars, Char -> '772', Chars -> Char Chars, Char -> '185', Chars -> Char Chars, Char -> '588', Chars -> Char Chars, Char -> '521', Chars -> Char Chars, Char -> '886', Chars -> Char Chars, Char -> '165', Chars -> Char, Char -> '884')
+True	1.64496e-05	Word -> 725 823 530 217 604 (Word -> Chars, Chars -> Char Chars, Char -> '725', Chars -> Char Chars, Char -> '823', Chars -> Char Chars, Char -> '530', Chars -> Char Chars, Char -> '217', Chars -> Char, Char -> '604')
+True	1.64437e-05	Word -> 882 310 423 (Word -> Chars, Chars -> Char Chars, Char -> '882', Chars -> Char Chars, Char -> '310', Chars -> Char, Char -> '423')
+True	1.64423e-05	Word -> 258 317 550 467 001 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '317', Chars -> Char Chars, Char -> '550', Chars -> Char Chars, Char -> '467', Chars -> Char, Char -> '001')
+True	1.64386e-05	Word -> 055 071 665 242 847 810 386 603 341 323 (Word -> Chars, Chars -> Char Chars, Char -> '055', Chars -> Char Chars, Char -> '071', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '847', Chars -> Char Chars, Char -> '810', Chars -> Char Chars, Char -> '386', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '341', Chars -> Char, Char -> '323')
+True	1.64365e-05	Word -> 620 735 660 (Word -> Chars, Chars -> Char Chars, Char -> '620', Chars -> Char Chars, Char -> '735', Chars -> Char, Char -> '660')
+True	1.64351e-05	Word -> 336 310 381 024 056 (Word -> Chars, Chars -> Char Chars, Char -> '336', Chars -> Char Chars, Char -> '310', Chars -> Char Chars, Char -> '381', Chars -> Char Chars, Char -> '024', Chars -> Char, Char -> '056')
+True	1.64279e-05	Word -> 056 665 506 174 660 (Word -> Chars, Chars -> Char Chars, Char -> '056', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '506', Chars -> Char Chars, Char -> '174', Chars -> Char, Char -> '660')
+True	1.64272e-05	Word -> 353 332 030 (Word -> Chars, Chars -> Char Chars, Char -> '353', Chars -> Char Chars, Char -> '332', Chars -> Char, Char -> '030')
+True	1.64206e-05	Word -> 657 365 185 (Word -> Chars, Chars -> Char Chars, Char -> '657', Chars -> Char Chars, Char -> '365', Chars -> Char, Char -> '185')
+True	1.64014e-05	Word -> 767 644 834 116 (Word -> Chars, Chars -> Char Chars, Char -> '767', Chars -> Char Chars, Char -> '644', Chars -> Char Chars, Char -> '834', Chars -> Char, Char -> '116')
+True	1.63867e-05	Word -> 374 055 117 734 (Word -> Chars, Chars -> Char Chars, Char -> '374', Chars -> Char Chars, Char -> '055', Chars -> Char Chars, Char -> '117', Chars -> Char, Char -> '734')
+True	1.6369e-05	Word -> 474 625 131 243 607 603 475 045 234 625 (Word -> Chars, Chars -> Char Chars, Char -> '474', Chars -> Char Chars, Char -> '625', Chars -> Char Chars, Char -> '131', Chars -> Char Chars, Char -> '243', Chars -> Char Chars, Char -> '607', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '234', Chars -> Char, Char -> '625')
+True	1.63567e-05	Word -> 128 (Word -> Chars, Chars -> Char, Char -> '128')
+True	1.6347e-05	Word -> 515 800 220 442 785 108 (Word -> Chars, Chars -> Char Chars, Char -> '515', Chars -> Char Chars, Char -> '800', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '108')
+True	1.63427e-05	Word -> 688 880 688 504 626 785 300 465 (Word -> Chars, Chars -> Char Chars, Char -> '688', Chars -> Char Chars, Char -> '880', Chars -> Char Chars, Char -> '688', Chars -> Char Chars, Char -> '504', Chars -> Char Chars, Char -> '626', Chars -> Char Chars, Char -> '785', Chars -> Char Chars, Char -> '300', Chars -> Char, Char -> '465')
+True	1.63306e-05	Word -> 432 754 235 (Word -> Chars, Chars -> Char Chars, Char -> '432', Chars -> Char Chars, Char -> '754', Chars -> Char, Char -> '235')
+True	1.6319e-05	Word -> 483 754 404 232 771 842 744 420 (Word -> Chars, Chars -> Char Chars, Char -> '483', Chars -> Char Chars, Char -> '754', Chars -> Char Chars, Char -> '404', Chars -> Char Chars, Char -> '232', Chars -> Char Chars, Char -> '771', Chars -> Char Chars, Char -> '842', Chars -> Char Chars, Char -> '744', Chars -> Char, Char -> '420')
+True	1.63107e-05	Word -> 727 641 638 741 (Word -> Chars, Chars -> Char Chars, Char -> '727', Chars -> Char Chars, Char -> '641', Chars -> Char Chars, Char -> '638', Chars -> Char, Char -> '741')
+True	1.63089e-05	Word -> 146 507 216 613 074 (Word -> Chars, Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '507', Chars -> Char Chars, Char -> '216', Chars -> Char Chars, Char -> '613', Chars -> Char, Char -> '074')
+True	1.62904e-05	Word -> 450 383 418 522 642 256 662 375 (Word -> Chars, Chars -> Char Chars, Char -> '450', Chars -> Char Chars, Char -> '383', Chars -> Char Chars, Char -> '418', Chars -> Char Chars, Char -> '522', Chars -> Char Chars, Char -> '642', Chars -> Char Chars, Char -> '256', Chars -> Char Chars, Char -> '662', Chars -> Char, Char -> '375')
+True	1.62852e-05	Word -> 275 848 (Word -> Chars, Chars -> Char Chars, Char -> '275', Chars -> Char, Char -> '848')
+True	1.62832e-05	Word -> 362 578 535 202 345 153 775 148 (Word -> Chars, Chars -> Char Chars, Char -> '362', Chars -> Char Chars, Char -> '578', Chars -> Char Chars, Char -> '535', Chars -> Char Chars, Char -> '202', Chars -> Char Chars, Char -> '345', Chars -> Char Chars, Char -> '153', Chars -> Char Chars, Char -> '775', Chars -> Char, Char -> '148')
+True	1.62731e-05	Word -> 011 574 841 (Word -> Chars, Chars -> Char Chars, Char -> '011', Chars -> Char Chars, Char -> '574', Chars -> Char, Char -> '841')
+True	1.62618e-05	Word -> 340 658 (Word -> Chars, Chars -> Char Chars, Char -> '340', Chars -> Char, Char -> '658')
+True	1.62546e-05	Word -> 030 407 (Word -> Chars, Chars -> Char Chars, Char -> '030', Chars -> Char, Char -> '407')
+True	1.6252e-05	Word -> 044 777 422 458 422 658 834 850 040 (Word -> Chars, Chars -> Char Chars, Char -> '044', Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '422', Chars -> Char Chars, Char -> '458', Chars -> Char Chars, Char -> '422', Chars -> Char Chars, Char -> '658', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '850', Chars -> Char, Char -> '040')
+True	1.62462e-05	Word -> 673 176 261 325 603 775 423 208 (Word -> Chars, Chars -> Char Chars, Char -> '673', Chars -> Char Chars, Char -> '176', Chars -> Char Chars, Char -> '261', Chars -> Char Chars, Char -> '325', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '775', Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '208')
+True	1.62388e-05	Word -> 167 (Word -> Chars, Chars -> Char, Char -> '167')
+True	1.62256e-05	Word -> 388 554 641 467 077 147 834 824 (Word -> Chars, Chars -> Char Chars, Char -> '388', Chars -> Char Chars, Char -> '554', Chars -> Char Chars, Char -> '641', Chars -> Char Chars, Char -> '467', Chars -> Char Chars, Char -> '077', Chars -> Char Chars, Char -> '147', Chars -> Char Chars, Char -> '834', Chars -> Char, Char -> '824')
+True	1.62251e-05	Word -> 724 660 423 062 (Word -> Chars, Chars -> Char Chars, Char -> '724', Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '062')
+True	1.62219e-05	Word -> 277 547 022 783 474 135 255 (Word -> Chars, Chars -> Char Chars, Char -> '277', Chars -> Char Chars, Char -> '547', Chars -> Char Chars, Char -> '022', Chars -> Char Chars, Char -> '783', Chars -> Char Chars, Char -> '474', Chars -> Char Chars, Char -> '135', Chars -> Char, Char -> '255')
+True	1.62104e-05	Word -> 174 221 032 668 130 852 (Word -> Chars, Chars -> Char Chars, Char -> '174', Chars -> Char Chars, Char -> '221', Chars -> Char Chars, Char -> '032', Chars -> Char Chars, Char -> '668', Chars -> Char Chars, Char -> '130', Chars -> Char, Char -> '852')
+True	1.61963e-05	Word -> 725 432 480 (Word -> Chars, Chars -> Char Chars, Char -> '725', Chars -> Char Chars, Char -> '432', Chars -> Char, Char -> '480')
+True	1.61897e-05	Word -> 247 543 134 306 277 466 814 476 (Word -> Chars, Chars -> Char Chars, Char -> '247', Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '277', Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '814', Chars -> Char, Char -> '476')
+True	1.61887e-05	Word -> 371 186 428 (Word -> Chars, Chars -> Char Chars, Char -> '371', Chars -> Char Chars, Char -> '186', Chars -> Char, Char -> '428')
+True	1.61623e-05	Word -> 700 781 158 357 106 (Word -> Chars, Chars -> Char Chars, Char -> '700', Chars -> Char Chars, Char -> '781', Chars -> Char Chars, Char -> '158', Chars -> Char Chars, Char -> '357', Chars -> Char, Char -> '106')
+True	1.61553e-05	Word -> 654 834 700 781 158 (Word -> Chars, Chars -> Char Chars, Char -> '654', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '700', Chars -> Char Chars, Char -> '781', Chars -> Char, Char -> '158')
+True	1.6154e-05	Word -> 755 256 377 (Word -> Chars, Chars -> Char Chars, Char -> '755', Chars -> Char Chars, Char -> '256', Chars -> Char, Char -> '377')
+True	1.6147e-05	Word -> 132 180 327 (Word -> Chars, Chars -> Char Chars, Char -> '132', Chars -> Char Chars, Char -> '180', Chars -> Char, Char -> '327')
+True	1.61399e-05	Word -> 131 122 372 (Word -> Chars, Chars -> Char Chars, Char -> '131', Chars -> Char Chars, Char -> '122', Chars -> Char, Char -> '372')
+True	1.61399e-05	Word -> 825 865 237 804 131 (Word -> Chars, Chars -> Char Chars, Char -> '825', Chars -> Char Chars, Char -> '865', Chars -> Char Chars, Char -> '237', Chars -> Char Chars, Char -> '804', Chars -> Char, Char -> '131')
+True	1.61376e-05	Word -> 336 152 (Word -> Chars, Chars -> Char Chars, Char -> '336', Chars -> Char, Char -> '152')
+True	1.61303e-05	Word -> 036 275 (Word -> Chars, Chars -> Char Chars, Char -> '036', Chars -> Char, Char -> '275')
+True	1.61237e-05	Word -> 184 131 (Word -> Chars, Chars -> Char Chars, Char -> '184', Chars -> Char, Char -> '131')
+True	1.61119e-05	Word -> 045 113 423 134 412 (Word -> Chars, Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '423', Chars -> Char Chars, Char -> '134', Chars -> Char, Char -> '412')
+True	1.60815e-05	Word -> 705 458 425 186 (Word -> Chars, Chars -> Char Chars, Char -> '705', Chars -> Char Chars, Char -> '458', Chars -> Char Chars, Char -> '425', Chars -> Char, Char -> '186')
+True	1.60749e-05	Word -> 740 240 421 377 (Word -> Chars, Chars -> Char Chars, Char -> '740', Chars -> Char Chars, Char -> '240', Chars -> Char Chars, Char -> '421', Chars -> Char, Char -> '377')
+True	1.607e-05	Word -> 408 082 644 444 638 446 711 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '082', Chars -> Char Chars, Char -> '644', Chars -> Char Chars, Char -> '444', Chars -> Char Chars, Char -> '638', Chars -> Char Chars, Char -> '446', Chars -> Char, Char -> '711')
+True	1.60637e-05	Word -> 372 011 222 304 056 (Word -> Chars, Chars -> Char Chars, Char -> '372', Chars -> Char Chars, Char -> '011', Chars -> Char Chars, Char -> '222', Chars -> Char Chars, Char -> '304', Chars -> Char, Char -> '056')
+True	1.60592e-05	Word -> 733 248 486 662 (Word -> Chars, Chars -> Char Chars, Char -> '733', Chars -> Char Chars, Char -> '248', Chars -> Char Chars, Char -> '486', Chars -> Char, Char -> '662')
+True	1.60502e-05	Word -> 434 (Word -> Chars, Chars -> Char, Char -> '434')
+True	1.605e-05	Word -> 141 382 (Word -> Chars, Chars -> Char Chars, Char -> '141', Chars -> Char, Char -> '382')
+True	1.60416e-05	Word -> 308 837 026 200 860 734 410 408 151 (Word -> Chars, Chars -> Char Chars, Char -> '308', Chars -> Char Chars, Char -> '837', Chars -> Char Chars, Char -> '026', Chars -> Char Chars, Char -> '200', Chars -> Char Chars, Char -> '860', Chars -> Char Chars, Char -> '734', Chars -> Char Chars, Char -> '410', Chars -> Char Chars, Char -> '408', Chars -> Char, Char -> '151')
+True	1.6028e-05	Word -> 524 371 215 528 078 378 638 (Word -> Chars, Chars -> Char Chars, Char -> '524', Chars -> Char Chars, Char -> '371', Chars -> Char Chars, Char -> '215', Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '078', Chars -> Char Chars, Char -> '378', Chars -> Char, Char -> '638')
+True	1.60258e-05	Word -> 432 754 (Word -> Chars, Chars -> Char Chars, Char -> '432', Chars -> Char, Char -> '754')
+True	1.60194e-05	Word -> 220 820 (Word -> Chars, Chars -> Char Chars, Char -> '220', Chars -> Char, Char -> '820')
+True	1.60124e-05	Word -> 235 572 (Word -> Chars, Chars -> Char Chars, Char -> '235', Chars -> Char, Char -> '572')
+True	1.60116e-05	Word -> 568 220 186 372 006 (Word -> Chars, Chars -> Char Chars, Char -> '568', Chars -> Char Chars, Char -> '220', Chars -> Char Chars, Char -> '186', Chars -> Char Chars, Char -> '372', Chars -> Char, Char -> '006')
+True	1.601e-05	Word -> 006 035 338 153 777 338 171 (Word -> Chars, Chars -> Char Chars, Char -> '006', Chars -> Char Chars, Char -> '035', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '153', Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '338', Chars -> Char, Char -> '171')
+True	1.60046e-05	Word -> 138 811 508 532 460 (Word -> Chars, Chars -> Char Chars, Char -> '138', Chars -> Char Chars, Char -> '811', Chars -> Char Chars, Char -> '508', Chars -> Char Chars, Char -> '532', Chars -> Char, Char -> '460')
+True	1.59918e-05	Word -> 372 542 528 135 831 053 615 825 (Word -> Chars, Chars -> Char Chars, Char -> '372', Chars -> Char Chars, Char -> '542', Chars -> Char Chars, Char -> '528', Chars -> Char Chars, Char -> '135', Chars -> Char Chars, Char -> '831', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '615', Chars -> Char, Char -> '825')
+True	1.59898e-05	Word -> 660 377 116 428 436 382 888 343 (Word -> Chars, Chars -> Char Chars, Char -> '660', Chars -> Char Chars, Char -> '377', Chars -> Char Chars, Char -> '116', Chars -> Char Chars, Char -> '428', Chars -> Char Chars, Char -> '436', Chars -> Char Chars, Char -> '382', Chars -> Char Chars, Char -> '888', Chars -> Char, Char -> '343')
+True	1.5979e-05	Word -> 344 107 636 558 103 477 575 335 (Word -> Chars, Chars -> Char Chars, Char -> '344', Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '558', Chars -> Char Chars, Char -> '103', Chars -> Char Chars, Char -> '477', Chars -> Char Chars, Char -> '575', Chars -> Char, Char -> '335')
+True	1.59767e-05	Word -> 864 648 431 401 (Word -> Chars, Chars -> Char Chars, Char -> '864', Chars -> Char Chars, Char -> '648', Chars -> Char Chars, Char -> '431', Chars -> Char, Char -> '401')
+True	1.59698e-05	Word -> 052 123 162 373 (Word -> Chars, Chars -> Char Chars, Char -> '052', Chars -> Char Chars, Char -> '123', Chars -> Char Chars, Char -> '162', Chars -> Char, Char -> '373')
+True	1.59696e-05	Word -> 516 575 873 (Word -> Chars, Chars -> Char Chars, Char -> '516', Chars -> Char Chars, Char -> '575', Chars -> Char, Char -> '873')
+True	1.59639e-05	Word -> 131 243 607 603 475 045 234 625 (Word -> Chars, Chars -> Char Chars, Char -> '131', Chars -> Char Chars, Char -> '243', Chars -> Char Chars, Char -> '607', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '234', Chars -> Char, Char -> '625')
+True	1.59626e-05	Word -> 760 185 024 (Word -> Chars, Chars -> Char Chars, Char -> '760', Chars -> Char Chars, Char -> '185', Chars -> Char, Char -> '024')
+True	1.59567e-05	Word -> 044 777 422 458 422 658 834 850 (Word -> Chars, Chars -> Char Chars, Char -> '044', Chars -> Char Chars, Char -> '777', Chars -> Char Chars, Char -> '422', Chars -> Char Chars, Char -> '458', Chars -> Char Chars, Char -> '422', Chars -> Char Chars, Char -> '658', Chars -> Char Chars, Char -> '834', Chars -> Char, Char -> '850')
+True	1.59557e-05	Word -> 287 052 375 (Word -> Chars, Chars -> Char Chars, Char -> '287', Chars -> Char Chars, Char -> '052', Chars -> Char, Char -> '375')
+True	1.59457e-05	Word -> 242 023 043 848 838 345 (Word -> Chars, Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '023', Chars -> Char Chars, Char -> '043', Chars -> Char Chars, Char -> '848', Chars -> Char Chars, Char -> '838', Chars -> Char, Char -> '345')
+True	1.59432e-05	Word -> 468 416 320 151 281 072 451 014 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.5939e-05	Word -> 843 (Word -> Chars, Chars -> Char, Char -> '843')
+True	1.59314e-05	Word -> 383 446 515 800 220 (Word -> Chars, Chars -> Char Chars, Char -> '383', Chars -> Char Chars, Char -> '446', Chars -> Char Chars, Char -> '515', Chars -> Char Chars, Char -> '800', Chars -> Char, Char -> '220')
+True	1.59247e-05	Word -> 451 627 575 424 815 (Word -> Chars, Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '627', Chars -> Char Chars, Char -> '575', Chars -> Char Chars, Char -> '424', Chars -> Char, Char -> '815')
+True	1.59175e-05	Word -> 247 543 134 306 277 466 814 (Word -> Chars, Chars -> Char Chars, Char -> '247', Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '277', Chars -> Char Chars, Char -> '466', Chars -> Char, Char -> '814')
+True	1.59169e-05	Word -> 112 250 336 225 (Word -> Chars, Chars -> Char Chars, Char -> '112', Chars -> Char Chars, Char -> '250', Chars -> Char Chars, Char -> '336', Chars -> Char, Char -> '225')
+True	1.59148e-05	Word -> 565 030 067 457 735 358 830 215 (Word -> Chars, Chars -> Char Chars, Char -> '565', Chars -> Char Chars, Char -> '030', Chars -> Char Chars, Char -> '067', Chars -> Char Chars, Char -> '457', Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '358', Chars -> Char Chars, Char -> '830', Chars -> Char, Char -> '215')
+True	1.59103e-05	Word -> 543 134 306 277 466 814 476 (Word -> Chars, Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '277', Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '814', Chars -> Char, Char -> '476')
+True	1.59059e-05	Word -> 223 121 (Word -> Chars, Chars -> Char Chars, Char -> '223', Chars -> Char, Char -> '121')
+True	1.59011e-05	Word -> 442 785 108 (Word -> Chars, Chars -> Char Chars, Char -> '442', Chars -> Char Chars, Char -> '785', Chars -> Char, Char -> '108')
+True	1.58987e-05	Word -> 468 416 320 151 281 072 451 014 816 035 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char, Char -> '035')
+True	1.58942e-05	Word -> 435 756 840 (Word -> Chars, Chars -> Char Chars, Char -> '435', Chars -> Char Chars, Char -> '756', Chars -> Char, Char -> '840')
+True	1.58873e-05	Word -> 410 700 286 (Word -> Chars, Chars -> Char Chars, Char -> '410', Chars -> Char Chars, Char -> '700', Chars -> Char, Char -> '286')
+True	1.58864e-05	Word -> 665 242 847 810 386 603 341 323 (Word -> Chars, Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '847', Chars -> Char Chars, Char -> '810', Chars -> Char Chars, Char -> '386', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '341', Chars -> Char, Char -> '323')
+True	1.58847e-05	Word -> 545 587 862 023 161 111 (Word -> Chars, Chars -> Char Chars, Char -> '545', Chars -> Char Chars, Char -> '587', Chars -> Char Chars, Char -> '862', Chars -> Char Chars, Char -> '023', Chars -> Char Chars, Char -> '161', Chars -> Char, Char -> '111')
+True	1.58817e-05	Word -> 375 074 076 752 (Word -> Chars, Chars -> Char Chars, Char -> '375', Chars -> Char Chars, Char -> '074', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '752')
+True	1.58794e-05	Word -> 258 021 287 011 (Word -> Chars, Chars -> Char Chars, Char -> '258', Chars -> Char Chars, Char -> '021', Chars -> Char Chars, Char -> '287', Chars -> Char, Char -> '011')
+True	1.58753e-05	Word -> 843 748 633 624 453 104 152 313 454 (Word -> Chars, Chars -> Char Chars, Char -> '843', Chars -> Char Chars, Char -> '748', Chars -> Char Chars, Char -> '633', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '313', Chars -> Char, Char -> '454')
+True	1.58725e-05	Word -> 381 (Word -> Chars, Chars -> Char, Char -> '381')
+True	1.58704e-05	Word -> 644 444 638 446 711 (Word -> Chars, Chars -> Char Chars, Char -> '644', Chars -> Char Chars, Char -> '444', Chars -> Char Chars, Char -> '638', Chars -> Char Chars, Char -> '446', Chars -> Char, Char -> '711')
+True	1.58633e-05	Word -> 006 035 338 153 777 (Word -> Chars, Chars -> Char Chars, Char -> '006', Chars -> Char Chars, Char -> '035', Chars -> Char Chars, Char -> '338', Chars -> Char Chars, Char -> '153', Chars -> Char, Char -> '777')
+True	1.58586e-05	Word -> 055 071 665 242 847 810 (Word -> Chars, Chars -> Char Chars, Char -> '055', Chars -> Char Chars, Char -> '071', Chars -> Char Chars, Char -> '665', Chars -> Char Chars, Char -> '242', Chars -> Char Chars, Char -> '847', Chars -> Char, Char -> '810')
+True	1.58476e-05	Word -> 383 446 (Word -> Chars, Chars -> Char Chars, Char -> '383', Chars -> Char, Char -> '446')
+True	1.58473e-05	Word -> 487 753 735 113 172 514 814 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '487', Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '514', Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.58439e-05	Word -> 543 322 738 542 (Word -> Chars, Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '322', Chars -> Char Chars, Char -> '738', Chars -> Char, Char -> '542')
+True	1.58435e-05	Word -> 537 253 537 (Word -> Chars, Chars -> Char Chars, Char -> '537', Chars -> Char Chars, Char -> '253', Chars -> Char, Char -> '537')
+True	1.58402e-05	Word -> 468 416 320 151 281 072 451 014 816 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char, Char -> '816')
+True	1.58373e-05	Word -> 633 624 453 104 152 313 454 (Word -> Chars, Chars -> Char Chars, Char -> '633', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '313', Chars -> Char, Char -> '454')
+True	1.58353e-05	Word -> 176 626 (Word -> Chars, Chars -> Char Chars, Char -> '176', Chars -> Char, Char -> '626')
+True	1.58331e-05	Word -> 320 151 281 072 451 014 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.58297e-05	Word -> 841 047 054 187 652 (Word -> Chars, Chars -> Char Chars, Char -> '841', Chars -> Char Chars, Char -> '047', Chars -> Char Chars, Char -> '054', Chars -> Char Chars, Char -> '187', Chars -> Char, Char -> '652')
+True	1.58287e-05	Word -> 264 258 (Word -> Chars, Chars -> Char Chars, Char -> '264', Chars -> Char, Char -> '258')
+True	1.58284e-05	Word -> 682 844 773 (Word -> Chars, Chars -> Char Chars, Char -> '682', Chars -> Char Chars, Char -> '844', Chars -> Char, Char -> '773')
+True	1.58255e-05	Word -> 481 088 466 146 453 611 417 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '481', Chars -> Char Chars, Char -> '088', Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '611', Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.58229e-05	Word -> 237 667 347 307 015 (Word -> Chars, Chars -> Char Chars, Char -> '237', Chars -> Char Chars, Char -> '667', Chars -> Char Chars, Char -> '347', Chars -> Char Chars, Char -> '307', Chars -> Char, Char -> '015')
+True	1.58217e-05	Word -> 074 076 752 (Word -> Chars, Chars -> Char Chars, Char -> '074', Chars -> Char Chars, Char -> '076', Chars -> Char, Char -> '752')
+True	1.58216e-05	Word -> 077 454 (Word -> Chars, Chars -> Char Chars, Char -> '077', Chars -> Char, Char -> '454')
+True	1.58185e-05	Word -> 548 065 156 053 523 788 731 683 210 (Word -> Chars, Chars -> Char Chars, Char -> '548', Chars -> Char Chars, Char -> '065', Chars -> Char Chars, Char -> '156', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '788', Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '210')
+True	1.58173e-05	Word -> 618 666 583 284 168 (Word -> Chars, Chars -> Char Chars, Char -> '618', Chars -> Char Chars, Char -> '666', Chars -> Char Chars, Char -> '583', Chars -> Char Chars, Char -> '284', Chars -> Char, Char -> '168')
+True	1.58148e-05	Word -> 654 834 (Word -> Chars, Chars -> Char Chars, Char -> '654', Chars -> Char, Char -> '834')
+True	1.58147e-05	Word -> 845 833 375 (Word -> Chars, Chars -> Char Chars, Char -> '845', Chars -> Char Chars, Char -> '833', Chars -> Char, Char -> '375')
+True	1.58139e-05	Word -> 136 767 775 (Word -> Chars, Chars -> Char Chars, Char -> '136', Chars -> Char Chars, Char -> '767', Chars -> Char, Char -> '775')
+True	1.58105e-05	Word -> 474 625 131 243 607 603 475 045 234 (Word -> Chars, Chars -> Char Chars, Char -> '474', Chars -> Char Chars, Char -> '625', Chars -> Char Chars, Char -> '131', Chars -> Char Chars, Char -> '243', Chars -> Char Chars, Char -> '607', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '045', Chars -> Char, Char -> '234')
+True	1.58082e-05	Word -> 624 453 104 152 313 454 (Word -> Chars, Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '313', Chars -> Char, Char -> '454')
+True	1.58079e-05	Word -> 357 106 (Word -> Chars, Chars -> Char Chars, Char -> '357', Chars -> Char, Char -> '106')
+True	1.58025e-05	Word -> 406 053 338 (Word -> Chars, Chars -> Char Chars, Char -> '406', Chars -> Char Chars, Char -> '053', Chars -> Char, Char -> '338')
+True	1.58015e-05	Word -> 051 052 084 (Word -> Chars, Chars -> Char Chars, Char -> '051', Chars -> Char Chars, Char -> '052', Chars -> Char, Char -> '084')
+True	1.58014e-05	Word -> 234 682 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char, Char -> '682')
+True	1.58007e-05	Word -> 156 053 523 788 731 683 210 (Word -> Chars, Chars -> Char Chars, Char -> '156', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '788', Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '210')
+True	1.57985e-05	Word -> 785 321 056 (Word -> Chars, Chars -> Char Chars, Char -> '785', Chars -> Char Chars, Char -> '321', Chars -> Char, Char -> '056')
+True	1.57959e-05	Word -> 852 183 151 (Word -> Chars, Chars -> Char Chars, Char -> '852', Chars -> Char Chars, Char -> '183', Chars -> Char, Char -> '151')
+True	1.57949e-05	Word -> 251 008 (Word -> Chars, Chars -> Char Chars, Char -> '251', Chars -> Char, Char -> '008')
+True	1.57948e-05	Word -> 503 786 503 627 (Word -> Chars, Chars -> Char Chars, Char -> '503', Chars -> Char Chars, Char -> '786', Chars -> Char Chars, Char -> '503', Chars -> Char, Char -> '627')
+True	1.57946e-05	Word -> 538 186 201 (Word -> Chars, Chars -> Char Chars, Char -> '538', Chars -> Char Chars, Char -> '186', Chars -> Char, Char -> '201')
+True	1.57877e-05	Word -> 871 614 613 (Word -> Chars, Chars -> Char Chars, Char -> '871', Chars -> Char Chars, Char -> '614', Chars -> Char, Char -> '613')
+True	1.57865e-05	Word -> 247 543 134 306 277 466 (Word -> Chars, Chars -> Char Chars, Char -> '247', Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '134', Chars -> Char Chars, Char -> '306', Chars -> Char Chars, Char -> '277', Chars -> Char, Char -> '466')
+True	1.57831e-05	Word -> 032 668 130 852 (Word -> Chars, Chars -> Char Chars, Char -> '032', Chars -> Char Chars, Char -> '668', Chars -> Char Chars, Char -> '130', Chars -> Char, Char -> '852')
+True	1.57829e-05	Word -> 675 545 (Word -> Chars, Chars -> Char Chars, Char -> '675', Chars -> Char, Char -> '545')
+True	1.57816e-05	Word -> 458 422 658 834 850 040 (Word -> Chars, Chars -> Char Chars, Char -> '458', Chars -> Char Chars, Char -> '422', Chars -> Char Chars, Char -> '658', Chars -> Char Chars, Char -> '834', Chars -> Char Chars, Char -> '850', Chars -> Char, Char -> '040')
+True	1.57804e-05	Word -> 557 041 484 688 (Word -> Chars, Chars -> Char Chars, Char -> '557', Chars -> Char Chars, Char -> '041', Chars -> Char Chars, Char -> '484', Chars -> Char, Char -> '688')
+True	1.57787e-05	Word -> 146 453 611 417 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '611', Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.57762e-05	Word -> 888 711 (Word -> Chars, Chars -> Char Chars, Char -> '888', Chars -> Char, Char -> '711')
+True	1.57724e-05	Word -> 107 353 351 (Word -> Chars, Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '353', Chars -> Char, Char -> '351')
+True	1.57715e-05	Word -> 072 451 014 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.57695e-05	Word -> 318 230 (Word -> Chars, Chars -> Char Chars, Char -> '318', Chars -> Char, Char -> '230')
+True	1.57695e-05	Word -> 560 532 (Word -> Chars, Chars -> Char Chars, Char -> '560', Chars -> Char, Char -> '532')
+True	1.57644e-05	Word -> 344 107 636 558 103 477 (Word -> Chars, Chars -> Char Chars, Char -> '344', Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '558', Chars -> Char Chars, Char -> '103', Chars -> Char, Char -> '477')
+True	1.57628e-05	Word -> 657 477 (Word -> Chars, Chars -> Char Chars, Char -> '657', Chars -> Char, Char -> '477')
+True	1.57627e-05	Word -> 220 744 (Word -> Chars, Chars -> Char Chars, Char -> '220', Chars -> Char, Char -> '744')
+True	1.57608e-05	Word -> 584 825 (Word -> Chars, Chars -> Char Chars, Char -> '584', Chars -> Char, Char -> '825')
+True	1.57605e-05	Word -> 574 841 (Word -> Chars, Chars -> Char Chars, Char -> '574', Chars -> Char, Char -> '841')
+True	1.5759e-05	Word -> 376 815 630 662 (Word -> Chars, Chars -> Char Chars, Char -> '376', Chars -> Char Chars, Char -> '815', Chars -> Char Chars, Char -> '630', Chars -> Char, Char -> '662')
+True	1.57584e-05	Word -> 408 082 644 444 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char Chars, Char -> '082', Chars -> Char Chars, Char -> '644', Chars -> Char, Char -> '444')
+True	1.57573e-05	Word -> 113 172 514 814 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '514', Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.57543e-05	Word -> 710 046 (Word -> Chars, Chars -> Char Chars, Char -> '710', Chars -> Char, Char -> '046')
+True	1.57502e-05	Word -> 873 744 (Word -> Chars, Chars -> Char Chars, Char -> '873', Chars -> Char, Char -> '744')
+True	1.57502e-05	Word -> 320 151 281 072 451 014 (Word -> Chars, Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char Chars, Char -> '451', Chars -> Char, Char -> '014')
+True	1.57492e-05	Word -> 124 (Word -> Chars, Chars -> Char, Char -> '124')
+True	1.57482e-05	Word -> 172 514 814 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '514', Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.57431e-05	Word -> 481 088 466 146 453 611 (Word -> Chars, Chars -> Char Chars, Char -> '481', Chars -> Char Chars, Char -> '088', Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '453', Chars -> Char, Char -> '611')
+True	1.57412e-05	Word -> 344 107 636 558 103 (Word -> Chars, Chars -> Char Chars, Char -> '344', Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '558', Chars -> Char, Char -> '103')
+True	1.5736e-05	Word -> 468 416 320 151 281 072 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char, Char -> '072')
+True	1.57265e-05	Word -> 474 625 131 243 607 (Word -> Chars, Chars -> Char Chars, Char -> '474', Chars -> Char Chars, Char -> '625', Chars -> Char Chars, Char -> '131', Chars -> Char Chars, Char -> '243', Chars -> Char, Char -> '607')
+True	1.57195e-05	Word -> 860 734 410 408 151 (Word -> Chars, Chars -> Char Chars, Char -> '860', Chars -> Char Chars, Char -> '734', Chars -> Char Chars, Char -> '410', Chars -> Char Chars, Char -> '408', Chars -> Char, Char -> '151')
+True	1.57124e-05	Word -> 362 578 535 202 345 (Word -> Chars, Chars -> Char Chars, Char -> '362', Chars -> Char Chars, Char -> '578', Chars -> Char Chars, Char -> '535', Chars -> Char Chars, Char -> '202', Chars -> Char, Char -> '345')
+True	1.57121e-05	Word -> 416 380 100 520 263 (Word -> Chars, Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '380', Chars -> Char Chars, Char -> '100', Chars -> Char Chars, Char -> '520', Chars -> Char, Char -> '263')
+True	1.5709e-05	Word -> 344 107 636 558 (Word -> Chars, Chars -> Char Chars, Char -> '344', Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '636', Chars -> Char, Char -> '558')
+True	1.57054e-05	Word -> 603 475 045 234 625 (Word -> Chars, Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '475', Chars -> Char Chars, Char -> '045', Chars -> Char Chars, Char -> '234', Chars -> Char, Char -> '625')
+True	1.57019e-05	Word -> 380 100 520 263 (Word -> Chars, Chars -> Char Chars, Char -> '380', Chars -> Char Chars, Char -> '100', Chars -> Char Chars, Char -> '520', Chars -> Char, Char -> '263')
+True	1.56983e-05	Word -> 522 642 256 662 375 (Word -> Chars, Chars -> Char Chars, Char -> '522', Chars -> Char Chars, Char -> '642', Chars -> Char Chars, Char -> '256', Chars -> Char Chars, Char -> '662', Chars -> Char, Char -> '375')
+True	1.56949e-05	Word -> 468 416 320 151 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '320', Chars -> Char, Char -> '151')
+True	1.56928e-05	Word -> 317 713 (Word -> Chars, Chars -> Char Chars, Char -> '317', Chars -> Char, Char -> '713')
+True	1.56878e-05	Word -> 487 753 735 113 (Word -> Chars, Chars -> Char Chars, Char -> '487', Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '735', Chars -> Char, Char -> '113')
+True	1.56867e-05	Word -> 241 271 068 315 (Word -> Chars, Chars -> Char Chars, Char -> '241', Chars -> Char Chars, Char -> '271', Chars -> Char Chars, Char -> '068', Chars -> Char, Char -> '315')
+True	1.56807e-05	Word -> 514 814 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '514', Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.56768e-05	Word -> 673 176 261 325 (Word -> Chars, Chars -> Char Chars, Char -> '673', Chars -> Char Chars, Char -> '176', Chars -> Char Chars, Char -> '261', Chars -> Char, Char -> '325')
+True	1.56735e-05	Word -> 583 (Word -> Chars, Chars -> Char, Char -> '583')
+True	1.56733e-05	Word -> 308 837 026 200 (Word -> Chars, Chars -> Char Chars, Char -> '308', Chars -> Char Chars, Char -> '837', Chars -> Char Chars, Char -> '026', Chars -> Char, Char -> '200')
+True	1.56698e-05	Word -> 386 603 341 323 (Word -> Chars, Chars -> Char Chars, Char -> '386', Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '341', Chars -> Char, Char -> '323')
+True	1.56681e-05	Word -> 262 317 075 (Word -> Chars, Chars -> Char Chars, Char -> '262', Chars -> Char Chars, Char -> '317', Chars -> Char, Char -> '075')
+True	1.56629e-05	Word -> 603 775 423 208 (Word -> Chars, Chars -> Char Chars, Char -> '603', Chars -> Char Chars, Char -> '775', Chars -> Char Chars, Char -> '423', Chars -> Char, Char -> '208')
+True	1.56616e-05	Word -> 532 026 178 (Word -> Chars, Chars -> Char Chars, Char -> '532', Chars -> Char Chars, Char -> '026', Chars -> Char, Char -> '178')
+True	1.56551e-05	Word -> 626 346 530 (Word -> Chars, Chars -> Char Chars, Char -> '626', Chars -> Char Chars, Char -> '346', Chars -> Char, Char -> '530')
+True	1.56487e-05	Word -> 478 126 077 (Word -> Chars, Chars -> Char Chars, Char -> '478', Chars -> Char Chars, Char -> '126', Chars -> Char, Char -> '077')
+True	1.56422e-05	Word -> 778 074 785 (Word -> Chars, Chars -> Char Chars, Char -> '778', Chars -> Char Chars, Char -> '074', Chars -> Char, Char -> '785')
+True	1.5638e-05	Word -> 606 401 (Word -> Chars, Chars -> Char Chars, Char -> '606', Chars -> Char, Char -> '401')
+True	1.56311e-05	Word -> 371 186 (Word -> Chars, Chars -> Char Chars, Char -> '371', Chars -> Char, Char -> '186')
+True	1.56282e-05	Word -> 146 453 611 417 374 (Word -> Chars, Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '611', Chars -> Char Chars, Char -> '417', Chars -> Char, Char -> '374')
+True	1.56277e-05	Word -> 481 088 466 (Word -> Chars, Chars -> Char Chars, Char -> '481', Chars -> Char Chars, Char -> '088', Chars -> Char, Char -> '466')
+True	1.56242e-05	Word -> 055 656 (Word -> Chars, Chars -> Char Chars, Char -> '055', Chars -> Char, Char -> '656')
+True	1.56212e-05	Word -> 156 053 523 788 731 (Word -> Chars, Chars -> Char Chars, Char -> '156', Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '788', Chars -> Char, Char -> '731')
+True	1.56207e-05	Word -> 477 575 335 (Word -> Chars, Chars -> Char Chars, Char -> '477', Chars -> Char Chars, Char -> '575', Chars -> Char, Char -> '335')
+True	1.56141e-05	Word -> 548 065 156 053 523 (Word -> Chars, Chars -> Char Chars, Char -> '548', Chars -> Char Chars, Char -> '065', Chars -> Char Chars, Char -> '156', Chars -> Char Chars, Char -> '053', Chars -> Char, Char -> '523')
+True	1.56133e-05	Word -> 044 777 422 (Word -> Chars, Chars -> Char Chars, Char -> '044', Chars -> Char Chars, Char -> '777', Chars -> Char, Char -> '422')
+True	1.56074e-05	Word -> 502 584 (Word -> Chars, Chars -> Char Chars, Char -> '502', Chars -> Char, Char -> '584')
+True	1.5607e-05	Word -> 053 523 788 731 683 (Word -> Chars, Chars -> Char Chars, Char -> '053', Chars -> Char Chars, Char -> '523', Chars -> Char Chars, Char -> '788', Chars -> Char Chars, Char -> '731', Chars -> Char, Char -> '683')
+True	1.56008e-05	Word -> 201 228 (Word -> Chars, Chars -> Char Chars, Char -> '201', Chars -> Char, Char -> '228')
+True	1.56e-05	Word -> 451 014 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.55996e-05	Word -> 786 256 (Word -> Chars, Chars -> Char Chars, Char -> '786', Chars -> Char, Char -> '256')
+True	1.55955e-05	Word -> 234 281 443 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char Chars, Char -> '281', Chars -> Char, Char -> '443')
+True	1.5594e-05	Word -> 674 020 (Word -> Chars, Chars -> Char Chars, Char -> '674', Chars -> Char, Char -> '020')
+True	1.55932e-05	Word -> 580 526 (Word -> Chars, Chars -> Char Chars, Char -> '580', Chars -> Char, Char -> '526')
+True	1.5593e-05	Word -> 113 172 514 814 305 (Word -> Chars, Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '514', Chars -> Char Chars, Char -> '814', Chars -> Char, Char -> '305')
+True	1.55859e-05	Word -> 453 611 417 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '453', Chars -> Char Chars, Char -> '611', Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.55789e-05	Word -> 487 753 735 113 172 (Word -> Chars, Chars -> Char Chars, Char -> '487', Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '113', Chars -> Char, Char -> '172')
+True	1.55743e-05	Word -> 704 (Word -> Chars, Chars -> Char, Char -> '704')
+True	1.55719e-05	Word -> 481 088 466 146 453 (Word -> Chars, Chars -> Char Chars, Char -> '481', Chars -> Char Chars, Char -> '088', Chars -> Char Chars, Char -> '466', Chars -> Char Chars, Char -> '146', Chars -> Char, Char -> '453')
+True	1.55718e-05	Word -> 781 362 (Word -> Chars, Chars -> Char Chars, Char -> '781', Chars -> Char, Char -> '362')
+True	1.55648e-05	Word -> 843 748 633 624 453 (Word -> Chars, Chars -> Char Chars, Char -> '843', Chars -> Char Chars, Char -> '748', Chars -> Char Chars, Char -> '633', Chars -> Char Chars, Char -> '624', Chars -> Char, Char -> '453')
+True	1.55643e-05	Word -> 733 (Word -> Chars, Chars -> Char, Char -> '733')
+True	1.55626e-05	Word -> 845 833 (Word -> Chars, Chars -> Char Chars, Char -> '845', Chars -> Char, Char -> '833')
+True	1.55623e-05	Word -> 237 804 131 (Word -> Chars, Chars -> Char Chars, Char -> '237', Chars -> Char Chars, Char -> '804', Chars -> Char, Char -> '131')
+True	1.55608e-05	Word -> 152 313 454 (Word -> Chars, Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '313', Chars -> Char, Char -> '454')
+True	1.5556e-05	Word -> 540 (Word -> Chars, Chars -> Char, Char -> '540')
+True	1.55553e-05	Word -> 638 446 711 (Word -> Chars, Chars -> Char Chars, Char -> '638', Chars -> Char Chars, Char -> '446', Chars -> Char, Char -> '711')
+True	1.55533e-05	Word -> 537 253 (Word -> Chars, Chars -> Char Chars, Char -> '537', Chars -> Char, Char -> '253')
+True	1.55518e-05	Word -> 174 221 (Word -> Chars, Chars -> Char Chars, Char -> '174', Chars -> Char, Char -> '221')
+True	1.55465e-05	Word -> 284 (Word -> Chars, Chars -> Char, Char -> '284')
+True	1.55463e-05	Word -> 253 537 (Word -> Chars, Chars -> Char Chars, Char -> '253', Chars -> Char, Char -> '537')
+True	1.55449e-05	Word -> 240 580 (Word -> Chars, Chars -> Char Chars, Char -> '240', Chars -> Char, Char -> '580')
+True	1.55393e-05	Word -> 055 071 (Word -> Chars, Chars -> Char Chars, Char -> '055', Chars -> Char, Char -> '071')
+True	1.55379e-05	Word -> 107 353 (Word -> Chars, Chars -> Char Chars, Char -> '107', Chars -> Char, Char -> '353')
+True	1.55327e-05	Word -> 608 (Word -> Chars, Chars -> Char, Char -> '608')
+True	1.55295e-05	Word -> 487 753 735 (Word -> Chars, Chars -> Char Chars, Char -> '487', Chars -> Char Chars, Char -> '753', Chars -> Char, Char -> '735')
+True	1.55225e-05	Word -> 814 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '814', Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.55154e-05	Word -> 100 520 263 (Word -> Chars, Chars -> Char Chars, Char -> '100', Chars -> Char Chars, Char -> '520', Chars -> Char, Char -> '263')
+True	1.55086e-05	Word -> 686 (Word -> Chars, Chars -> Char, Char -> '686')
+True	1.55084e-05	Word -> 843 748 633 (Word -> Chars, Chars -> Char Chars, Char -> '843', Chars -> Char Chars, Char -> '748', Chars -> Char, Char -> '633')
+True	1.5507e-05	Word -> 040 (Word -> Chars, Chars -> Char, Char -> '040')
+True	1.55014e-05	Word -> 624 453 104 (Word -> Chars, Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '453', Chars -> Char, Char -> '104')
+True	1.54944e-05	Word -> 417 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.54927e-05	Word -> 702 (Word -> Chars, Chars -> Char, Char -> '702')
+True	1.54872e-05	Word -> 450 383 418 (Word -> Chars, Chars -> Char Chars, Char -> '450', Chars -> Char Chars, Char -> '383', Chars -> Char, Char -> '418')
+True	1.5486e-05	Word -> 336 (Word -> Chars, Chars -> Char, Char -> '336')
+True	1.54802e-05	Word -> 543 322 738 (Word -> Chars, Chars -> Char Chars, Char -> '543', Chars -> Char Chars, Char -> '322', Chars -> Char, Char -> '738')
+True	1.54798e-05	Word -> 853 (Word -> Chars, Chars -> Char, Char -> '853')
+True	1.54733e-05	Word -> 153 775 148 (Word -> Chars, Chars -> Char Chars, Char -> '153', Chars -> Char Chars, Char -> '775', Chars -> Char, Char -> '148')
+True	1.54717e-05	Word -> 351 (Word -> Chars, Chars -> Char, Char -> '351')
+True	1.54649e-05	Word -> 104 152 313 454 (Word -> Chars, Chars -> Char Chars, Char -> '104', Chars -> Char Chars, Char -> '152', Chars -> Char Chars, Char -> '313', Chars -> Char, Char -> '454')
+True	1.5458e-05	Word -> 481 088 466 146 (Word -> Chars, Chars -> Char Chars, Char -> '481', Chars -> Char Chars, Char -> '088', Chars -> Char Chars, Char -> '466', Chars -> Char, Char -> '146')
+True	1.5451e-05	Word -> 451 014 816 035 (Word -> Chars, Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char, Char -> '035')
+True	1.5444e-05	Word -> 618 666 583 284 (Word -> Chars, Chars -> Char Chars, Char -> '618', Chars -> Char Chars, Char -> '666', Chars -> Char Chars, Char -> '583', Chars -> Char, Char -> '284')
+True	1.5437e-05	Word -> 633 624 453 104 (Word -> Chars, Chars -> Char Chars, Char -> '633', Chars -> Char Chars, Char -> '624', Chars -> Char Chars, Char -> '453', Chars -> Char, Char -> '104')
+True	1.54301e-05	Word -> 107 636 558 103 (Word -> Chars, Chars -> Char Chars, Char -> '107', Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '558', Chars -> Char, Char -> '103')
+True	1.54231e-05	Word -> 788 731 683 210 (Word -> Chars, Chars -> Char Chars, Char -> '788', Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '210')
+True	1.54162e-05	Word -> 611 417 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '611', Chars -> Char Chars, Char -> '417', Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.54092e-05	Word -> 103 477 575 335 (Word -> Chars, Chars -> Char Chars, Char -> '103', Chars -> Char Chars, Char -> '477', Chars -> Char Chars, Char -> '575', Chars -> Char, Char -> '335')
+True	1.54022e-05	Word -> 416 380 100 520 (Word -> Chars, Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '380', Chars -> Char Chars, Char -> '100', Chars -> Char, Char -> '520')
+True	1.53953e-05	Word -> 735 113 172 514 (Word -> Chars, Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '113', Chars -> Char Chars, Char -> '172', Chars -> Char, Char -> '514')
+True	1.53883e-05	Word -> 014 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '014', Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.5385e-05	Word -> 548 065 (Word -> Chars, Chars -> Char Chars, Char -> '548', Chars -> Char, Char -> '065')
+True	1.53752e-05	Word -> 431 401 (Word -> Chars, Chars -> Char Chars, Char -> '431', Chars -> Char, Char -> '401')
+True	1.53683e-05	Word -> 864 648 (Word -> Chars, Chars -> Char Chars, Char -> '864', Chars -> Char, Char -> '648')
+True	1.53613e-05	Word -> 338 171 (Word -> Chars, Chars -> Char Chars, Char -> '338', Chars -> Char, Char -> '171')
+True	1.53544e-05	Word -> 408 082 (Word -> Chars, Chars -> Char Chars, Char -> '408', Chars -> Char, Char -> '082')
+True	1.53475e-05	Word -> 825 865 (Word -> Chars, Chars -> Char Chars, Char -> '825', Chars -> Char, Char -> '865')
+True	1.53381e-05	Word -> 241 271 068 (Word -> Chars, Chars -> Char Chars, Char -> '241', Chars -> Char Chars, Char -> '271', Chars -> Char, Char -> '068')
+True	1.53311e-05	Word -> 172 514 814 (Word -> Chars, Chars -> Char Chars, Char -> '172', Chars -> Char Chars, Char -> '514', Chars -> Char, Char -> '814')
+True	1.53242e-05	Word -> 753 735 113 (Word -> Chars, Chars -> Char Chars, Char -> '753', Chars -> Char Chars, Char -> '735', Chars -> Char, Char -> '113')
+True	1.53173e-05	Word -> 636 558 103 (Word -> Chars, Chars -> Char Chars, Char -> '636', Chars -> Char Chars, Char -> '558', Chars -> Char, Char -> '103')
+True	1.53104e-05	Word -> 618 666 583 (Word -> Chars, Chars -> Char Chars, Char -> '618', Chars -> Char Chars, Char -> '666', Chars -> Char, Char -> '583')
+True	1.53035e-05	Word -> 735 113 172 (Word -> Chars, Chars -> Char Chars, Char -> '735', Chars -> Char Chars, Char -> '113', Chars -> Char, Char -> '172')
+True	1.52966e-05	Word -> 146 453 611 (Word -> Chars, Chars -> Char Chars, Char -> '146', Chars -> Char Chars, Char -> '453', Chars -> Char, Char -> '611')
+True	1.52897e-05	Word -> 583 284 168 (Word -> Chars, Chars -> Char Chars, Char -> '583', Chars -> Char Chars, Char -> '284', Chars -> Char, Char -> '168')
+True	1.52884e-05	Word -> 714 (Word -> Chars, Chars -> Char, Char -> '714')
+True	1.52828e-05	Word -> 548 065 156 (Word -> Chars, Chars -> Char Chars, Char -> '548', Chars -> Char Chars, Char -> '065', Chars -> Char, Char -> '156')
+True	1.52759e-05	Word -> 320 151 281 (Word -> Chars, Chars -> Char Chars, Char -> '320', Chars -> Char Chars, Char -> '151', Chars -> Char, Char -> '281')
+True	1.5269e-05	Word -> 156 053 523 (Word -> Chars, Chars -> Char Chars, Char -> '156', Chars -> Char Chars, Char -> '053', Chars -> Char, Char -> '523')
+True	1.52621e-05	Word -> 281 072 451 (Word -> Chars, Chars -> Char Chars, Char -> '281', Chars -> Char Chars, Char -> '072', Chars -> Char, Char -> '451')
+True	1.52552e-05	Word -> 731 683 210 (Word -> Chars, Chars -> Char Chars, Char -> '731', Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '210')
+True	1.52483e-05	Word -> 416 380 100 (Word -> Chars, Chars -> Char Chars, Char -> '416', Chars -> Char Chars, Char -> '380', Chars -> Char, Char -> '100')
+True	1.52414e-05	Word -> 451 014 816 (Word -> Chars, Chars -> Char Chars, Char -> '451', Chars -> Char Chars, Char -> '014', Chars -> Char, Char -> '816')
+True	1.52345e-05	Word -> 816 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '816', Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.52277e-05	Word -> 151 281 072 (Word -> Chars, Chars -> Char Chars, Char -> '151', Chars -> Char Chars, Char -> '281', Chars -> Char, Char -> '072')
+True	1.5221e-05	Word -> 487 753 (Word -> Chars, Chars -> Char Chars, Char -> '487', Chars -> Char, Char -> '753')
+True	1.52141e-05	Word -> 035 743 (Word -> Chars, Chars -> Char Chars, Char -> '035', Chars -> Char, Char -> '743')
+True	1.52072e-05	Word -> 468 416 (Word -> Chars, Chars -> Char Chars, Char -> '468', Chars -> Char, Char -> '416')
+True	1.52004e-05	Word -> 477 575 (Word -> Chars, Chars -> Char Chars, Char -> '477', Chars -> Char, Char -> '575')
+True	1.51935e-05	Word -> 683 210 (Word -> Chars, Chars -> Char Chars, Char -> '683', Chars -> Char, Char -> '210')
+True	1.51867e-05	Word -> 843 748 (Word -> Chars, Chars -> Char Chars, Char -> '843', Chars -> Char, Char -> '748')
+True	1.51797e-05	Word -> 474 625 (Word -> Chars, Chars -> Char Chars, Char -> '474', Chars -> Char, Char -> '625')
+True	1.51728e-05	Word -> 814 476 (Word -> Chars, Chars -> Char Chars, Char -> '814', Chars -> Char, Char -> '476')
+True	1.51644e-05	Word -> 374 034 (Word -> Chars, Chars -> Char Chars, Char -> '374', Chars -> Char, Char -> '034')
+True	1.51576e-05	Word -> 575 335 (Word -> Chars, Chars -> Char Chars, Char -> '575', Chars -> Char, Char -> '335')
+True	1.51507e-05	Word -> 611 417 (Word -> Chars, Chars -> Char Chars, Char -> '611', Chars -> Char, Char -> '417')
+True	1.51439e-05	Word -> 146 453 (Word -> Chars, Chars -> Char Chars, Char -> '146', Chars -> Char, Char -> '453')
+True	1.51371e-05	Word -> 416 380 (Word -> Chars, Chars -> Char Chars, Char -> '416', Chars -> Char, Char -> '380')
+True	1.51302e-05	Word -> 053 523 (Word -> Chars, Chars -> Char Chars, Char -> '053', Chars -> Char, Char -> '523')
+True	1.51234e-05	Word -> 788 731 (Word -> Chars, Chars -> Char Chars, Char -> '788', Chars -> Char, Char -> '731')
+True	1.51166e-05	Word -> 234 281 (Word -> Chars, Chars -> Char Chars, Char -> '234', Chars -> Char, Char -> '281')
+True	1.51097e-05	Word -> 107 636 (Word -> Chars, Chars -> Char Chars, Char -> '107', Chars -> Char, Char -> '636')
+True	1.51029e-05	Word -> 466 146 (Word -> Chars, Chars -> Char Chars, Char -> '466', Chars -> Char, Char -> '146')
+True	1.50961e-05	Word -> 344 107 (Word -> Chars, Chars -> Char Chars, Char -> '344', Chars -> Char, Char -> '107')
+True	1.50893e-05	Word -> 417 374 (Word -> Chars, Chars -> Char Chars, Char -> '417', Chars -> Char, Char -> '374')
+True	1.50825e-05	Word -> 520 263 (Word -> Chars, Chars -> Char Chars, Char -> '520', Chars -> Char, Char -> '263')
+True	1.50757e-05	Word -> 416 320 (Word -> Chars, Chars -> Char Chars, Char -> '416', Chars -> Char, Char -> '320')
+True	1.50689e-05	Word -> 068 315 (Word -> Chars, Chars -> Char Chars, Char -> '068', Chars -> Char, Char -> '315')
+True	1.50621e-05	Word -> 271 068 (Word -> Chars, Chars -> Char Chars, Char -> '271', Chars -> Char, Char -> '068')
+True	1.50553e-05	Word -> 305 722 (Word -> Chars, Chars -> Char Chars, Char -> '305', Chars -> Char, Char -> '722')
+True	1.50485e-05	Word -> 618 666 (Word -> Chars, Chars -> Char Chars, Char -> '618', Chars -> Char, Char -> '666')
+True	1.50417e-05	Word -> 284 168 (Word -> Chars, Chars -> Char Chars, Char -> '284', Chars -> Char, Char -> '168')
+True	1.50349e-05	Word -> 753 735 (Word -> Chars, Chars -> Char Chars, Char -> '753', Chars -> Char, Char -> '735')
+True	1.50281e-05	Word -> 113 172 (Word -> Chars, Chars -> Char Chars, Char -> '113', Chars -> Char, Char -> '172')
+==========Words==========
+False	0.699115	Words -> Word Words
+False	0.30005	Words -> Word
