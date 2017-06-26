@@ -22,7 +22,7 @@ import numpy;
 import scipy;
 import scipy.io;
 import collections;
-from nltk.grammar import read_grammar, standard_nonterm_parser
+from nltk.grammar import read_grammar, standard_nonterm_parser, Production, Nonterminal
 import hybrid;
 
 def generate_sentence():
@@ -58,6 +58,8 @@ if __name__ == '__main__':
     desired_truncation_level[adapted_non_terminal] = 1500
     alpha_pi[adapted_non_terminal] = float(100);
     beta_pi[adapted_non_terminal] = float(0);
+    snapshot_interval = 10
+    output_directory = "/Users/elias/PyAdaGram/dynamic"
 
     grammar_rules = """Words -> Word
                         Words -> Word Words
@@ -88,47 +90,21 @@ if __name__ == '__main__':
                                    );
 
     i = 0
+    training_clock = time.time()
     training_iterations = 1000
     while i < 100:
         ten_sents, used = generate_10()
         adagram_inferencer._terminals |= used
-        for terminal in used:
-            lhs_node,rhs_nodes = "Char", terminal
-            pcfg_production = 'Char -> "{}"'.format(terminal)
-            
-            adagram_inferencer._pcfg_productions[(lhs_node, rhs_nodes)].add(pcfg_production);
-            
-            adagram_inferencer._lhs_rhs_to_pcfg_production[(lhs_node, rhs_nodes)] = pcfg_production
-            adagram_inferencer._lhs_to_pcfg_production[lhs_node].add(pcfg_production);
-            adagram_inferencer._rhs_to_pcfg_production[rhs_nodes].add(pcfg_production);
-            if len(rhs_nodes)==1:
-                adagram_inferencer._rhs_to_unary_pcfg_production[rhs_nodes[0]].add(pcfg_production);
-
-            adagram_inferencer._gamma_index_to_pcfg_production_of_lhs[lhs_node][len(adagram_inferencer._gamma_index_to_pcfg_production_of_lhs[lhs_node])] = pcfg_production;
-            adagram_inferencer._pcfg_production_to_gamma_index_of_lhs[lhs_node][pcfg_production] = len(adagram_inferencer._pcfg_production_to_gamma_index_of_lhs[lhs_node]);
-
-        topology_order, order_topology = adagram_inferencer._topological_sort();
-        
-        adagram_inferencer._incremental_build_up = False;
-        adagram_inferencer._non_terminal_to_level = topology_order;
-        adagram_inferencer._level_to_non_terminal = order_topology;
-        
-        adagram_inferencer._ordered_adaptor_top_down = [];
-        for x in xrange(len(order_topology)):
-            for non_terminal in order_topology[x]:
-                if non_terminal in adagram_inferencer._adapted_non_terminals:
-                    adagram_inferencer._ordered_adaptor_top_down.append(non_terminal);
-        adagram_inferencer._ordered_adaptor_down_top = adagram_inferencer._ordered_adaptor_top_down[::-1];
+        production_list = [Production(Nonterminal("Char"), [terminal]) for terminal in used]
+        adagram_inferencer.update_grammar(production_list)
         # for iteration in range(training_iterations):
         # pick up again here!
-
         clock_iteration = time.time();
         number_of_processes = 1;
-        print(ten_sents)
         clock_e_step, clock_m_step = adagram_inferencer.learning(ten_sents, number_of_processes);
 
         if (i+1)%snapshot_interval==0:
-            adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str((iteration+1))))
+            adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str((i+1))))
 
         if (i+1) % 1000==0:
             snapshot_clock = time.time() - snapshot_clock;
@@ -139,7 +115,7 @@ if __name__ == '__main__':
     
         i+=1    
     adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str(adagram_inferencer._counter+1)))
-    cpickle_file = open(os.path.join(output_directory, "model-%d" % (iteration+1)), 'wb');
+    cpickle_file = open(os.path.join(output_directory, "model-%d" % (i+1)), 'wb');
     cPickle.dump(adagram_inferencer, cpickle_file);
     cpickle_file.close();
     
