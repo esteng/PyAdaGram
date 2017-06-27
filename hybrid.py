@@ -369,13 +369,17 @@ class Hybrid(object):
         self._start_symbol = start_symbol;
         
         self._adapted_non_terminals = set(adapted_non_terminals);
-        self._non_terminals = set(pcfg_production.lhs() for pcfg_production in pcfg_productions)
+        self._non_terminals = set(pcfg_production.lhs() for pcfg_production in pcfg_productions if not isinstance(pcfg_production, util.NoisyProduction))
+        self._noisy_non_terminals = set(pcfg_production.lhs() for pcfg_production in pcfg_productions if isinstance(pcfg_production, util.NoisyProduction))
         self._terminals = set();
         for pcfg_production in pcfg_productions:
-            self._terminals |= set(pcfg_production.rhs()) - self._non_terminals;
+            self._terminals |= set(pcfg_production.rhs()) - (self._non_terminals | self._noisy_non_terminals);
+
+
 
         print "terminals:", " ".join([terminal.encode('utf-8') for terminal in self._terminals])
         print "non-terminals:", self._non_terminals
+        print("noisy non-terminals:", self._noisy_non_terminals)
         print "adapted non-terminal:", self._adapted_non_terminals;
         
         assert(self._non_terminals.isdisjoint(self._terminals))
@@ -464,10 +468,15 @@ class Hybrid(object):
                 #self._alpha_theta[non_terminal] = 1. / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
             
         self._gamma = {};
+        self._noisy_gamma = {}
         self._pcfg_sufficient_statistics_of_lhs = {};
         self._pcfg_production_usage_counts_of_lhs = {};
+
+        self._noisy_pcfg_sufficient_statistics_of_lhs = {};
+        self._noisy_pcfg_production_usage_counts_of_lhs = {};
         for non_terminal in self._non_terminals:
             self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            
             #self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
             #for gamma_index in xrange(len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])):
                 #self._gamma[non_terminal][0, gamma_index] *= len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal][gamma_index].rhs());
@@ -482,7 +491,11 @@ class Hybrid(object):
                 self._gamma[non_terminal][0, gamma_index] *= pcfg_rhs_scale_coefficient**(len(pcfg_production.rhs())-1);
             #print self._alpha_theta[non_terminal], self._gamma[non_terminal]
             '''
-            
+        for non_terminal in self._noisy_non_terminals:
+            self._noisy_gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            self._noisy_pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+            self._noisy_pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+          
         if truncation_level==None:
             truncation_level = {};
             for adapted_non_terminal in self._ordered_adaptor_top_down[::-1]:
@@ -590,6 +603,7 @@ class Hybrid(object):
             assert E_log_stick_weights[adapted_non_terminal].shape==(1, len(self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal])), (adapted_non_terminal, len(self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal]), E_log_stick_weights[adapted_non_terminal].shape, E_log_left_over_stick_weights[adapted_non_terminal].shape);
 
         E_log_theta = {};
+        E_log_theta_noisy = {}
         for non_terminal in self._non_terminals:
             # make sure here that new noisy channel non-terminals/terminals don't get a theta or a stick weight
             E_log_theta[non_terminal] = scipy.special.psi(self._gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._gamma[non_terminal]));
@@ -597,8 +611,11 @@ class Hybrid(object):
             
             if self.is_adapted_non_terminal(non_terminal):
                 E_log_theta[non_terminal] += E_log_left_over_stick_weights[non_terminal];
-                
-        return E_log_stick_weights, E_log_theta
+        for non_terminal in self._noisy_non_terminals:
+            E_log_theta_noisy[non_terminal]= scipy.special.psi(self._noisy_gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._noisy_gamma[non_terminal]))    
+            assert(E_log_theta_noisy[non_terminal].shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+
+        return E_log_stick_weights, E_log_theta, E_log_theta_noisy
     
 
     def update_grammar(self, pcfg_productions):
@@ -609,10 +626,13 @@ class Hybrid(object):
             assert(len(pcfg_production.rhs())>=1 and len(pcfg_production.rhs())<=2);
             
             lhs_node = pcfg_production.lhs();
-            self._non_terminals |= {lhs_node}
+            if not isinstance(pcfg_production, util.NoisyProduction):
+                self._non_terminals |= {lhs_node}
+            else:
+                self._noisy_non_terminals |= {lhs_node}
 
             rhs_nodes = pcfg_production.rhs();
-            if len(rhs_nodes) == 1:
+            if len(rhs_nodes) == 1 and str(rhs_nodes[0])[0]!= 'T':
                 self._terminals |= {rhs_nodes[0]}
             self._pcfg_productions[(lhs_node, rhs_nodes)].add(pcfg_production);
             
@@ -623,6 +643,9 @@ class Hybrid(object):
                 self._rhs_to_unary_pcfg_production[rhs_nodes[0]].add(pcfg_production);
 
             self._gamma_index_to_pcfg_production_of_lhs[lhs_node][len(self._gamma_index_to_pcfg_production_of_lhs[lhs_node])] = pcfg_production;
+
+
+
             self._pcfg_production_to_gamma_index_of_lhs[lhs_node][pcfg_production] = len(self._pcfg_production_to_gamma_index_of_lhs[lhs_node]);
         topology_order, order_topology = self._topological_sort();
         
@@ -634,12 +657,15 @@ class Hybrid(object):
             self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
 
-
         for non_terminal in self._non_terminals:
             #self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
             self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            #self._alpha_theta[non_terminal] = 1. / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            
+            #self._alpha_theta[non_terminal] = 1. / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);     
+
+        for non_terminal in self._noisy_non_terminals:
+            self._noisy_gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            self._noisy_pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+            self._noisy_pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
 
         self._incremental_build_up = False;
         self._non_terminal_to_level = topology_order;
@@ -654,7 +680,7 @@ class Hybrid(object):
 
 
 
-    def compute_inside_probabilities(self, E_log_stick_weights, E_log_theta, input_sequence, sentence_root=None, candidate_adaptors=None):
+    def compute_inside_probabilities(self, E_log_stick_weights, E_log_theta, E_log_theta_noisy, input_sequence, sentence_root=None, candidate_adaptors=None):
         #E_log_stick_weights, E_log_theta = self.propose_pcfg();
         if candidate_adaptors==None:
             candidate_adaptors = self._adapted_non_terminals;
@@ -664,7 +690,7 @@ class Hybrid(object):
         root_and_position_to_node = collections.defaultdict(dict);
         position_and_root_to_node = collections.defaultdict(dict);
         
-
+        print(input_sequence)
 
         # basically cky 
         for span in xrange(1, sequence_length+1):
@@ -701,46 +727,84 @@ class Hybrid(object):
                         rhs_0 = candidate_pcfg_production.rhs()[0];
 
                         gamma_index = self._pcfg_production_to_gamma_index_of_lhs[lhs][candidate_pcfg_production];
-
-                        if len(candidate_pcfg_production.rhs())==1:
-                            if span==1:
-                                if rhs_0==input_sequence[i:j][0]:
-                                    # this is a terminal initialization rule, otherwise, we don't consider
-                                    hyper_node = util.HyperNode(lhs, (i, j));
-                                    hyper_node.add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], hyper_nodes=None);
-
-                                    root_and_position_to_node[lhs][(i, j)] = hyper_node;
-                                    position_and_root_to_node[(i, j)][lhs] = hyper_node;
-                                else:
-                                    continue;
-                            else:
-                                continue;
-                        elif len(candidate_pcfg_production.rhs())==2:
-                            if rhs_0 not in root_and_position_to_node:
-                                continue;
-
-                            rhs_1 = candidate_pcfg_production.rhs()[1];
-                            assert(self.is_non_terminal(rhs_1));
-                            
-                            if rhs_1 in root_and_position_to_node:
-                                for k in xrange(i+1, j):
-                                    if (i, k) not in root_and_position_to_node[rhs_0]:
-                                        continue;
-                                    if (k, j) not in root_and_position_to_node[rhs_1]:
-                                        continue;
-                                    
-                                    if (i, j) not in root_and_position_to_node[lhs]:
+                        if not isinstance(candidate_pcfg_production, util.NoisyProduction): 
+                            if len(candidate_pcfg_production.rhs())==1:
+                                if span==1:
+                                    if rhs_0==input_sequence[i:j][0]:
+                                        # this is a terminal initialization rule, otherwise, we don't consider
                                         hyper_node = util.HyperNode(lhs, (i, j));
+                                        hyper_node.add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], hyper_nodes=None);
 
                                         root_and_position_to_node[lhs][(i, j)] = hyper_node;
                                         position_and_root_to_node[(i, j)][lhs] = hyper_node;
-                                    log_probability = E_log_theta[lhs][0, gamma_index] + root_and_position_to_node[rhs_0][(i, k)]._accumulated_log_probability + root_and_position_to_node[rhs_1][(k, j)]._accumulated_log_probability;
-                                    root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, log_probability, [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
-                                    #root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                                    else:
+                                        continue;
+                                else:
+                                    continue;
+                            elif len(candidate_pcfg_production.rhs())==2:
+                                if rhs_0 not in root_and_position_to_node:
+                                    continue;
+
+                                rhs_1 = candidate_pcfg_production.rhs()[1];
+                                assert(self.is_non_terminal(rhs_1));
+                                
+                                if rhs_1 in root_and_position_to_node:
+                                    for k in xrange(i+1, j):
+                                        if (i, k) not in root_and_position_to_node[rhs_0]:
+                                            continue;
+                                        if (k, j) not in root_and_position_to_node[rhs_1]:
+                                            continue;
+                                        
+                                        if (i, j) not in root_and_position_to_node[lhs]:
+                                            hyper_node = util.HyperNode(lhs, (i, j));
+
+                                            root_and_position_to_node[lhs][(i, j)] = hyper_node;
+                                            position_and_root_to_node[(i, j)][lhs] = hyper_node;
+                                        log_probability = E_log_theta[lhs][0, gamma_index] + root_and_position_to_node[rhs_0][(i, k)]._accumulated_log_probability + root_and_position_to_node[rhs_1][(k, j)]._accumulated_log_probability;
+                                        root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, log_probability, [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                                        #root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                            else:
+                                sys.stderr.write('Error: pcfg production not in CNF...\n');
+                                sys.exit();
                         else:
-                            sys.stderr.write('Error: pcfg production not in CNF...\n');
-                            sys.exit();
-                
+                            if len(candidate_pcfg_production.rhs())==1:
+                                if span==1:
+                                    if rhs_0==input_sequence[i:j][0]:
+                                        # this is a terminal initialization rule, otherwise, we don't consider
+                                        hyper_node = util.HyperNode(lhs, (i, j));
+                                        hyper_node.add_new_derivation(candidate_pcfg_production, E_log_theta_noisy[lhs][0, gamma_index], hyper_nodes=None);
+
+                                        root_and_position_to_node[lhs][(i, j)] = hyper_node;
+                                        position_and_root_to_node[(i, j)][lhs] = hyper_node;
+                                    else:
+                                        continue;
+                                else:
+                                    continue;
+                            elif len(candidate_pcfg_production.rhs())==2:
+                                if rhs_0 not in root_and_position_to_node:
+                                    continue;
+
+                                rhs_1 = candidate_pcfg_production.rhs()[1];
+                                assert(self.is_non_terminal(rhs_1));
+                                
+                                if rhs_1 in root_and_position_to_node:
+                                    for k in xrange(i+1, j):
+                                        if (i, k) not in root_and_position_to_node[rhs_0]:
+                                            continue;
+                                        if (k, j) not in root_and_position_to_node[rhs_1]:
+                                            continue;
+                                        
+                                        if (i, j) not in root_and_position_to_node[lhs]:
+                                            hyper_node = util.HyperNode(lhs, (i, j));
+
+                                            root_and_position_to_node[lhs][(i, j)] = hyper_node;
+                                            position_and_root_to_node[(i, j)][lhs] = hyper_node;
+                                        log_probability = E_log_theta_noisy[lhs][0, gamma_index] + root_and_position_to_node[rhs_0][(i, k)]._accumulated_log_probability + root_and_position_to_node[rhs_1][(k, j)]._accumulated_log_probability;
+                                        root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, log_probability, [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                                        #root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                            else:
+                                sys.stderr.write('Error: pcfg production not in CNF...\n');
+                                sys.exit();
                 unary_node_set = set(position_and_root_to_node[(i, j)]);
                 while len(unary_node_set)>0:
                     non_terminal = unary_node_set.pop();
@@ -849,8 +913,9 @@ class Hybrid(object):
             adapted_sufficient_statistics = None;
             log_likelihood = 0;
         
-        E_log_stick_weights, E_log_theta = self.propose_pcfg();
-        
+        E_log_stick_weights, E_log_theta, E_log_theta_noisy = self.propose_pcfg();
+        #need own theta for noisy productions
+
 
 
         #for input_string in input_strings:
@@ -860,7 +925,7 @@ class Hybrid(object):
             #compute_inside_probabilities_clock = time.time()
             parsed_string = input_string.split();
 
-            root_node = self.compute_inside_probabilities(E_log_stick_weights, E_log_theta, parsed_string);
+            root_node = self.compute_inside_probabilities(E_log_stick_weights, E_log_theta, E_log_theta_noisy, parsed_string);
 
             #self.model_state_assertion();
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
@@ -873,7 +938,7 @@ class Hybrid(object):
             for sample_index in xrange(number_of_samples):
                 production_list = self._sample_tree(root_node, parsed_string, pcfg_sufficient_statistics, adapted_sufficient_statistics);
                 if inference_parameter!=None:
-                    log_likelihood += self._compute_log_likelihood(production_list, E_log_stick_weights, E_log_theta);
+                    log_likelihood += self._compute_log_likelihood(production_list, E_log_stick_weights, E_log_theta_noisy, E_log_theta);
                     
                     '''
                     for sampled_production in production_list:
@@ -2568,7 +2633,7 @@ class Hybrid(object):
         return self._rhs_to_unary_pcfg_production[rhs];
 
     def export_adaptor_grammar(self, adaptor_grammar_path):
-        E_log_stick_weights, E_log_theta = self.propose_pcfg();
+        E_log_stick_weights, E_log_theta, E_log_theta_noisy = self.propose_pcfg();
         #adaptor_grammar_output = codecs.open(adaptor_grammar_path, 'w', encoding='utf-8');
         adaptor_grammar_output = open(adaptor_grammar_path, 'w');
         
@@ -2579,7 +2644,10 @@ class Hybrid(object):
                 pcfg_production = self._gamma_index_to_pcfg_production_of_lhs[non_terminal][gamma_index];
                 # Warning: if you are using nltk 2.x, please use inc()
                 #production_freqdist.inc(pcfg_production, numpy.exp(E_log_theta[non_terminal][0, gamma_index]));
-                production_freqdist[pcfg_production] += numpy.exp(E_log_theta[non_terminal][0, gamma_index]);
+                if isinstance(pcfg_production, util.NoisyProduction):
+                    production_freqdist[pcfg_production] += numpy.exp(E_log_theta_noisy[non_terminal][0, gamma_index]);
+                else:
+                    production_freqdist[pcfg_production] += numpy.exp(E_log_theta[non_terminal][0, gamma_index]);
             
             if non_terminal in self._adapted_non_terminals:
                 for nu_index in self._nu_index_to_active_adapted_production_of_lhs[non_terminal]:
