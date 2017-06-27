@@ -23,14 +23,6 @@ class GraphNode():
         assert(isinstance(next_node, self.__class__));
         self._next_nodes.add(next_node);
 
-
-class NoisyProduction(nltk.grammar.Production):
-    def __init__(self, lhs, rhs):
-        super(NoisyProduction, self).__init__(lhs,rhs)
-    def __str__(self):
-        str = "%s -> %s" % (self._lhs, " ".join(["%s" % elt for elt in self._rhs]));
-        return str;
-
 class AdaptedProduction(nltk.grammar.Production):
     def __init__(self, lhs, rhs, productions):
         super(AdaptedProduction, self).__init__(lhs, rhs);
@@ -41,6 +33,7 @@ class AdaptedProduction(nltk.grammar.Production):
             productions_hash += production.__hash__();
         self._hash = hash((self._lhs, self._rhs, productions_hash));
         #self._hash = hash((self._lhs, self._rhs, "%f%f" % (time.time(), numpy.random.random())));
+
     def get_production_list(self):
         return self._productions;
 
