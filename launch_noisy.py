@@ -25,6 +25,7 @@ import collections;
 from nltk.grammar import read_grammar, standard_nonterm_parser, Production, Nonterminal
 import hybrid;
 import itertools
+from util import NoisyProduction
 
 
 def substitute_rules(plu_list):
@@ -33,16 +34,17 @@ def substitute_rules(plu_list):
     assert(len(all_combos) == len(plu_list)**2)
     to_ret = []
     for combination in all_combos:
-        to_ret.append(Production(Nonterminal(combination[0]), [combination[1]]))
+        to_ret.append(NoisyProduction(Nonterminal("T_"+ combination[0].strip()), [combination[1].strip()]))
 
     return to_ret
 
-def split_rules(plu_list, grammar_file):
+def split_rules(plu_list):
     """make rules to sub all plus with combos of any 2 plus (n^3 length)"""
     all_combos = list(itertools.product(plu_list, plu_list))
+    to_ret = []
     for plu in plu_list:
         for combination in all_combos:
-            to_ret.append(Production(Nonterminal(plu), [combination[0], combination[1]]))
+            to_ret.append(NoisyProduction(Nonterminal("T_" + plu.strip()), [combination[0].strip(), combination[1].strip()]))
     return to_ret
 
 def map_phone_to_plu(phone_lines, randomize):
@@ -102,9 +104,8 @@ if __name__ == '__main__':
                         Word -> Chars
                         Chars -> Char
                         Chars -> Char Chars
-                        Char -> "100"
-                        Char -> "200"
-                         """
+                        Char -> "000"
+                        """
 
     start, productions = read_grammar(grammar_rules, standard_nonterm_parser, probabilistic=False)
 
@@ -133,27 +134,43 @@ if __name__ == '__main__':
         phone_lines = f1.readlines()
 
     print("mapping phones")
-    with open("train.dat") as f1:
+    with open("brent-phone/train.dat") as f1:
         train_lines= f1.readlines()
     # train_lines = map_phone_to_plu(phone_lines, .1)
     print("done mapping")
-    while i < 100:
+    # while i < 100:
+    while i < 10:
+
+
+        # debugging
+        grammar_file = open("grammar_debug","w")
         # ten_sents, used = generate_10()
         print("going from ", i*10, " to ", (i+1)*10)
         ten_sents = train_lines[i*10:(i+1)*10]
+        print(ten_sents)
         used = get_used(ten_sents)
-
+        print("got sentences, used")
 
         adagram_inferencer._terminals |= used
         # add the char -> T_xx rules
+        print("adding base rules")
         production_list = [Production(Nonterminal("Char"), [Nonterminal("T_{}".format(pre_terminal))]) for pre_terminal in used]
+
         # add the T_xx -> terminal rules
         production_list += [Production(Nonterminal("T_{}".format(pre_terminal)), [pre_terminal]) for pre_terminal in used]
         # add the substitution rules 
+        print("adding sub rules")
         plu_sub_rules = substitute_rules(adagram_inferencer._terminals)
         assert(len(plu_sub_rules) == len(adagram_inferencer._terminals)**2)
         production_list += plu_sub_rules
+        # add the combination rules
+        print("adding split rules")
+        plu_comb_rules = split_rules(adagram_inferencer._terminals)
+        assert(len(plu_comb_rules) == len(adagram_inferencer._terminals)**3)
+        production_list += plu_comb_rules
 
+        print("updating grammar")
+        [grammar_file.write(str(x)+'\n') for x in production_list]
         adagram_inferencer.update_grammar(production_list)
         # for iteration in range(training_iterations):
         # pick up again here!
