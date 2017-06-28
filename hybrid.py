@@ -1753,9 +1753,35 @@ class Hybrid(object):
                     temp_step_factor *= decay;
                 self._alpha_theta[non_terminal] -= temp_step_factor*first_derivative/second_derivative;
                 assert (numpy.all(self._alpha_theta[non_terminal]>0)), (old_alpha_theta, self._alpha_theta[non_terminal]);
+        
+        for non_terminal in self._noisy_non_terminals:
+            temp_step_factor = step_factor;
+            
+            old_alpha_theta = -1e9;
+            while(numpy.any(abs(old_alpha_theta-self._alpha_theta[non_terminal])>converge_threshold)):
+                first_derivative = -scipy.special.psi(self._alpha_theta[non_terminal]);
+                first_derivative += scipy.special.psi(numpy.sum(self._alpha_theta[non_terminal]));
+                first_derivative += scipy.special.psi(self._noisy_gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._noisy_gamma[non_terminal]))
+                assert(first_derivative.shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])))
+            
+                second_derivative = -scipy.special.polygamma(1, self._alpha_theta[non_terminal]);
+                second_derivative += scipy.special.polygamma(1, numpy.sum(self._alpha_theta[non_terminal]));
+                assert(second_derivative.shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])))
                 
+                if numpy.any(second_derivative==0) or not numpy.all(numpy.isfinite(first_derivative/second_derivative)):
+                    #print "warning: natural gradient of alpha_theta throws arithmetic exception..."
+                    break;
+                
+                old_alpha_theta = self._alpha_theta[non_terminal];
+                while(numpy.any(temp_step_factor*first_derivative/second_derivative>=self._alpha_theta[non_terminal])):
+                    temp_step_factor *= decay;
+                self._alpha_theta[non_terminal] -= temp_step_factor*first_derivative/second_derivative;
+                assert (numpy.all(self._alpha_theta[non_terminal]>0)), (old_alpha_theta, self._alpha_theta[non_terminal]);        
         print "optimize alpha_theta:\n%s" % ("\n".join(["\t%s: %s" % (non_terminal, self._alpha_theta[non_terminal]) for non_terminal in self._non_terminals]));
         
+
+
+
         return;
 
     def optimize_alpha_pi(self, step_factor=1e3, decay=0.5, converge_threshold=1.):
