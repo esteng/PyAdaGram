@@ -30,16 +30,16 @@ class NoisyProduction(nltk.grammar.Production):
     def __str__(self):
         str = "%s -> %s" % (self._lhs, " ".join(["%s" % elt for elt in self._rhs]));
         return str;
-
+ 
 class AdaptedProduction(nltk.grammar.Production):
     def __init__(self, lhs, rhs, productions):
         super(AdaptedProduction, self).__init__(lhs, rhs);
         self._productions = productions;
-        productions_hash = 0;
+        self.productions_hash = 0;
         for production in productions:
-            productions_hash /= 1e9;
-            productions_hash += production.__hash__();
-        self._hash = hash((self._lhs, self._rhs, productions_hash));
+            self.productions_hash /= 1e9;
+            self.productions_hash += production.__hash__();
+        
         #self._hash = hash((self._lhs, self._rhs, "%f%f" % (time.time(), numpy.random.random())));
     def get_production_list(self):
         return self._productions;
@@ -47,11 +47,13 @@ class AdaptedProduction(nltk.grammar.Production):
     def match_grammaton(self, production_list):
         if len(self._productions)!=len(production_list):
             return False;
-        for x in xrange(len(self._productions)):
+        for x in range(len(self._productions)):
             if self._productions[x]!=production_list[x]:
                 return False;
         return True;
 
+    def __hash__(self):
+        return hash((self._lhs, self._rhs, self.productions_hash))
     def __eq__(self, other):
         """
         @return: true if this C{Production} is equal to C{other}.
@@ -132,13 +134,13 @@ class HyperNode():
         '''
         
         #print "<<<<<<<<<<debug>>>>>>>>>>"
-        #for x in xrange(len(self._derivation)):
+        #for x in range(len(self._derivation)):
             #print self._derivation[x], numpy.exp(self._log_probability[x] - self._accumulated_log_probability);
         #sys.exit();
         # stop at a random derivation
         # the bigger the log prob / accumulated log prob, the faster you stop
         assert(len(self._derivation)==len(self._log_probability))
-        for x in xrange(len(self._derivation)):
+        for x in range(len(self._derivation)):
             current_probability = numpy.exp(self._log_probability[x] - self._accumulated_log_probability);
             # division of  prob / accumulated prob?
             if random_number>current_probability:
@@ -167,7 +169,7 @@ class HyperNode():
         return output_string
         '''
         
-        for x in xrange(len(self._derivation)):
+        for x in range(len(self._derivation)):
             production = self._derivation[x][0];
             hyper_nodes = self._derivation[x][1];
             
@@ -253,7 +255,7 @@ class HyperGraph():
 def demo():
     graph_node_2 = GraphNode("NP", set(GraphNode("VP")));
     graph_node_1 = GraphNode("NP");
-    print graph_node_1.__eq__(graph_node_2);
+    print( graph_node_1.__eq__(graph_node_2));
 
 if __name__ == '__main__':
     demo()

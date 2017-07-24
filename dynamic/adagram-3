@@ -1,0 +1,205 @@
+==========Char==========
+False	0.359545	Char -> T_A
+False	0.282177	Char -> T_t
+False	0.213306	Char -> T_v
+False	0.0707098	Char -> T_z
+False	0.0707098	Char -> T_y
+False	8.31974e-34	Char -> T_e
+False	8.31974e-34	Char -> T_i
+False	8.31974e-34	Char -> T_s
+False	8.31974e-34	Char -> T_n
+False	8.31974e-34	Char -> T_k
+False	5.54649e-34	Char -> T_u
+False	5.54649e-34	Char -> T_d
+False	5.54649e-34	Char -> T_l
+False	5.54649e-34	Char -> T_a
+False	5.54649e-34	Char -> T_O
+False	5.54649e-34	Char -> T_6
+False	5.54649e-34	Char -> T_U
+False	5.54649e-34	Char -> T_w
+False	5.54649e-34	Char -> T_D
+False	5.54649e-34	Char -> T_p
+False	5.54649e-34	Char -> T_I
+False	5.54649e-34	Char -> T_N
+False	5.54649e-34	Char -> T_T
+False	5.54649e-34	Char -> T_Q
+False	5.54649e-34	Char -> T_&
+False	5.54649e-34	Char -> T_g
+False	5.54649e-34	Char -> T_o
+False	2.77325e-34	Char -> T_h
+False	2.77325e-34	Char -> '000'
+False	2.77325e-34	Char -> T_r
+False	2.77325e-34	Char -> T_b
+False	2.77325e-34	Char -> T_~
+False	2.77325e-34	Char -> T_E
+False	2.77325e-34	Char -> T_W
+False	2.77325e-34	Char -> T_9
+False	2.77325e-34	Char -> T_7
+False	2.77325e-34	Char -> T_*
+False	2.77325e-34	Char -> T_m
+==========Chars==========
+False	0.648695	Chars -> Char
+False	0.350698	Chars -> Char Chars
+==========Word==========
+True	0.186998	Word -> t (Word -> Chars, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.0969324	Word -> I (Word -> Chars, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.0658434	Word -> k (Word -> Chars, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.0427506	Word -> D (Word -> Chars, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.0387101	Word -> e (Word -> Chars, Chars -> Char, Char -> T_e, T_e -> e)
+True	0.0368104	Word -> Q (Word -> Chars, Chars -> Char, Char -> T_Q, T_Q -> Q)
+True	0.0269995	Word -> & t (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.0229258	Word -> s (Word -> Chars, Chars -> Char, Char -> T_s, T_s -> s)
+False	0.0204391	Word -> Chars
+True	0.0185562	Word -> n (Word -> Chars, Chars -> Char, Char -> T_n, T_n -> n)
+True	0.0163499	Word -> l (Word -> Chars, Chars -> Char, Char -> T_l, T_l -> l)
+True	0.0157775	Word -> y u (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.015708	Word -> l U k (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.0151291	Word -> y (Word -> Chars, Chars -> Char, Char -> T_y, T_y -> y)
+True	0.0149074	Word -> N k (Word -> Chars, Chars -> Char Chars, Char -> T_N, T_N -> N, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.0143499	Word -> y u w a n t (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.0143168	Word -> U (Word -> Chars, Chars -> Char, Char -> T_U, T_U -> U)
+True	0.0142803	Word -> w I (Word -> Chars, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.0141801	Word -> T (Word -> Chars, Chars -> Char, Char -> T_T, T_T -> T)
+True	0.0139444	Word -> 6 d O g i (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_O, T_O -> O, Chars -> Char Chars, Char -> T_g, T_g -> g, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.0138388	Word -> a n (Word -> Chars, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char, Char -> T_n, T_n -> n)
+True	0.0133643	Word -> o k e (Word -> Chars, Chars -> Char Chars, Char -> T_o, T_o -> o, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char, Char -> T_e, T_e -> e)
+True	0.0123136	Word -> p (Word -> Chars, Chars -> Char, Char -> T_p, T_p -> p)
+True	0.0122825	Word -> E (Word -> Chars, Chars -> Char, Char -> T_E, T_E -> E)
+True	0.0122031	Word -> A p (Word -> Chars, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char, Char -> T_p, T_p -> p)
+True	0.0120387	Word -> 9 (Word -> Chars, Chars -> Char, Char -> T_9, T_9 -> 9)
+True	0.0119626	Word -> A m Q (Word -> Chars, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_m, T_m -> m, Chars -> Char, Char -> T_Q, T_Q -> Q)
+True	0.011032	Word -> o p ~ (Word -> Chars, Chars -> Char Chars, Char -> T_o, T_o -> o, Chars -> Char Chars, Char -> T_p, T_p -> p, Chars -> Char, Char -> T_~, T_~ -> ~)
+True	0.0107255	Word -> & n (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_n, T_n -> n)
+True	0.0054125	Word -> k & (Word -> Chars, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.00531432	Word -> W A (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char, Char -> T_A, T_A -> A)
+True	0.00470245	Word -> o k e n Q (Word -> Chars, Chars -> Char Chars, Char -> T_o, T_o -> o, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_e, T_e -> e, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_Q, T_Q -> Q)
+True	0.00422853	Word -> & (Word -> Chars, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.00399645	Word -> W (Word -> Chars, Chars -> Char, Char -> T_W, T_W -> W)
+True	0.00394357	Word -> W A t I z I t (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.00348265	Word -> l U (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char, Char -> T_U, T_U -> U)
+True	0.00293953	Word -> y u w a n (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char, Char -> T_n, T_n -> n)
+True	0.00292859	Word -> w (Word -> Chars, Chars -> Char, Char -> T_w, T_w -> w)
+True	0.0028979	Word -> h (Word -> Chars, Chars -> Char, Char -> T_h, T_h -> h)
+True	0.00286283	Word -> & n d 6 d O g i (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_O, T_O -> O, Chars -> Char Chars, Char -> T_g, T_g -> g, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.00268521	Word -> A t s D & t (Word -> Chars, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.00223839	Word -> y u w (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char, Char -> T_w, T_w -> w)
+True	0.00223514	Word -> b U k (Word -> Chars, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.00223334	Word -> u (Word -> Chars, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.0022277	Word -> u s (Word -> Chars, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00222699	Word -> i D 6 b U k (Word -> Chars, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.00219985	Word -> l U k D (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.00217046	Word -> g i (Word -> Chars, Chars -> Char Chars, Char -> T_g, T_g -> g, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.0021439	Word -> U k & t (Word -> Chars, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.00214225	Word -> I s (Word -> Chars, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00213883	Word -> D I s (Word -> Chars, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00210636	Word -> 6 d r I N k (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_N, T_N -> N, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.00206447	Word -> W A t s D I s (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00205889	Word -> t s D I s (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00152613	Word -> y u w a (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_a, T_a -> a)
+True	0.00152565	Word -> n t t (Word -> Chars, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.00152369	Word -> a n t t u s i D 6 b (Word -> Chars, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char, Char -> T_b, T_b -> b)
+True	0.00151421	Word -> T h I z h & (Word -> Chars, Chars -> Char Chars, Char -> T_T, T_T -> T, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.00147339	Word -> t D I (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.00146891	Word -> t t u l (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char, Char -> T_l, T_l -> l)
+True	0.00145947	Word -> D I (Word -> Chars, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.0014471	Word -> k & t D I s (Word -> Chars, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.00144334	Word -> h & v (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_v, T_v -> v)
+True	0.00142184	Word -> o k (Word -> Chars, Chars -> Char Chars, Char -> T_o, T_o -> o, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.00141871	Word -> n Q (Word -> Chars, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_Q, T_Q -> Q)
+True	0.00140762	Word -> W A t s D (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.00139544	Word -> W A t s D & t (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.0013102	Word -> o (Word -> Chars, Chars -> Char, Char -> T_o, T_o -> o)
+True	0.00130429	Word -> p ~ (Word -> Chars, Chars -> Char Chars, Char -> T_p, T_p -> p, Chars -> Char, Char -> T_~, T_~ -> ~)
+True	0.000827165	Word -> a (Word -> Chars, Chars -> Char, Char -> T_a, T_a -> a)
+True	0.000826769	Word -> t t u (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.000826365	Word -> i D 6 (Word -> Chars, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.000825237	Word -> s i D (Word -> Chars, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.00082498	Word -> 6 b U k (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000824461	Word -> w a n (Word -> Chars, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char, Char -> T_n, T_n -> n)
+True	0.000824199	Word -> t t u s i D 6 (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.00082235	Word -> U k (Word -> Chars, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000822084	Word -> y u w a n t t (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000821545	Word -> a n t (Word -> Chars, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000821273	Word -> t u (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.000821001	Word -> s i D 6 b U (Word -> Chars, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_i, T_i -> i, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char, Char -> T_U, T_U -> U)
+True	0.00082012	Word -> t u s (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.000819813	Word -> w a (Word -> Chars, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_a, T_a -> a)
+True	0.000819505	Word -> i (Word -> Chars, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.000818866	Word -> 6 (Word -> Chars, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.000817848	Word -> * z 6 b 7 w I (Word -> Chars, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.00081715	Word -> l U k D * z (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char, Char -> T_z, T_z -> z)
+True	0.0008168	Word -> 6 b 7 (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char, Char -> T_7, T_7 -> 7)
+True	0.000816091	Word -> T h I (Word -> Chars, Chars -> Char Chars, Char -> T_T, T_T -> T, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000815732	Word -> z h & t (Word -> Chars, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000815001	Word -> U k D * z 6 b 7 (Word -> Chars, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char, Char -> T_7, T_7 -> 7)
+True	0.000814629	Word -> w I T (Word -> Chars, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_T, T_T -> T)
+True	0.000813884	Word -> I z h (Word -> Chars, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char, Char -> T_h, T_h -> h)
+True	0.000812719	Word -> * z 6 (Word -> Chars, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.000812322	Word -> b 7 w I T h I z h (Word -> Chars, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_T, T_T -> T, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char, Char -> T_h, T_h -> h)
+True	0.000811524	Word -> D * z (Word -> Chars, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char, Char -> T_z, T_z -> z)
+True	0.000811124	Word -> 6 b 7 w I (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000810309	Word -> h I z h & (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.000809895	Word -> l U k D * z 6 b 7 w I T (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_T, T_T -> T)
+True	0.000809481	Word -> h I z h & t (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000809066	Word -> * z 6 b 7 (Word -> Chars, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char, Char -> T_7, T_7 -> 7)
+True	0.000808123	Word -> l U k D * z 6 b 7 w I T h I z h & t (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_T, T_T -> T, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000807593	Word -> * z 6 b 7 w I T (Word -> Chars, Chars -> Char Chars, Char -> T_*, T_* -> *, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_T, T_T -> T)
+True	0.000807064	Word -> h I z (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_z, T_z -> z)
+True	0.000806533	Word -> h & t (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000806002	Word -> l U k D * (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_*, T_* -> *)
+True	0.00080547	Word -> z 6 b 7 w I (Word -> Chars, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_b, T_b -> b, Chars -> Char Chars, Char -> T_7, T_7 -> 7, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000804937	Word -> T h I z h & t (Word -> Chars, Chars -> Char Chars, Char -> T_T, T_T -> T, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000803866	Word -> n d (Word -> Chars, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_d, T_d -> d)
+True	0.000803329	Word -> 6 d (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char, Char -> T_d, T_d -> d)
+True	0.00080279	Word -> O (Word -> Chars, Chars -> Char, Char -> T_O, T_O -> O)
+True	0.000801708	Word -> & n d 6 d (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char, Char -> T_d, T_d -> d)
+True	0.000801165	Word -> O g i (Word -> Chars, Chars -> Char Chars, Char -> T_O, T_O -> O, Chars -> Char Chars, Char -> T_g, T_g -> g, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.00080006	Word -> d 6 (Word -> Chars, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.000799498	Word -> d O (Word -> Chars, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char, Char -> T_O, T_O -> O)
+True	0.000798936	Word -> n d 6 d O g i (Word -> Chars, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_O, T_O -> O, Chars -> Char Chars, Char -> T_g, T_g -> g, Chars -> Char, Char -> T_i, T_i -> i)
+True	0.000798372	Word -> & n d 6 d O (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char, Char -> T_O, T_O -> O)
+True	0.000797808	Word -> d (Word -> Chars, Chars -> Char, Char -> T_d, T_d -> d)
+True	0.000796653	Word -> t t u l U (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char, Char -> T_U, T_U -> U)
+True	0.000794858	Word -> y u w a n t t u l U k & t D I s (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.000794254	Word -> y u w a n t t u (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.000793649	Word -> U k & t D I (Word -> Chars, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000789912	Word -> a n t t u (Word -> Chars, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_u, T_u -> u)
+True	0.000788602	Word -> k & t (Word -> Chars, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.00078728	Word -> t t u l U k & t D I (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000786617	Word -> n t t u l U k (Word -> Chars, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000785952	Word -> y u w a n t t u l U k & t D (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.000785287	Word -> y u w a n t t u l U k & t D I (Word -> Chars, Chars -> Char Chars, Char -> T_y, T_y -> y, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_w, T_w -> w, Chars -> Char Chars, Char -> T_a, T_a -> a, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_u, T_u -> u, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.00078462	Word -> l U k & (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.000783952	Word -> U k & t D (Word -> Chars, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.000783282	Word -> l U k & t (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000782612	Word -> & t D I s (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.000781941	Word -> k & t D I (Word -> Chars, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000780593	Word -> l U k & t D I s (Word -> Chars, Chars -> Char Chars, Char -> T_l, T_l -> l, Chars -> Char Chars, Char -> T_U, T_U -> U, Chars -> Char Chars, Char -> T_k, T_k -> k, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.000779916	Word -> t D I s (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_s, T_s -> s)
+True	0.000777872	Word -> h & v 6 d (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char, Char -> T_d, T_d -> d)
+True	0.000777185	Word -> r (Word -> Chars, Chars -> Char, Char -> T_r, T_r -> r)
+True	0.000775767	Word -> & v (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_v, T_v -> v)
+True	0.000775035	Word -> h & v 6 d r I N (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_N, T_N -> N)
+True	0.000774302	Word -> h & v 6 (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char, Char -> T_6, T_6 -> 6)
+True	0.000773567	Word -> d r I N k (Word -> Chars, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_N, T_N -> N, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000772831	Word -> & v 6 d r I N k (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_N, T_N -> N, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000772094	Word -> h & v 6 d r I N k (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_N, T_N -> N, Chars -> Char, Char -> T_k, T_k -> k)
+True	0.000771355	Word -> & v 6 d r (Word -> Chars, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char Chars, Char -> T_v, T_v -> v, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char, Char -> T_r, T_r -> r)
+True	0.000770615	Word -> h & (Word -> Chars, Chars -> Char Chars, Char -> T_h, T_h -> h, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.000769873	Word -> v (Word -> Chars, Chars -> Char, Char -> T_v, T_v -> v)
+True	0.00076913	Word -> 6 d r I (Word -> Chars, Chars -> Char Chars, Char -> T_6, T_6 -> 6, Chars -> Char Chars, Char -> T_d, T_d -> d, Chars -> Char Chars, Char -> T_r, T_r -> r, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000765011	Word -> e n Q (Word -> Chars, Chars -> Char Chars, Char -> T_e, T_e -> e, Chars -> Char Chars, Char -> T_n, T_n -> n, Chars -> Char, Char -> T_Q, T_Q -> Q)
+True	0.000757793	Word -> A t s D I (Word -> Chars, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000756697	Word -> t s D (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char, Char -> T_D, T_D -> D)
+True	0.000755599	Word -> W A t s D I (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000752248	Word -> s D & t (Word -> Chars, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000751117	Word -> t s D & t (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char Chars, Char -> T_&, T_& -> &, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000749982	Word -> W A t s D & (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_s, T_s -> s, Chars -> Char Chars, Char -> T_D, T_D -> D, Chars -> Char, Char -> T_&, T_& -> &)
+True	0.000747675	Word -> W A t (Word -> Chars, Chars -> Char Chars, Char -> T_W, T_W -> W, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000746503	Word -> I z I (Word -> Chars, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000745327	Word -> t I z I (Word -> Chars, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char, Char -> T_I, T_I -> I)
+True	0.000744147	Word -> A t I z I t (Word -> Chars, Chars -> Char Chars, Char -> T_A, T_A -> A, Chars -> Char Chars, Char -> T_t, T_t -> t, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_t, T_t -> t)
+True	0.000742964	Word -> I z I t (Word -> Chars, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char Chars, Char -> T_z, T_z -> z, Chars -> Char Chars, Char -> T_I, T_I -> I, Chars -> Char, Char -> T_t, T_t -> t)
+==========Words==========
+False	0.82505	Words -> Word Words
+False	0.174799	Words -> Word

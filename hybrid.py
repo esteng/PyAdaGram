@@ -8,7 +8,7 @@ import multiprocessing
 import nltk
 import numpy
 import os
-import Queue
+from multiprocessing import Queue
 import resource
 import scipy
 import string
@@ -70,10 +70,10 @@ def reverse_cumulative_sum_matrix_over_axis(matrix, axis):
     cumulative_sum = numpy.zeros(matrix.shape);
     (k, n) = matrix.shape;
     if axis == 1:
-        for j in xrange(n - 2, -1, -1):
+        for j in range(n - 2, -1, -1):
             cumulative_sum[:, j] = cumulative_sum[:, j + 1] + matrix[:, j + 1];
     elif axis == 0:
-        for i in xrange(k - 2, -1, -1):
+        for i in range(k - 2, -1, -1):
             cumulative_sum[i, :] = cumulative_sum[i + 1, :] + matrix[i + 1, :];
 
     return cumulative_sum;
@@ -196,16 +196,16 @@ class Process_E_Step_dict(multiprocessing.Process):
             except Queue.Empty:
                 continue;
 
-            #print 'process %s is processing string %s...' % (self.name, input_string)
+            #print('process %s is processing string %s...' % (self.name, input_string))
             parsed_string = input_string.split();
             
             #compute_inside_probabilities_clock = time.time()
             root_node = self._hybrid.compute_inside_probabilities(E_log_stick_weights, E_log_theta, parsed_string);
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
-            #print "time to compute inside probabilities", compute_inside_probabilities_clock
+            #print("time to compute inside probabilities", compute_inside_probabilities_clock)
 
             #sample_tree_clock = time.time()
-            for sample_index in xrange(self._number_of_samples):
+            for sample_index in range(self._number_of_samples):
                 if self._result_output_path!=None:
                     production_list = self._hybrid._sample_tree_process_dict(root_node, parsed_string)
                     retrieved_tokens = retrieve_tokens_by_pre_order_traversal_of_adapted_non_terminal(production_list, self._retrieve_tokens_at_adapted_non_terminal);
@@ -215,14 +215,14 @@ class Process_E_Step_dict(multiprocessing.Process):
                 else:
                     production_list = self._hybrid._sample_tree_process_dict(root_node, parsed_string, adapted_sufficient_statistics, new_adapted_sufficient_statistics, pcfg_sufficient_statistics);
             #sample_tree_clock = time.time() - sample_tree_clock
-            #print "time to sample tree", sample_tree_clock
+            #print("time to sample tree", sample_tree_clock)
                 
             del root_node;
             
             self._task_queue.task_done()
             
         #process_data_clock = time.time() - process_data_clock;
-        #print "time to process data", process_data_clock
+        #print("time to process data", process_data_clock)
         
         if self._result_output_path!=None:
             output_truth_file_stream.close();
@@ -244,9 +244,9 @@ class Process_E_Step_dict(multiprocessing.Process):
                     temp_sufficient_statistics = self._adapted_sufficient_statistics_dict_queue[adapted_non_terminal];
                     #print "+++++ adapted +++++", self.name, adapted_non_terminal, adapted_sufficient_statistics[adapted_non_terminal].shape, temp_sufficient_statistics.shape;
                     if temp_sufficient_statistics.shape!=adapted_sufficient_statistics[adapted_non_terminal].shape:
-                        print temp_sufficient_statistics.shape, adapted_sufficient_statistics[adapted_non_terminal].shape
-                        print temp_sufficient_statistics,
-                        print adapted_sufficient_statistics[adapted_non_terminal]
+                        print(temp_sufficient_statistics.shape, adapted_sufficient_statistics[adapted_non_terminal].shape)
+                        print(temp_sufficient_statistics,)
+                        print(adapted_sufficient_statistics[adapted_non_terminal])
                     temp_sufficient_statistics += adapted_sufficient_statistics[adapted_non_terminal];
                     self._adapted_sufficient_statistics_dict_queue[adapted_non_terminal] = temp_sufficient_statistics;
             finally:
@@ -255,7 +255,7 @@ class Process_E_Step_dict(multiprocessing.Process):
             new_adapted_sufficient_statistics_mutex.acquire();
             try:
                 for adapted_non_terminal in new_adapted_sufficient_statistics:
-                    #print "+++++ new-adapted +++++", self.name, adapted_non_terminal, len(new_adapted_sufficient_statistics[adapted_non_terminal])
+                    #print("+++++ new-adapted +++++", self.name, adapted_non_terminal, len(new_adapted_sufficient_statistics[adapted_non_terminal]))
                     temp_sufficient_statistics = self._new_adapted_sufficient_statistics_dict_queue[adapted_non_terminal];
                     for new_adapted_production in new_adapted_sufficient_statistics[adapted_non_terminal]:
                         if new_adapted_production not in temp_sufficient_statistics:
@@ -268,7 +268,7 @@ class Process_E_Step_dict(multiprocessing.Process):
             pcfg_sufficient_statistics_mutex.acquire();
             try:
                 for non_terminal in pcfg_sufficient_statistics:
-                    #print "+++++ pcfg +++++", self.name, non_terminal, pcfg_sufficient_statistics[non_terminal].shape
+                    #print("+++++ pcfg +++++", self.name, non_terminal, pcfg_sufficient_statistics[non_terminal].shape)
                     temp_sufficient_statistics = self._pcfg_sufficient_statistics_dict_queue[non_terminal];
                     temp_sufficient_statistics += pcfg_sufficient_statistics[non_terminal];
                     self._pcfg_sufficient_statistics_dict_queue[non_terminal] = temp_sufficient_statistics;
@@ -277,7 +277,7 @@ class Process_E_Step_dict(multiprocessing.Process):
             '''
             
             #accumulation_sufficient_statistics_clock = time.time() - accumulation_sufficient_statistics_clock;
-            #print "time to accumulate sufficient statistics", accumulation_sufficient_statistics_clock
+            #print("time to accumulate sufficient statistics", accumulation_sufficient_statistics_clock)
 
 class Process_E_Step_queue(multiprocessing.Process):
     def __init__(self,
@@ -324,20 +324,20 @@ class Process_E_Step_queue(multiprocessing.Process):
             except Queue.Empty:
                 continue;
 
-            #print 'process %s is processing string %s...' % (self.name, input_string)
+            #print('process %s is processing string %s...' % (self.name, input_string))
             parsed_string = input_string.split();
             
             #compute_inside_probabilities_clock = time.time()
             root_node = self._hybrid.compute_inside_probabilities(self._E_log_stick_weights, self._E_log_theta, parsed_string);
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
-            #print "time to compute inside probabilities", compute_inside_probabilities_clock
+            #print("time to compute inside probabilities", compute_inside_probabilities_clock)
         
             #sample_tree_clock = time.time()
-            for sample_index in xrange(self._number_of_samples):
+            for sample_index in range(self._number_of_samples):
                 if self._result_output_path!=None:
                     production_list = self._hybrid._sample_tree_process_queue(root_node, parsed_string)
                     retrieved_tokens = retrieve_tokens_by_pre_order_traversal_of_adapted_non_terminal(production_list, self._retrieve_tokens_at_adapted_non_terminal);
-                    #print " ".join(retrieved_tokens), reference_string
+                    #print(" ".join(retrieved_tokens), reference_string)
                     #self._result_queue_production_list.put((" ".join(retrieved_tokens), reference_string));
 
                     output_truth_file_stream.write("%s\n" % (reference_string));
@@ -347,7 +347,7 @@ class Process_E_Step_queue(multiprocessing.Process):
                         
                 #self.model_state_assertion();
             #sample_tree_clock = time.time() - sample_tree_clock
-            #print "time to sample tree", sample_tree_clock
+            #print("time to sample tree", sample_tree_clock)
             
             del root_node;
             
@@ -377,10 +377,10 @@ class Hybrid(object):
 
 
 
-        print "terminals:", " ".join([terminal.encode('utf-8') for terminal in self._terminals])
-        print "non-terminals:", self._non_terminals
+        print("terminals:", " ".join([terminal for terminal in self._terminals]))
+        print("non-terminals:", self._non_terminals)
         print("noisy non-terminals:", self._noisy_non_terminals)
-        print "adapted non-terminal:", self._adapted_non_terminals;
+        print("adapted non-terminal:", self._adapted_non_terminals)
         
         assert(self._non_terminals.isdisjoint(self._terminals))
         assert(self._adapted_non_terminals.isdisjoint(self._terminals))
@@ -424,13 +424,13 @@ class Hybrid(object):
         self._level_to_non_terminal = order_topology;
         
         self._ordered_adaptor_top_down = [];
-        for x in xrange(len(order_topology)):
+        for x in range(len(order_topology)):
             for non_terminal in order_topology[x]:
                 if non_terminal in self._adapted_non_terminals:
                     self._ordered_adaptor_top_down.append(non_terminal);
         self._ordered_adaptor_down_top = self._ordered_adaptor_top_down[::-1];
         
-        print "adaptors in top-down order:", self._ordered_adaptor_top_down
+        print("adaptors in top-down order:", self._ordered_adaptor_top_down)
         
     def _initialize(self,
                     number_of_strings,
@@ -466,19 +466,19 @@ class Hybrid(object):
                 #self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
                 self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
                 #self._alpha_theta[non_terminal] = 1. / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            
+         
         self._gamma = {};
-        self._noisy_gamma = {}
+        self._gamma = {}
         self._pcfg_sufficient_statistics_of_lhs = {};
         self._pcfg_production_usage_counts_of_lhs = {};
 
-        self._noisy_pcfg_sufficient_statistics_of_lhs = {};
-        self._noisy_pcfg_production_usage_counts_of_lhs = {};
+        # self._pcfg_sufficient_statistics_of_lhs = {};
+        # self._pcfg_production_usage_counts_of_lhs = {};
         for non_terminal in self._non_terminals:
             self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
             
             #self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
-            #for gamma_index in xrange(len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])):
+            #for gamma_index in range(len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])):
                 #self._gamma[non_terminal][0, gamma_index] *= len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal][gamma_index].rhs());
             self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
@@ -489,12 +489,15 @@ class Hybrid(object):
                 gamma_index = self._pcfg_production_to_gamma_index_of_lhs[non_terminal][pcfg_production];
                 self._alpha_theta[non_terminal][0, gamma_index] *= pcfg_rhs_scale_coefficient**(len(pcfg_production.rhs())-1);
                 self._gamma[non_terminal][0, gamma_index] *= pcfg_rhs_scale_coefficient**(len(pcfg_production.rhs())-1);
-            #print self._alpha_theta[non_terminal], self._gamma[non_terminal]
+            #print(self._alpha_theta[non_terminal], self._gamma[non_terminal])
             '''
         for non_terminal in self._noisy_non_terminals:
-            self._noisy_gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            self._noisy_pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
-            self._noisy_pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+            self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            # self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+            # self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+            self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+
+            self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
           
         if truncation_level==None:
             truncation_level = {};
@@ -502,7 +505,7 @@ class Hybrid(object):
                 truncation_level[adapted_non_terminal] = 1000;
         self._truncation_level = truncation_level;
         assert(len(self._truncation_level)==len(self._adapted_non_terminals))                
-        print "desired_truncation_level:", self._truncation_level;
+        print("desired_truncation_level:", self._truncation_level)
           
         if sufficient_statistics_scale<=0:
             self._ranking_statistics_scale = 1.0/pow(self._tau, -self._kappa);
@@ -518,7 +521,7 @@ class Hybrid(object):
                 alpha_pi[adapted_non_terminal] = 1e3;
         self._alpha_pi = alpha_pi;                
         assert(len(self._alpha_pi)==len(self._adapted_non_terminals))
-        print "alpha_pi:", self._alpha_pi
+        print("alpha_pi:", self._alpha_pi)
         
         if beta_pi==None:
             beta_pi = {}
@@ -526,7 +529,7 @@ class Hybrid(object):
                 beta_pi[adapted_non_terminal] = 0;
         self._beta_pi = beta_pi;
         assert(len(self._beta_pi)==len(self._adapted_non_terminals))
-        print "beta_pi:", self._beta_pi
+        print("beta_pi:", self._beta_pi)
 
         self._nu_1 = {};
         self._nu_2 = {};
@@ -586,7 +589,7 @@ class Hybrid(object):
                     ordering_topology[depth+1].add(child_node);
                 unprocessed_nodes.append((child_node, topology_ordering[child_node]));
                 
-        # print "topological ordering is:", topology_ordering
+        # print("topological ordering is:", topology_ordering)
         
         return topology_ordering, ordering_topology
 
@@ -612,7 +615,7 @@ class Hybrid(object):
             if self.is_adapted_non_terminal(non_terminal):
                 E_log_theta[non_terminal] += E_log_left_over_stick_weights[non_terminal];
         for non_terminal in self._noisy_non_terminals:
-            E_log_theta_noisy[non_terminal]= scipy.special.psi(self._noisy_gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._noisy_gamma[non_terminal]))    
+            E_log_theta_noisy[non_terminal]= scipy.special.psi(self._gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._gamma[non_terminal]))    
             assert(E_log_theta_noisy[non_terminal].shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
 
         return E_log_stick_weights, E_log_theta, E_log_theta_noisy
@@ -643,42 +646,49 @@ class Hybrid(object):
                 self._rhs_to_unary_pcfg_production[rhs_nodes[0]].add(pcfg_production);
 
             self._gamma_index_to_pcfg_production_of_lhs[lhs_node][len(self._gamma_index_to_pcfg_production_of_lhs[lhs_node])] = pcfg_production;
-
-
-
             self._pcfg_production_to_gamma_index_of_lhs[lhs_node][pcfg_production] = len(self._pcfg_production_to_gamma_index_of_lhs[lhs_node]);
+
         topology_order, order_topology = self._topological_sort();
         
-        for non_terminal in self._non_terminals:
+        for non_terminal in self._non_terminals | self._noisy_non_terminals:
             self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            #self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
-            #for gamma_index in xrange(len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])):
-                #self._gamma[non_terminal][0, gamma_index] *= len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal][gamma_index].rhs());
+            
             self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+            if non_terminal not in self._noisy_non_terminals:
+                self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            else:
+                self._alpha_theta[non_terminal] = numpy.random.dirichlet( numpy.hstack( (numpy.ones((1,1))*100, numpy.ones( (1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])-1))))[0], 1) 
+                # print(self._alpha_theta[non_terminal])
+                # print(numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))).shape)
 
-        for non_terminal in self._non_terminals:
+
+                # assert(self._alpha_theta[non_terminal].shape == numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]).shape)
+        # for non_terminal in self._non_terminals:
             #self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / 10;
-            self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            # self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
             #self._alpha_theta[non_terminal] = 1. / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);     
 
-        for non_terminal in self._noisy_non_terminals:
-            self._noisy_gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
-            self._noisy_pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
-            self._noisy_pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+        # for non_terminal in self._noisy_non_terminals:
+        #     self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+        #     self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+        #     self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+        #     self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+        #     self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+        #     self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
+        #     self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+        #     self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
 
         self._incremental_build_up = False;
         self._non_terminal_to_level = topology_order;
         self._level_to_non_terminal = order_topology;
         
         self._ordered_adaptor_top_down = [];
-        for x in xrange(len(order_topology)):
+        for x in range(len(order_topology)):
             for non_terminal in order_topology[x]:
                 if non_terminal in self._adapted_non_terminals:
                     self._ordered_adaptor_top_down.append(non_terminal);
         self._ordered_adaptor_down_top = self._ordered_adaptor_top_down[::-1];
-
-
 
     def compute_inside_probabilities(self, E_log_stick_weights, E_log_theta, E_log_theta_noisy, input_sequence, sentence_root=None, candidate_adaptors=None):
         #E_log_stick_weights, E_log_theta = self.propose_pcfg();
@@ -693,15 +703,15 @@ class Hybrid(object):
         print(input_sequence)
 
         # basically cky 
-        for span in xrange(1, sequence_length+1):
-            for i in xrange(sequence_length-span+1):
+        for span in range(1, sequence_length+1):
+            for i in range(sequence_length-span+1):
                 j = i+span;
-                for non_terminal in self._non_terminals:
+                for non_terminal in self._non_terminals | self._noisy_non_terminals:
                     lhs = non_terminal;
 
                     # find the adapted production that spans over i to j
                     if non_terminal in candidate_adaptors:
-                        #print self._active_adapted_production_to_nu_index_of_lhs[non_terminal]
+                        #print(self._active_adapted_production_to_nu_index_of_lhs[non_terminal])
                         candidate_adapted_productions = self.get_adapted_productions(lhs=non_terminal, rhs=tuple(input_sequence[i:j]));
                         for candidate_adapted_production in candidate_adapted_productions:
                             nu_index = self._active_adapted_production_to_nu_index_of_lhs[lhs][candidate_adapted_production];
@@ -749,7 +759,7 @@ class Hybrid(object):
                                 assert(self.is_non_terminal(rhs_1));
                                 
                                 if rhs_1 in root_and_position_to_node:
-                                    for k in xrange(i+1, j):
+                                    for k in range(i+1, j):
                                         if (i, k) not in root_and_position_to_node[rhs_0]:
                                             continue;
                                         if (k, j) not in root_and_position_to_node[rhs_1]:
@@ -788,7 +798,7 @@ class Hybrid(object):
                                 assert(self.is_non_terminal(rhs_1));
                                 
                                 if rhs_1 in root_and_position_to_node:
-                                    for k in xrange(i+1, j):
+                                    for k in range(i+1, j):
                                         if (i, k) not in root_and_position_to_node[rhs_0]:
                                             continue;
                                         if (k, j) not in root_and_position_to_node[rhs_1]:
@@ -858,7 +868,7 @@ class Hybrid(object):
             parsed_string = input_string.split();
             root_node = self.compute_inside_probabilities(E_log_stick_weights, E_log_theta, parsed_string, );
         
-            for sample_index in xrange(number_of_samples):
+            for sample_index in range(number_of_samples):
                 production_list = self._sample_tree(root_node, parsed_string, pcfg_sufficient_statistics, adapted_sufficient_statistics, inference_mode=True);
                 #production_list = sample_tree_by_pre_order_traversal(self, root_node, parsed_string, None, None);
 
@@ -874,7 +884,7 @@ class Hybrid(object):
             #output_maximum_test_file.write("%s\n" % maximum_tokens);
             
             for average_tokens in retrieved_tokens_lists.samples():
-                for x in xrange(retrieved_tokens_lists[average_tokens]):
+                for x in range(retrieved_tokens_lists[average_tokens]):
                     output_average_truth_file.write("%s\n" % reference_string);
                     output_average_test_file.write("%s\n" % average_tokens);
             
@@ -904,7 +914,10 @@ class Hybrid(object):
             pcfg_sufficient_statistics = {};
             for non_terminal in self._non_terminals:
                 pcfg_sufficient_statistics[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
-            
+            for non_terminal in self._noisy_non_terminals:
+                pcfg_sufficient_statistics[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+
+
             adapted_sufficient_statistics = {};
             for adapted_non_terminal in self._adapted_non_terminals:
                 adapted_sufficient_statistics[adapted_non_terminal] = numpy.zeros((1, len(self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal])));
@@ -919,7 +932,7 @@ class Hybrid(object):
 
 
         #for input_string in input_strings:
-        for string_index in xrange(len(input_strings)):
+        for string_index in range(len(input_strings)):
             input_string = input_strings[string_index];
             
             #compute_inside_probabilities_clock = time.time()
@@ -929,13 +942,13 @@ class Hybrid(object):
 
             #self.model_state_assertion();
             #compute_inside_probabilities_clock = time.time() - compute_inside_probabilities_clock
-            #print "time to compute inside probabilities", compute_inside_probabilities_clock
+            #print("time to compute inside probabilities", compute_inside_probabilities_clock)
 
             # if inference_parameter!=None:
             retrieved_tokens_lists = nltk.probability.FreqDist();
             
             #sample_tree_clock = time.time()
-            for sample_index in xrange(number_of_samples):
+            for sample_index in range(number_of_samples):
                 production_list = self._sample_tree(root_node, parsed_string, pcfg_sufficient_statistics, adapted_sufficient_statistics);
                 if inference_parameter!=None:
                     log_likelihood += self._compute_log_likelihood(production_list, E_log_stick_weights, E_log_theta_noisy, E_log_theta);
@@ -968,19 +981,19 @@ class Hybrid(object):
                 
                 #for average_tokens in retrieved_tokens_lists.samples():
                 for average_tokens in retrieved_tokens_lists:
-                    for x in xrange(retrieved_tokens_lists[average_tokens]):
+                    for x in range(retrieved_tokens_lists[average_tokens]):
                         output_average_truth_file.write("%s\n" % reference_string);
                         output_average_test_file.write("%s\n" % average_tokens);
             if inference_parameter == None:
                 for average_tokens in retrieved_tokens_lists:
-                    for x in xrange(retrieved_tokens_lists[average_tokens]):
+                    for x in range(retrieved_tokens_lists[average_tokens]):
                         output_average_test_file.write("%s\n" % average_tokens);
 
         if inference_parameter==None:
             return pcfg_sufficient_statistics, adapted_sufficient_statistics;
         else:
             log_likelihood -= numpy.log(number_of_samples);
-            print "Held-out likelihood of test data is %g..." % log_likelihood;
+            print( "Held-out likelihood of test data is %g..." % log_likelihood);
             
     def _compute_log_likelihood(self, production_list, E_log_stick_weights, E_log_theta):
         log_likelihood = 0;
@@ -1039,7 +1052,7 @@ class Hybrid(object):
                     gamma_index = self._pcfg_production_to_gamma_index_of_lhs[candidate_production.lhs()][candidate_production];
                     pcfg_sufficient_statistics[candidate_production.lhs()][0, gamma_index] -= 1;
                 else:
-                    print "Error in recognizing the production @ checkpoint 1..."
+                    print("Error in recognizing the production @ checkpoint 1...")
             '''
             
             new_adapted_production = util.AdaptedProduction(current_hyper_node._node, input_string[current_hyper_node._span[0]:current_hyper_node._span[1]], production_list);
@@ -1054,9 +1067,9 @@ class Hybrid(object):
                 for candidate_production in production_list:
                     if isinstance(candidate_production, util.AdaptedProduction):
                         adapted_production_count += 1;
-                        #print candidate_production.rhs(), len(candidate_production.rhs())
+                        #print(candidate_production.rhs(), len(candidate_production.rhs()))
                         if len(candidate_production.rhs())==1:
-                            print "skip singleton adapted production:", candidate_production 
+                            print("skip singleton adapted production:", candidate_production )
                             continue;
                         nu_index = self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
                         # Warning: if you are using nltk 2.x, please use inc()
@@ -1135,7 +1148,7 @@ class Hybrid(object):
                 gamma_index = self._pcfg_production_to_gamma_index_of_lhs[lhs][candidate_production];
                 log_likelihood += E_log_theta[lhs][0, gamma_index];
             elif isinstance(candidate_production, nltk.grammar.Production):
-                print ""
+                print("")
             else:
                 sys.stderr.write("Error in recognizing the production...\n");
                 sys.exit();
@@ -1146,6 +1159,12 @@ class Hybrid(object):
             temp_sufficient_statistics = self._pcfg_sufficient_statistics_of_lhs[non_terminal] * self._ranking_statistics_scale;
             temp_sufficient_statistics += self._pcfg_production_usage_counts_of_lhs[non_terminal];
 
+            # if non_terminal in self._noisy_non_terminals:
+            #     try:
+            #         self._gamma[non_terminal] = self._alpha_theta[non_terminal] + temp_sufficient_statistics
+            #     except ValueError:
+            #         print(non_terminal)
+            # else:
             self._gamma[non_terminal] = self._alpha_theta[non_terminal] + temp_sufficient_statistics;
             
         for adapted_non_terminal in self._active_adapted_production_sufficient_statistics_of_lhs:
@@ -1343,8 +1362,8 @@ class Hybrid(object):
             for adapted_production in self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]:
                 nu_index = self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal][adapted_production];
 
-                #print adapted_non_terminal, adapted_production
-                #print self._active_adapted_production_usage_counts_of_lhs[adapted_non_terminal][0, nu_index], adapted_production_freqdist[adapted_production]
+                #print(adapted_non_terminal, adapted_production)
+                #print(self._active_adapted_production_usage_counts_of_lhs[adapted_non_terminal][0, nu_index], adapted_production_freqdist[adapted_production])
                 
                 assert (self._adapted_production_dependents_of_adapted_production[adapted_production]==adapted_production_dependent[adapted_production]), \
                         ("<adapted production>: %s\n<test>: %d\t%s\n<truth>: %d\t%s" % (
@@ -1399,11 +1418,11 @@ class Hybrid(object):
             assert(len(candidate_adapted_productions)==len(self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal]));
 
             for candidate_adapted_production in candidate_adapted_productions - set(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]):
-                print "NOT in indexed adapted production:", candidate_adapted_production
+                print("NOT in indexed adapted production:", candidate_adapted_production)
             for candidate_adapted_production in set(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]) - candidate_adapted_productions:
-                print "NOT in hashed adapted production:", candidate_adapted_production
+                print("NOT in hashed adapted production:", candidate_adapted_production)
             for candidate_adapted_productions in candidate_adapted_productions ^ set(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]):
-                print "NOT in either:", candidate_adapted_productions
+                print("NOT in either:", candidate_adapted_productions)
                 
             assert (candidate_adapted_productions==set(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])), "%d\t%d\t%d" % (len(candidate_adapted_productions), len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]), len(set(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])));
             
@@ -1451,7 +1470,7 @@ class Hybrid(object):
                 #'''
                 #desired_truncation_level = min(self._truncation_level[adapted_non_terminal], len(nu_index_in_descending_order), non_zeros);
                 #desired_truncation_level = min(max(self._truncation_level[adapted_non_terminal], len(nu_index_in_descending_order)), non_zeros);
-            print "prune %s: truncation_level %d, actual truncation_level %d, non_zero_truncation_level %d" %(adapted_non_terminal, self._truncation_level[adapted_non_terminal], len(nu_index_in_descending_order), non_zeros);
+            print( "prune %s: truncation_level %d, actual truncation_level %d, non_zero_truncation_level %d" %(adapted_non_terminal, self._truncation_level[adapted_non_terminal], len(nu_index_in_descending_order), non_zeros))
 
             new_nu_index_to_active_adapted_production_of_lhs = {};
             new_active_adapted_production_to_nu_index_of_lhs = {};
@@ -1506,9 +1525,9 @@ class Hybrid(object):
                 adapted_production = old_nu_index_to_active_adapted_production_of_lhs[adapted_production_index];
                 for candidate_production in adapted_production._productions:
                     if isinstance(candidate_production, util.AdaptedProduction):
-                        #print candidate_production.rhs(), len(candidate_production.rhs())
+                        #print(candidate_production.rhs(), len(candidate_production.rhs()))
                         if len(candidate_production.rhs())==1:
-                            print "skip singleton adapted production:", candidate_production 
+                            print("skip singleton adapted production:", candidate_production )
                             continue;
                         # Warning: if you are using nltk 2.x, please use inc()
                         #self._adapted_production_usage_freqdist.inc(candidate_production, -1);
@@ -1523,7 +1542,7 @@ class Hybrid(object):
                         gamma_index = self._pcfg_production_to_gamma_index_of_lhs[candidate_production.lhs()][candidate_production];
                         self._pcfg_production_usage_counts_of_lhs[candidate_production.lhs()][0, gamma_index] -= 1;
                     else:
-                        print "Error in recognizing the candidate production."
+                        print("Error in recognizing the candidate production.")
                 self._lhs_rhs_to_active_adapted_production[(adapted_non_terminal, adapted_production.rhs())].discard(adapted_production);
                 self._lhs_to_active_adapted_production[adapted_non_terminal].discard(adapted_production);
                 self._rhs_to_active_adapted_production[adapted_production.rhs()].discard(adapted_production);
@@ -1562,9 +1581,9 @@ class Hybrid(object):
                 
                 for candidate_production in old_adapted_production._productions:
                     if isinstance(candidate_production, util.AdaptedProduction):
-                        #print candidate_production.rhs(), len(candidate_production.rhs())
+                        #print(candidate_production.rhs(), len(candidate_production.rhs()))
                         if len(candidate_production.rhs())==1:
-                            print "skip singleton adapted production:", candidate_production 
+                            print("skip singleton adapted production:", candidate_production )
                             continue;
                         nu_index = self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
                         # Warning: if you are using nltk 2.x, please use inc()
@@ -1578,7 +1597,7 @@ class Hybrid(object):
                         gamma_index = self._pcfg_production_to_gamma_index_of_lhs[candidate_production.lhs()][candidate_production];
                         self._pcfg_production_usage_counts_of_lhs[candidate_production.lhs()][0, gamma_index] -= 1;
                     else:
-                        print "Error in recognizing the production @ checkpoint 3..."
+                        print("Error in recognizing the production @ checkpoint 3...")
                         
                 #assert numpy.all(self._active_adapted_production_usage_counts_of_lhs[adapted_non_terminal]>=0), adapted_non_terminal
                 #assert numpy.all(self._active_adapted_production_sufficient_statistics_of_lhs[adapted_non_terminal]>=0), adapted_non_terminal
@@ -1597,7 +1616,7 @@ class Hybrid(object):
                         gamma_index = self._pcfg_production_to_gamma_index_of_lhs[candidate_production.lhs()][candidate_production];
                         self._pcfg_production_usage_counts_of_lhs[candidate_production.lhs()][0, gamma_index] += 1;
                     else:
-                        print "Error in recognizing the production @ checkpoint 3..."
+                        print("Error in recognizing the production @ checkpoint 3...")
     
                 new_nu_index = old_nu_index;
             else:
@@ -1637,7 +1656,7 @@ class Hybrid(object):
                     elif isinstance(candidate_production, nltk.grammar.Production):
                         new_production_list.append(candidate_production);
                     else:
-                        print "Error in recognizing the production @ checkpoint 3..."
+                        print("Error in recognizing the production @ checkpoint 3...")
                 
                 lhs = old_dependent_adapted_production.lhs();
                 rhs = old_dependent_adapted_production.rhs();
@@ -1655,15 +1674,15 @@ class Hybrid(object):
         for adapted_non_terminal in self._adapted_non_terminals:
             adapted_sufficient_statistics[adapted_non_terminal] = numpy.zeros((1, len(self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal])));
         
-        #for adapted_non_terminal_index in xrange(len(self._ordered_adaptor_top_down[::-1][1:])):
-        for adapted_non_terminal_index in xrange(1, len(self._ordered_adaptor_down_top)):
+        #for adapted_non_terminal_index in range(len(self._ordered_adaptor_top_down[::-1][1:])):
+        for adapted_non_terminal_index in range(1, len(self._ordered_adaptor_down_top)):
             adapted_non_terminal = self._ordered_adaptor_down_top[adapted_non_terminal_index];
             candidate_adaptors = self._ordered_adaptor_down_top[:adapted_non_terminal_index];
             
             number_of_tables_relabelled = 0;
             
-            #for active_adapted_production_index in xrange(len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])-1, -1, -1):
-            for active_adapted_production_index in xrange(len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])):
+            #for active_adapted_production_index in range(len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])-1, -1, -1):
+            for active_adapted_production_index in range(len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal])):
 
                 #self.model_state_assertion();
                 old_adapted_production = self._nu_index_to_active_adapted_production_of_lhs[adapted_non_terminal][active_adapted_production_index];
@@ -1706,8 +1725,8 @@ class Hybrid(object):
                     if self._active_adapted_production_sufficient_statistics_of_lhs[adapted_non_terminal][0, new_nu_index]>0:
                         break;
                     
-                    print "old:", old_adapted_production
-                    print "new:", new_adapted_production
+                    print("old:", old_adapted_production)
+                    print("new:", new_adapted_production)
                     sampled = True;
                 
                 if sampled:
@@ -1718,10 +1737,10 @@ class Hybrid(object):
                 #replace_grammaton_clock = time.time()
                 number_of_tables_relabelled += self._recursive_replace_grammaton(adapted_non_terminal, old_adapted_production, new_adapted_production);
                 #replace_grammaton_clock = time.time() - replace_grammaton_clock
-                #print "time to replace grammaton", replace_grammaton_clock
+                #print("time to replace grammaton", replace_grammaton_clock)
                 #self.model_state_assertion();
 
-            print "%d out of %d tables get relabelled for adaptor %s..." % (number_of_tables_relabelled, len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]), adapted_non_terminal);
+            print( "%d out of %d tables get relabelled for adaptor %s..." % (number_of_tables_relabelled, len(self._active_adapted_production_to_nu_index_of_lhs[adapted_non_terminal]), adapted_non_terminal));
             
             assert numpy.all(self._active_adapted_production_usage_counts_of_lhs[adapted_non_terminal]>=0), adapted_non_terminal
             assert numpy.all(self._active_adapted_production_sufficient_statistics_of_lhs[adapted_non_terminal]>=0), adapted_non_terminal
@@ -1745,7 +1764,7 @@ class Hybrid(object):
                 assert(second_derivative.shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])))
                 
                 if numpy.any(second_derivative==0) or not numpy.all(numpy.isfinite(first_derivative/second_derivative)):
-                    #print "warning: natural gradient of alpha_theta throws arithmetic exception..."
+                    #print("warning: natural gradient of alpha_theta throws arithmetic exception...")
                     break;
                 
                 old_alpha_theta = self._alpha_theta[non_terminal];
@@ -1761,7 +1780,9 @@ class Hybrid(object):
             while(numpy.any(abs(old_alpha_theta-self._alpha_theta[non_terminal])>converge_threshold)):
                 first_derivative = -scipy.special.psi(self._alpha_theta[non_terminal]);
                 first_derivative += scipy.special.psi(numpy.sum(self._alpha_theta[non_terminal]));
-                first_derivative += scipy.special.psi(self._noisy_gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._noisy_gamma[non_terminal]))
+
+                # print(scipy.special.psi(self._gamma[non_terminal]).shape, scipy.special.psi(numpy.sum(self._gamma[non_terminal])).shape, self._gamma[non_terminal], non_terminal)
+                first_derivative += scipy.special.psi(self._gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._gamma[non_terminal]))
                 assert(first_derivative.shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])))
             
                 second_derivative = -scipy.special.polygamma(1, self._alpha_theta[non_terminal]);
@@ -1769,7 +1790,7 @@ class Hybrid(object):
                 assert(second_derivative.shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])))
                 
                 if numpy.any(second_derivative==0) or not numpy.all(numpy.isfinite(first_derivative/second_derivative)):
-                    #print "warning: natural gradient of alpha_theta throws arithmetic exception..."
+                    #print("warning: natural gradient of alpha_theta throws arithmetic exception...")
                     break;
                 
                 old_alpha_theta = self._alpha_theta[non_terminal];
@@ -1777,7 +1798,7 @@ class Hybrid(object):
                     temp_step_factor *= decay;
                 self._alpha_theta[non_terminal] -= temp_step_factor*first_derivative/second_derivative;
                 assert (numpy.all(self._alpha_theta[non_terminal]>0)), (old_alpha_theta, self._alpha_theta[non_terminal]);        
-        print "optimize alpha_theta:\n%s" % ("\n".join(["\t%s: %s" % (non_terminal, self._alpha_theta[non_terminal]) for non_terminal in self._non_terminals]));
+        print( "optimize alpha_theta:\n%s" % ("\n".join(["\t%s: %s" % (non_terminal, self._alpha_theta[non_terminal]) for non_terminal in self._non_terminals])));
         
 
 
@@ -1804,7 +1825,7 @@ class Hybrid(object):
                 second_derivative -= numpy.sum(scipy.special.polygamma(1, alpha_pi_and_index_beta_pi));
 
                 if numpy.any(second_derivative==0) or not numpy.all(numpy.isfinite(first_derivative/second_derivative)):
-                    #print "warning: natural gradient of alpha_pi throws arithmetic exception..."
+                    #print("warning: natural gradient of alpha_pi throws arithmetic exception...")
                     break;
     
                 old_alpha_pi = self._alpha_pi[adapted_non_terminal];
@@ -1813,8 +1834,8 @@ class Hybrid(object):
                 self._alpha_pi[adapted_non_terminal] = self._alpha_pi[adapted_non_terminal] - temp_step_factor*first_derivative/second_derivative;
                 assert (self._alpha_pi[adapted_non_terminal]>0), (old_alpha_pi, self._alpha_pi[adapted_non_terminal], temp_step_factor, first_derivative, second_derivative, numpy.sum(scipy.special.polygamma(1, 1-self._beta_pi[adapted_non_terminal]+alpha_pi_and_index_beta_pi)), numpy.sum(scipy.special.polygamma(1, alpha_pi_and_index_beta_pi)));
         
-        #print ["%s - %f" % (adapted_non_terminal, self._alpha_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals]
-        print "optimize alpha_pi: %s" % ("\t".join(["%s: %f" % (adapted_non_terminal, self._alpha_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals]));
+        #print(["%s - %f" % (adapted_non_terminal, self._alpha_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals])
+        print( "optimize alpha_pi: %s" % ("\t".join(["%s: %f" % (adapted_non_terminal, self._alpha_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals])));
         
         return;
     
@@ -1839,7 +1860,7 @@ class Hybrid(object):
                 second_derivative -= numpy.sum(numpy.power(indices, 2) * scipy.special.polygamma(1, (self._alpha_pi[adapted_non_terminal] + indices * self._beta_pi[adapted_non_terminal])));
                 
                 if numpy.any(second_derivative==0) or not numpy.all(numpy.isfinite(first_derivative/second_derivative)):
-                    print "warning: natural gradient of beta_pi throws arithmetic exception..."
+                    print("warning: natural gradient of beta_pi throws arithmetic exception...")
                     break;
                 
                 old_beta_pi = self._beta_pi[adapted_non_terminal];
@@ -1856,7 +1877,7 @@ class Hybrid(object):
                 assert(self._beta_pi[adapted_non_terminal]>=0), (self._beta_pi[adapted_non_terminal], temp_step_factor, first_derivative, second_derivative);
                 assert(self._beta_pi[adapted_non_terminal]<1);
     
-        print "optimize beta_pi: %s" % ("\t".join(["%s: %f" % (adapted_non_terminal, self._beta_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals]));
+        print( "optimize beta_pi: %s" % ("\t".join(["%s: %f" % (adapted_non_terminal, self._beta_pi[adapted_non_terminal]) for adapted_non_terminal in self._adapted_non_terminals])));
     
         return;
 
@@ -1889,7 +1910,7 @@ class Hybrid(object):
         
         # start consumers
         #number_of_processes = multiprocessing.cpu_count();
-        print 'creating %d processes_e_step' % number_of_processes
+        print('creating %d processes_e_step' % number_of_processes)
         processes_e_step = [ Process_E_Step_queue(task_queue,
                                                 self,
                                                 E_log_theta,
@@ -1900,7 +1921,7 @@ class Hybrid(object):
                                                 output_path,
                                                 model_name,
                                                 number_of_samples)
-                                                for process_index in xrange(number_of_processes)];
+                                                for process_index in range(number_of_processes)];
     
         #output_average_truth_file = os.path.join(output_path, "avg.truth")
         #output_average_test_file = os.path.join(output_path, "avg.test")
@@ -1914,7 +1935,7 @@ class Hybrid(object):
             #process_e_step.join();
     
         # Add a poison pill for each consumer
-        #for i in xrange(number_of_processes):
+        #for i in range(number_of_processes):
             #task_queue.put(None)
     
         # Wait for all of the task_queue to finish
@@ -1962,7 +1983,7 @@ class Hybrid(object):
         
         # start consumers
         #number_of_processes = multiprocessing.cpu_count();
-        print 'creating %d processes' % number_of_processes
+        print('creating %d processes' % number_of_processes)
         processes_e_step = [Process_E_Step_queue(task_queue,
                                                  self,
                                                  E_log_theta,
@@ -1973,7 +1994,7 @@ class Hybrid(object):
                                                  output_path,
                                                  model_name,
                                                  number_of_samples)
-                                                 for process_index in xrange(number_of_processes) ];                               
+                                                 for process_index in range(number_of_processes) ];                               
         
         for process_e_step in processes_e_step:
             process_e_step.start();
@@ -2054,16 +2075,16 @@ class Hybrid(object):
             
         counter = 0
         #while not result_queue_pcfg_sufficient_statistics.empty():
-        for result_queue_element_index in xrange(result_queue_pcfg_sufficient_statistics.qsize()):
+        for result_queue_element_index in range(result_queue_pcfg_sufficient_statistics.qsize()):
             (non_terminal, gamma_index) = result_queue_pcfg_sufficient_statistics.get();
-            #print non_terminal, gamma_index
+            #print(non_terminal, gamma_index)
             
             pcfg_sufficient_statistics[non_terminal][0, gamma_index] += 1;
             counter += 1;
 
         counter = 0
         #while not result_queue_adapted_sufficient_statistics.empty():
-        for result_queue_element_index in xrange(result_queue_adapted_sufficient_statistics.qsize()):
+        for result_queue_element_index in range(result_queue_adapted_sufficient_statistics.qsize()):
             result_queue_element = result_queue_adapted_sufficient_statistics.get();
             if len(result_queue_element)==2:
                 # if this is an active adapted production
@@ -2163,7 +2184,7 @@ class Hybrid(object):
         
         # start consumers
         #number_of_processes = multiprocessing.cpu_count();
-        print 'creating %d processes_e_step' % number_of_processes
+        print('creating %d processes_e_step' % number_of_processes)
         processes_e_step = [Process_E_Step_dict(task_queue,
                                                 self,
                                                 E_log_theta,
@@ -2175,7 +2196,7 @@ class Hybrid(object):
                                                 output_path,
                                                 model_name,
                                                 number_of_samples)
-                                                for process_index in xrange(number_of_processes)];
+                                                for process_index in range(number_of_processes)];
     
         #output_average_truth_file = os.path.join(output_path, "avg.truth")
         #output_average_test_file = os.path.join(output_path, "avg.test")
@@ -2189,7 +2210,7 @@ class Hybrid(object):
             #process_e_step.join();
     
         # Add a poison pill for each consumer
-        #for i in xrange(number_of_processes):
+        #for i in range(number_of_processes):
             #task_queue.put(None)
     
         # Wait for all of the task_queue to finish
@@ -2261,7 +2282,7 @@ class Hybrid(object):
         
         # start consumers
         #number_of_processes = multiprocessing.cpu_count();
-        print 'creating %d processes' % number_of_processes
+        print('creating %d processes' % number_of_processes)
         processes_e_step = [Process_E_Step_dict(task_queue,
                                                 self,
                                                 result_queue_adapted_sufficient_statistics,
@@ -2271,7 +2292,7 @@ class Hybrid(object):
                                                 output_path,
                                                 model_name,
                                                 number_of_samples)
-                                                for process_index in xrange(number_of_processes)];
+                                                for process_index in range(number_of_processes)];
         
         for process_e_step in processes_e_step:
             process_e_step.start();
@@ -2336,21 +2357,21 @@ class Hybrid(object):
             # if sampled production is a pre-terminal pcfg production
             if unsampled_hyper_nodes==None or len(unsampled_hyper_nodes)==0:
                 assert (not self.is_adapted_non_terminal(current_hyper_node._node)), "adapted pre-terminal found: %s" % current_hyper_node._node
-                #print "------>sampled pre-terminal production", sampled_production
+                #print("------>sampled pre-terminal production", sampled_production)
                 return [sampled_production]
     
             # if sampled production is a regular pcfg production
             production_list = [sampled_production];
             for unsampled_hyper_node in unsampled_hyper_nodes:
                 production_list += self._sample_tree_process_dict(unsampled_hyper_node, input_string, adapted_sufficient_statistics_dictionary, new_adapted_sufficient_statistics_dictionary, pcfg_sufficient_statistics_dictionary, sufficient_statistics_dictionary);
-            #print "------>formulate proudction list", production_list
+            #print("------>formulate proudction list", production_list)
     
             # if current node is a non-adapted non-terminal node
             if not self.is_adapted_non_terminal(current_hyper_node._node):
                 return production_list
             
             new_adapted_production = util.AdaptedProduction(current_hyper_node._node, input_string[current_hyper_node._span[0]:current_hyper_node._span[1]], production_list);
-            #print "------>insert new adapted production", new_adapted_production
+            #print("------>insert new adapted production", new_adapted_production)
             
             if new_adapted_production in self.get_adapted_productions(current_hyper_node._node, tuple(input_string[current_hyper_node._span[0]:current_hyper_node._span[1]])):
                 # if this is an active adapted production
@@ -2385,10 +2406,10 @@ class Hybrid(object):
                         if isinstance(temp_production, util.AdaptedProduction):
                             if (temp_production not in new_adapted_sufficient_statistics_dictionary[temp_production.lhs()]) and (temp_production not in self.get_adapted_productions(temp_production.lhs(), temp_production.rhs())):
                                 print "Error:", temp_production, new_adapted_production;
-                                print temp_production in new_adapted_sufficient_statistics_dictionary[temp_production.lhs()]
+                                print(temp_production in new_adapted_sufficient_statistics_dictionary[temp_production.lhs()])
                                 
                                 for adapted_non_terminal in new_adapted_sufficient_statistics_dictionary:
-                                    print "----------", adapted_non_terminal
+                                    print("----------", adapted_non_terminal)
                                     for key_tuple in new_adapted_sufficient_statistics_dictionary[adapted_non_terminal]:
                                         print key_tuple[1], new_adapted_sufficient_statistics_dictionary[adapted_non_terminal][key_tuple];
                                         
@@ -2421,17 +2442,17 @@ class Hybrid(object):
         for non_terminal in self._non_terminals:
             pcfg_sufficient_statistics[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             
-        for result_queue_element_index in xrange(result_queue_pcfg_sufficient_statistics.qsize()):
+        for result_queue_element_index in range(result_queue_pcfg_sufficient_statistics.qsize()):
             pcfg_sufficient_statistics_dictionary = result_queue_pcfg_sufficient_statistics.get();
             for pcfg_production_node in self._non_terminals:
                 pcfg_sufficient_statistics[pcfg_production_node] += pcfg_sufficient_statistics_dictionary[pcfg_production_node];
         
-        for result_queue_element_index in xrange(result_queue_adapted_sufficient_statistics.qsize()):
+        for result_queue_element_index in range(result_queue_adapted_sufficient_statistics.qsize()):
             adapted_sufficient_statistics_dictionary = result_queue_adapted_sufficient_statistics.get();
             for adapted_production_node in self._ordered_adaptor_top_down[::-1]:
                 adapted_sufficient_statistics[adapted_production_node] += adapted_sufficient_statistics_dictionary[adapted_production_node];
         
-        for result_queue_element_index in xrange(result_queue_new_adapted_sufficient_statistics.qsize()):
+        for result_queue_element_index in range(result_queue_new_adapted_sufficient_statistics.qsize()):
             new_adapted_sufficient_statistics_dictionary = result_queue_new_adapted_sufficient_statistics.get();
             
             for adapted_production_node in self._ordered_adaptor_top_down[::-1]:
@@ -2450,7 +2471,7 @@ class Hybrid(object):
                             if isinstance(candidate_production, util.AdaptedProduction):
                                 adapted_production_count += 1;
                                 #if candidate_production not in self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()]:
-                                    #print self.get_adapted_productions(candidate_production.lhs(), candidate_production.rhs())
+                                    #print(self.get_adapted_productions(candidate_production.lhs(), candidate_production.rhs()))
                                     #print self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
                                 
                                 nu_index = self._active_adapted_production_to_nu_index_of_lhs[candidate_production.lhs()][candidate_production];
@@ -2534,7 +2555,7 @@ class Hybrid(object):
             self.table_label_resampling();
             #self.model_state_assertion();
             table_label_resampling_time = time.time() - table_label_resampling_time;
-            print "Table relabeling takes %f seconds..." % table_label_resampling_time;
+            print( "Table relabeling takes %f seconds..." % table_label_resampling_time);
             #self.prune_adapted_productions(reorder_only=True);
             #self.prune_adapted_productions()
 
@@ -2558,7 +2579,7 @@ class Hybrid(object):
             self.e_step_process_dict(input_strings, number_of_samples, number_of_processes, inference_parameter);
             
         test_clock = time.time() - test_clock;
-        print "Inference test data takes %g seconds..." % test_clock
+        print("Inference test data takes %g seconds..." % test_clock)
         
         return;
         
@@ -2615,7 +2636,7 @@ class Hybrid(object):
         if lhs==None and rhs==None:
             # no constraints so return everything
             #return self._adapted_productions;
-            print "Seriously?"
+            print("Seriously?")
             sys.exit();
         elif lhs and rhs==None:
             # only lhs specified so look up its index
@@ -2718,7 +2739,7 @@ class Hybrid(object):
             adaptor_grammar_output.write("==========%s==========\n" % non_terminal);
             for (production_lhs, production_rhs, is_adapted) in production_freqdist:
                 if is_adapted:
-                    #print " ".join([terminal for terminal in production_rhs])
+                    #print(" ".join([terminal for terminal in production_rhs]))
                     adaptor_grammar_output.write("%s -> %s\t%s\t%g\n" % (production_lhs, " ".join([terminal for terminal in production_rhs]), is_adapted, production_freqdist[(production_lhs, production_rhs, is_adapted)]));
                 else:
                     adaptor_grammar_output.write("%s -> %s\t%s\t%g\n" % (production_lhs, production_rhs, is_adapted, production_freqdist[(production_lhs, production_rhs, is_adapted)]));
@@ -2783,7 +2804,7 @@ if __name__ == '__main__':
     nu_2 = reversed_cumulated_temp_sufficient_statistics + 50;
     a, b = compute_E_log_stick_weights(nu_1, nu_2)
     c = numpy.hstack((numpy.exp(a), [numpy.exp(b)]));
-    print c/numpy.sum(c);
+    print( c/numpy.sum(c));
     a, b = compute_log_stick_weights(nu_1, nu_2)
     c = numpy.hstack((numpy.exp(a), [numpy.exp(b)]));
-    print c/numpy.sum(c);
+    print( c/numpy.sum(c));

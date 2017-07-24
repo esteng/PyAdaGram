@@ -3,7 +3,7 @@ import re
 import sys
 from collections import defaultdict
 import numpy.random
-import cPickle
+import _pickle as cPickle
 import string
 import numpy
 import getopt
@@ -139,9 +139,8 @@ if __name__ == '__main__':
     # train_lines = map_phone_to_plu(phone_lines, .1)
     print("done mapping")
     # while i < 100:
+    done = set()
     while i < 10:
-
-
         # debugging
         grammar_file = open("grammar_debug","w")
         # ten_sents, used = generate_10()
@@ -149,28 +148,28 @@ if __name__ == '__main__':
         ten_sents = train_lines[i*10:(i+1)*10]
         print(ten_sents)
         used = get_used(ten_sents)
-        print("got sentences, used")
 
         adagram_inferencer._terminals |= used
         # add the char -> T_xx rules
         print("adding base rules")
-        production_list = [Production(Nonterminal("Char"), [Nonterminal("T_{}".format(pre_terminal))]) for pre_terminal in used]
+        production_list = [Production(Nonterminal("Char"), [Nonterminal("T_{}".format(pre_terminal.strip()))]) for pre_terminal in used]
 
         # add the T_xx -> terminal rules
-        production_list += [Production(Nonterminal("T_{}".format(pre_terminal)), [pre_terminal]) for pre_terminal in used]
+        production_list += [NoisyProduction(Nonterminal("T_{}".format(pre_terminal.strip() )), [pre_terminal.strip() ]) for pre_terminal in used]
         # add the substitution rules 
         print("adding sub rules")
         plu_sub_rules = substitute_rules(adagram_inferencer._terminals)
         assert(len(plu_sub_rules) == len(adagram_inferencer._terminals)**2)
-        production_list += plu_sub_rules
+        # UNCOMMENT LATER
+        # production_list += plu_sub_rules
         # add the combination rules
         print("adding split rules")
         plu_comb_rules = split_rules(adagram_inferencer._terminals)
         assert(len(plu_comb_rules) == len(adagram_inferencer._terminals)**3)
-        production_list += plu_comb_rules
+        # production_list += plu_comb_rules
 
         print("updating grammar")
-        [grammar_file.write(str(x)+'\n') for x in production_list]
+        [grammar_file.write(str(x).strip()+'\n') for x in production_list]
         adagram_inferencer.update_grammar(production_list)
         # for iteration in range(training_iterations):
         # pick up again here!
@@ -183,10 +182,10 @@ if __name__ == '__main__':
 
         if (i+1) % 1000==0:
             snapshot_clock = time.time() - snapshot_clock;
-            print 'Processing 1000 mini-batches take %g seconds...' % (snapshot_clock);
+            print('Processing 1000 mini-batches take %g seconds...' % (snapshot_clock));
             snapshot_clock = time.time()
         clock_iteration = time.time()-clock_iteration;
-        print 'E-step, M-step and iteration %d take %g, %g and %g seconds respectively...' % (adagram_inferencer._counter, clock_e_step, clock_m_step, clock_iteration);
+        print('E-step, M-step and iteration %d take %g, %g and %g seconds respectively...' % (adagram_inferencer._counter, clock_e_step, clock_m_step, clock_iteration));
     
         i+=1    
     adagram_inferencer.export_adaptor_grammar(os.path.join(output_directory, "adagram-" + str(adagram_inferencer._counter+1)))
@@ -195,6 +194,6 @@ if __name__ == '__main__':
     cpickle_file.close();
     
     training_clock = time.time()-training_clock;
-    print 'Training finished in %g seconds...' % (training_clock);
+    print('Training finished in %g seconds...' % (training_clock));
 
 
