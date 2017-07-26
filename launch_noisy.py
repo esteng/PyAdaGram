@@ -161,7 +161,7 @@ if __name__ == '__main__':
         plu_sub_rules = substitute_rules(adagram_inferencer._terminals)
         assert(len(plu_sub_rules) == len(adagram_inferencer._terminals)**2)
         # UNCOMMENT LATER
-        # production_list += plu_sub_rules
+        production_list += plu_sub_rules
         # add the combination rules
         print("adding split rules")
         plu_comb_rules = split_rules(adagram_inferencer._terminals)

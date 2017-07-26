@@ -615,9 +615,13 @@ class Hybrid(object):
             if self.is_adapted_non_terminal(non_terminal):
                 E_log_theta[non_terminal] += E_log_left_over_stick_weights[non_terminal];
         for non_terminal in self._noisy_non_terminals:
-            E_log_theta_noisy[non_terminal]= scipy.special.psi(self._gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._gamma[non_terminal]))    
+            E_log_theta_noisy[non_terminal]= scipy.special.psi(self._gamma[non_terminal]) - scipy.special.psi(numpy.sum(self._gamma[non_terminal]))   
+            # print(non_terminal, " has pcfg production of lhs: ", self._gamma_index_to_pcfg_production_of_lhs[non_terminal])
             assert(E_log_theta_noisy[non_terminal].shape==(1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
-
+            # print(E_log_theta_noisy , " for nonterminal ", non_terminal)
+        
+        # print("proposed pcfg:")
+        # print(E_log_stick_weights, E_log_theta, E_log_theta_noisy)
         return E_log_stick_weights, E_log_theta, E_log_theta_noisy
     
 
@@ -651,14 +655,22 @@ class Hybrid(object):
         topology_order, order_topology = self._topological_sort();
         
         for non_terminal in self._non_terminals | self._noisy_non_terminals:
-            self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+            
             
             self._pcfg_sufficient_statistics_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             self._pcfg_production_usage_counts_of_lhs[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])), dtype=int);
             if non_terminal not in self._noisy_non_terminals:
+                self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
                 self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+                # print("non-terminal {} gets alpha_theta: {}".format(non_terminal, self._alpha_theta[non_terminal]))
             else:
+                self._gamma[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+                # self._alpha_theta[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))) / len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]);
+                # self._gamma[non_terminal] = numpy.random.dirichlet( numpy.hstack( (numpy.ones((1,1))*100, numpy.ones( (1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])-1))))[0], 1) 
                 self._alpha_theta[non_terminal] = numpy.random.dirichlet( numpy.hstack( (numpy.ones((1,1))*100, numpy.ones( (1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])-1))))[0], 1) 
+                # test to see why dir not working
+                # self._alpha_theta[non_terminal] = numpy.hstack((numpy.ones((1,1)), numpy.zeros( (1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])-1))))
+                # print("noisy non-terminal {} gets alpha_theta: {}".format(non_terminal, self._alpha_theta[non_terminal]))
                 # print(self._alpha_theta[non_terminal])
                 # print(numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal]))).shape)
 
@@ -782,6 +794,10 @@ class Hybrid(object):
                                     if rhs_0==input_sequence[i:j][0]:
                                         # this is a terminal initialization rule, otherwise, we don't consider
                                         hyper_node = util.HyperNode(lhs, (i, j));
+                                        random_num = numpy.random.randint(0, 10)
+
+                                        # if gamma_index != 0:
+                                        #     if random_num == 0:
                                         hyper_node.add_new_derivation(candidate_pcfg_production, E_log_theta_noisy[lhs][0, gamma_index], hyper_nodes=None);
 
                                         root_and_position_to_node[lhs][(i, j)] = hyper_node;
@@ -811,7 +827,7 @@ class Hybrid(object):
                                             position_and_root_to_node[(i, j)][lhs] = hyper_node;
                                         log_probability = E_log_theta_noisy[lhs][0, gamma_index] + root_and_position_to_node[rhs_0][(i, k)]._accumulated_log_probability + root_and_position_to_node[rhs_1][(k, j)]._accumulated_log_probability;
                                         root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, log_probability, [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
-                                        #root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
+                                        # root_and_position_to_node[lhs][(i, j)].add_new_derivation(candidate_pcfg_production, E_log_theta[lhs][0, gamma_index], [root_and_position_to_node[rhs_0][(i, k)], root_and_position_to_node[rhs_1][(k, j)]]);
                             else:
                                 sys.stderr.write('Error: pcfg production not in CNF...\n');
                                 sys.exit();
@@ -915,7 +931,7 @@ class Hybrid(object):
             for non_terminal in self._non_terminals:
                 pcfg_sufficient_statistics[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
             for non_terminal in self._noisy_non_terminals:
-                pcfg_sufficient_statistics[non_terminal] = numpy.ones((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
+                pcfg_sufficient_statistics[non_terminal] = numpy.zeros((1, len(self._gamma_index_to_pcfg_production_of_lhs[non_terminal])));
 
 
             adapted_sufficient_statistics = {};
@@ -1161,7 +1177,8 @@ class Hybrid(object):
 
             # if non_terminal in self._noisy_non_terminals:
             #     try:
-            #         self._gamma[non_terminal] = self._alpha_theta[non_terminal] + temp_sufficient_statistics
+            #         pass
+            #         # print("set noisy non_terminal gamma to " , self._gamma[non_terminal])
             #     except ValueError:
             #         print(non_terminal)
             # else:
@@ -2534,6 +2551,7 @@ class Hybrid(object):
         assert len(input_strings)==self._batch_size;
         if number_of_processes<=1:
             pcfg_sufficient_statistics, adapted_sufficient_statistics = self.e_step(input_strings, self._number_of_samples);
+            print(pcfg_sufficient_statistics)
         else:
             #pcfg_sufficient_statistics, adapted_sufficient_statistics = self.e_step_process_queue(input_strings, self._number_of_samples, number_of_processes);
             pcfg_sufficient_statistics, adapted_sufficient_statistics = self.e_step_process_dict(input_strings, self._number_of_samples, number_of_processes);
